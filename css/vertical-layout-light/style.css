@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
 /*------------------------------------------------------------------
  [Master Stylesheet]
 
@@ -8717,7 +8720,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  /* font-family: var(--bs-body-font-family); */
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -8726,6 +8729,9 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  height: 100%;
+
+
 }
 
 hr {
@@ -11620,20 +11626,19 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
 
 .btn-primary {
   color: #fff;
-  background-color: #1F3BB3;
-  border-color: #1F3BB3;
+  background-color: #3E5CBC;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #1a3298;
-  border-color: #192f8f;
+  background-color: #24356c;
+  border-color: #24356c;
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #1a3298;
-  border-color: #192f8f;
+  background-color: #24356c;
+  border-color: #24356c;
   box-shadow: 0 0 0 0.25rem rgba(65, 88, 190, 0.5);
 }
 
@@ -11641,8 +11646,8 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
 .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #192f8f;
-  border-color: #172c86;
+  background-color: #24356c;
+  border-color: #24356c;
 }
 
 .btn-check:checked + .btn-primary:focus,
@@ -28824,7 +28829,7 @@ div.tagsinput span.tag a {
 }
 
 .auth .brand-logo img {
-  width: 90px;
+  width: 55%;
 }
 
 .auth form .form-group {
@@ -28844,7 +28849,7 @@ div.tagsinput span.tag a {
 }
 
 .auth form .auth-form-btn {
-  padding: 1rem 3rem;
+  padding: 15px;
   line-height: 1.5;
 }
 
@@ -31278,3 +31283,103 @@ div.tagsinput span.tag a {
 }
 
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
+
+/* Algapps Styles/////////////////////////////////////////////////////////////////////////// */
+
+.image_wrapper{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../images/login1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image_content{
+  width: 70%;
+  margin-top: 6rem;
+}
+.divider{
+  width: 18%;
+  height: 3px;
+  background-color: #EAF2FF;
+  margin: 20px 0;
+}
+.image_content h1{
+  font-size: 52px;
+  font-weight: 700;
+  color:#FFFFFF;
+  font-family: 'Poppins', sans-serif !important;
+}
+.image_content p{
+  font-size: 16px;
+  color:#FFFFFF;
+  width: 63%;
+}
+.col-lg-7.col-md-12.col-sm-12.px-fo-log{
+  padding: 0;
+}
+.content-wrapper.d-flex.auth.px-01{
+  padding: 0 !important;
+}
+.auth-form-light.text-left.py-5.px-4.px-sm-5 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_wrapper {
+  width: 350px;
+
+}
+h3.fw-bold-cz {
+  font-size: 32px;
+  font-weight: 500;
+}
+.font-primary{
+  color: #3E5CBC;
+  font-size: 24px;
+  font-weight: 600;
+}
+.col-lg-5.col-md-12.col-sm-12.px-fo-log {
+  padding: 0;
+}
+.form-group.d-flex.input-mr input {
+  padding: 7px 15px;
+  margin-right: 10px;
+  border: 1px solid #E3E3E3;
+  border-radius: 10px;
+}
+.form-group.d-flex.input-mr input:last-child {
+  margin-right: 0px;
+}
+.resend.mt-4.mb-4.fw-normal {
+  text-align: right;
+}
+.resend.mt-4.mb-4.fw-normal {
+  text-align: right;
+  font-size: 14px;
+}
+.resend.mt-4.mb-4.fw-normal a.text-primary span img {
+  width: 15px;
+  margin-right: 7px;
+}
+.resend.mt-4.mb-4.fw-normal a.text-primary {
+  text-decoration: none;
+}
+.form-group input {
+  border-radius: 10px !important;
+}
+h6.fw-light {
+  line-height: 20px;
+}
+.success{
+  background-color: #E1FFF7;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 2rem;
+}
+
