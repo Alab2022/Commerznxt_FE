@@ -31379,7 +31379,34 @@ h6.fw-light {
   border-radius: 10px;
   text-align: center;
   width: 100%;
-  padding: 10px 0;
+  padding: 15px 0;
   margin-top: 2rem;
 }
+.error_success_msg_wrapper .success h3 {
+  font-size: 18px;
+  color: #3FB895;
+  margin-bottom: 0;
+}
+.error_success_msg_wrapper .success h3 span img{
+  width: 20px;
+  margin-right: 10px;
+}
+.error{
+  background-color: #F8E3E3;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  padding: 15px 0;
+  margin-top: 2rem;
+}
+.error_success_msg_wrapper .error h3 {
+  font-size: 18px;
+  color: #F74141;
+  margin-bottom: 0;
+}
+.error_success_msg_wrapper .error h3 span img{
+  width: 20px;
+  margin-right: 10px;
+}
+
 
