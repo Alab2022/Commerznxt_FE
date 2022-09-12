@@ -1,3 +1,43 @@
 .navbar-toggler:focus {
     box-shadow: none!important;
 }
+.sidebar {
+    background: #ffffff!important;
+    position: fixed;
+}
+.navbar .navbar-brand-wrapper {
+    background: #ffffff!important;    
+}
+.main-panel {
+    padding-left: 220px;
+    width: 100%!important;
+}
+.sidebar-icon-only .main-panel {
+    padding-left: 70px;
+}
+.sidebar .nav .nav-item.active > .nav-link {
+    background: #3E5CBC!important;
+}
+.sidebar .nav .nav-item  > .nav-link {
+    background: #fff!important;
+}
+.icon_home{
+    bottom: 40px;
+    right: 30px;
+    height: 45px;
+    width: 45px;
+    background: #1F3BB3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+.icon_home icon {
+    font-size: 24px;
+    height: 26px;
+}
+.navbar .navbar-brand-wrapper{
+    padding: 20px 0px 0 15px;
+}
