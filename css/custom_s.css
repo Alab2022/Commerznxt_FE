@@ -86,7 +86,7 @@
     background: #FEB456;
 }
 .dashbrd .card .card-body {
-    padding: .8rem 1.3rem;
+    padding: .8rem 1rem;
 }
 .navbar-toggler {
     background: #ebeced;
@@ -101,6 +101,16 @@
 .sidebar .nav .nav-item.active:hover > .nav-link .menu-arrow{
     color: #fff;
 }
+.dashbrd .card {
+    margin-right: 10px;
+    flex-basis: 100%;
+}
+.dashbrd .card:last-child {
+    margin-right:0px;
+
+}
+
+
 @media (max-width: 991px){
 .main-panel {
     padding-left: 0px!important;
@@ -108,4 +118,5 @@
 .dashbrd .card.card-rounded {
     margin-bottom: 10px;
 }
+
 }
