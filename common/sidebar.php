@@ -14,9 +14,9 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="#">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Dropdowns</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Typography</a></li>
+                <li class="nav-item"> <a class="nav-link" href="IA_stockoverview.php">Stock overview</a></li>
+                <li class="nav-item"> <a class="nav-link" href="IA_categoryanalysis.php">Category Analysis</a></li>
+                <li class="nav-item"> <a class="nav-link" href="IA_outofstock.php">Out of stock</a></li>
               </ul>
             </div>
           </li>
