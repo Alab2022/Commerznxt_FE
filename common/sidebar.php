@@ -29,8 +29,8 @@
             <div class="collapse" id="ui-CRM">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="crm-customer.php">Customer</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Company</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Quotes</a></li>
+                <li class="nav-item"> <a class="nav-link" href="crm-company.php">Company</a></li>
+                <li class="nav-item"> <a class="nav-link" href="crm-quotes.php">Quotes</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#">Invoice</a></li>
               </ul>
             </div>

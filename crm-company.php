@@ -184,7 +184,7 @@
               <div class="home-tab">
                 <div class="d-flex align-items-center justify-content-between border-bottom">
                     <div>
-                        <h4>Customer Status Overview</h4>
+                        <h4>Company Status Overview </h4>
                     </div>
                     <div  class="d-flex">
                     <div class="btn-wrapper me-10">

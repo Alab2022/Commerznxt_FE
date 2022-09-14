@@ -109,7 +109,54 @@
     margin-right:0px;
 
 }
+.home-tab .nav-tabs .nav-item .nav-link icon {
+    margin-right: 10px;
+    font-size: 26px;
+}
+.nav-item.txt_orange .nav-link  {
+    color: #FF9C1A!important;
+}
+.nav-item.txt_blue .nav-link {
+    color: #43c2e3;
+}
+.nav-item.txt_green .nav-link {
+    color: #41d3a9;
+}
+.nav-item.txt_purple .nav-link {
+    color: #6969e1;
+}
+.nav-item.txt_grey .nav-link {
+    color: #b3b3b3;
+}
+.btn-search {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin: 0;
+    padding: 6px 10px 2px;
+    border-bottom: 1px solid #d3d3d3!important;
+    font-size: 16px;
+    line-height: 20px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+}
+.table-striped icon {
+    font-size: 20px;
+}
 
+.btn-white {
+    color: #fff!important;
+}
+.btn-pad{
+    padding: 10px 30px!important;
+}
+.table_alt td {
+    font-size: 0.812rem;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.col-form-label{
+    font-size: 0.812rem!important;
+}
 
 @media (max-width: 991px){
 .main-panel {
