@@ -184,7 +184,7 @@
               <div class="home-tab">
                 <div class="d-flex align-items-center justify-content-between border-bottom">
                     <div>
-                        <h4>Customer Status Overview</h4>
+                        <h4>Quotes</h4>
                     </div>
                     <div  class="d-flex">
                     <div class="btn-wrapper me-10">
@@ -212,244 +212,213 @@
                           <div class="col-12 col-lg-4 col-lg-12 grid-margin stretch-card">
                             <div class="card card-rounded">
                               <div class="card-body">
-                              <ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item txt_orange" role="presentation">
-    <button class="nav-link active" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="home" aria-selected="true">
-    <icon class="mdi mdi-star-outline"></icon>  
-    New
-    </button>
-  </li>
-  <li class="nav-item txt_blue" role="presentation">
-    <button class="nav-link" id="inp-tab" data-bs-toggle="tab" data-bs-target="#inp" type="button" role="tab" aria-controls="profile" aria-selected="false">
-    <icon class="mdi mdi-av-timer"></icon>
-    In Prgress
-    </button>
-  </li>
-  <li class="nav-item txt_green" role="presentation">
-    <button class="nav-link" id="quotes-tab" data-bs-toggle="tab" data-bs-target="#quotes" type="button" role="tab" aria-controls="contact" aria-selected="false">
-    <icon class="mdi mdi-comment-text-outline"></icon>
-    Quotes
-    </button>
-  </li>
-  <li class="nav-item txt_purple" role="presentation">
-    <button class="nav-link" id="won-tab" data-bs-toggle="tab" data-bs-target="#won" type="button" role="tab" aria-controls="contact" aria-selected="false">
-    <icon class="mdi mdi-shield-outline"></icon>
-    Won
-    </button>
-  </li>
-  <li class="nav-item  txt_grey" role="presentation">
-    <button class="nav-link" id="lost-tab" data-bs-toggle="tab" data-bs-target="#lost" type="button" role="tab" aria-controls="contact" aria-selected="false">
-    <icon class="mdi mdi-close-circle-outline "></icon>
-    Lost
-    </button>
-  </li>
-</ul>
-<div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="new" role="tabpanel" aria-labelledby="new-tab">
-  <div class="table-responsive">
+                              <div class="row g-3 align-items-center">
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label">Select Customer</label>
+  </div>
+  <div class="col-auto">
+    <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+  </div>
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label">Contact Number</label>
+  </div>
+  <div class="col-auto">
+    <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+  </div>
+  <div class="col-auto">
+  <button type="button" class="btn btn-outline-success btn-icon-text">
+                          <i class="ti-alert btn-icon-prepend"></i>                                                    
+                          Warning
+                        </button>
+  </div>
+
+</div>
+                              <div class="table-responsive">
                     <table class="table table-striped">
                       <thead>
                         <tr>
                           <th>
-                            User
+                            Quotation Id
                           </th>
                           <th>
-                            Name
+                            Customer
                           </th>
                           <th>
-                            Designation
+                            Quote Value
                           </th>
                           <th>
-                            Email
+                            Status
                           </th>
                           <th>
-                            Phone
+                            Total Products
                           </th>
                           <th>
-                            Country
-                          </th>
-                          <th>
-                            Created On
+                            Action
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face1.jpg" alt="image"/>
+                          <td>
+                            COMNXT-Q-01
                           </td>
                           <td>
-                            Herman Beck
+                          Thomas Douglas
                           </td>
                           <td>
-                          CEO
+                          20000
                           </td>
                           <td>
-                          test@test.com
+                          Waiting for Approval 
                           </td>
                           <td>
-                          99448 65376 
+                          2
                           </td>
                           <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
+                          <icon class="mdi mdi-eye"></icon>
                           </td>
                         </tr>
                         <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face2.jpg" alt="image"/>
+                          
+                          <td>
+                          COMNXT-Q-02
                           </td>
                           <td>
-                            Messsy Adam
+                          Catherine
                           </td>
                           <td>
-                          Sales Executive
+                          20000
                           </td>
                           <td>
-                          test@test.com
+                          Waiting for Approval
                           </td>
                           <td>
-                          99448 65376
+                          2
                           </td>
                           <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
+                          <icon class="mdi mdi-eye"></icon>
                           </td>
                         </tr>
                         <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face3.jpg" alt="image"/>
+                          
+                          <td>
+                          COMNXT-Q-03
                           </td>
                           <td>
-                            John Richards
+                          Daniel Russell
                           </td>
                           <td>
-                          Operation Manager
+                          20000
                           </td>
                           <td>
-                          test@test.com
+                          Waiting for Approval
                           </td>
                           <td>
-                          99448 65376
+                          2
                           </td>
                           <td>
-                          UK
+                          <icon class="mdi mdi-eye"></icon>
+                          </td>
+                        </tr>
+                        <tr>  
+                          <td>
+                          COMNXT-Q-04
                           </td>
                           <td>
-                          June 24, 2022
+                          James Richardson
+                          </td>
+                          <td>
+                          20000
+                          </td>
+                          <td>
+                          Waiting for Approval
+                          </td>
+                          <td>
+                          2
+                          </td>
+                          <td>
+                          <icon class="mdi mdi-eye"></icon>
                           </td>
                         </tr>
                         <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face4.jpg" alt="image"/>
+                          <td>
+                          COMNXT-Q-05
                           </td>
                           <td>
-                            Peter Meggik
+                          Madeline Kennedy
                           </td>
                           <td>
-                          COO
+                          20000
                           </td>
                           <td>
-                          test@test.com
+                          Waiting for Approval
                           </td>
                           <td>
-                          99448 65376
+                          2
                           </td>
                           <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
+                          <icon class="mdi mdi-eye"></icon>
                           </td>
                         </tr>
                         <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face5.jpg" alt="image"/>
+                          <td>
+                          COMNXT-Q-06
                           </td>
                           <td>
-                            Edward
+                          Sarah Graves
                           </td>
                           <td>
-                          CEO
+                          20000
                           </td>
                           <td>
-                          test@test.com
+                          Waiting for Approval
                           </td>
                           <td>
-                          99448 65376
+                          2
                           </td>
                           <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
+                          <icon class="mdi mdi-eye"></icon>
                           </td>
                         </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face6.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            John Doe
-                          </td>
-                          <td>
-                          Sales Executive
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face7.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Henry Tom
-                          </td>
-                          <td>
-                          Operation Manager
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
+                        
                       </tbody>
                     </table>
                   </div>
+<div>
+  <table class="table_alt float-end">
+    <tr>
+      <td>Discount(%)</td>
+      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+    </tr>
+  </table>
 
-  </div>
-  <div class="tab-pane fade" id="inp" role="tabpanel" aria-labelledby="inp-tab">two</div>
-  <div class="tab-pane fade" id="quotes" role="tabpanel" aria-labelledby="quotes-tab">three</div>
-  <div class="tab-pane fade" id="won" role="tabpanel" aria-labelledby="won-tab">two</div>
-  <div class="tab-pane fade" id="lost" role="tabpanel" aria-labelledby="lost-tab">three</div>
 </div>
                               
                               
                               </div>
                             </div>
+                            
                           </div>
+                          <div class="d-flex align-items-center justify-content-between border-bottom">
+                    <div>
+                        
+                    </div>
+                    <div  class="d-flex">
+                    <div class="btn-wrapper me-10">
+                    
+                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Cancel</a>
+                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save & Send Email</a>
+                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save</a>
+                  </div>
+                    
+                    
+                  </div>
+
+                </div>
                         </div>
                       </div>
 
