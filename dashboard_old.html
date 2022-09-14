@@ -47,11 +47,43 @@
               </button>
           <li class="nav-item font-weight-semibold d-none d-lg-block ms-0">
             
-            <h2 class="welcome-text"><span class="text-black fw-bold">Dashboard</span></h2>
+            <h1 class="welcome-text"><span class="text-black fw-bold">Dashboard</span></h1>
           </li>
         </ul>
         <ul class="navbar-nav ms-auto">
-          
+          <li class="nav-item dropdown d-none d-lg-block">
+            <a class="nav-link dropdown-bordered dropdown-toggle dropdown-toggle-split" id="messageDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false"> Select Category </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0" aria-labelledby="messageDropdown">
+              <a class="dropdown-item py-3" >
+                <p class="mb-0 font-weight-medium float-left">Select category</p>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-item-content flex-grow py-2">
+                  <p class="preview-subject ellipsis font-weight-medium text-dark">Bootstrap Bundle </p>
+                  <p class="fw-light small-text mb-0">This is a Bundle featuring 16 unique dashboards</p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-item-content flex-grow py-2">
+                  <p class="preview-subject ellipsis font-weight-medium text-dark">Angular Bundle</p>
+                  <p class="fw-light small-text mb-0">Everything you’ll ever need for your Angular projects</p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-item-content flex-grow py-2">
+                  <p class="preview-subject ellipsis font-weight-medium text-dark">VUE Bundle</p>
+                  <p class="fw-light small-text mb-0">Bundle of 6 Premium Vue Admin Dashboard</p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-item-content flex-grow py-2">
+                  <p class="preview-subject ellipsis font-weight-medium text-dark">React Bundle</p>
+                  <p class="fw-light small-text mb-0">Bundle of 8 Premium React Admin Dashboard</p>
+                </div>
+              </a>
+            </div>
+          </li>
           <li class="nav-item d-none d-lg-block">
             <div id="datepicker-popup" class="input-group date datepicker navbar-date-picker">
               <span class="input-group-addon input-group-prepend border-right">
@@ -60,9 +92,16 @@
               <input type="text" class="form-control">
             </div>
           </li>
-
+          <li class="nav-item">
+            <form class="search-form" action="#">
+              <i class="icon-search"></i>
+              <input type="search" class="form-control" placeholder="Search Here" title="Search here">
+            </form>
+          </li>
           <li class="nav-item dropdown">
-
+            <a class="nav-link count-indicator" id="notificationDropdown" href="#" data-bs-toggle="dropdown">
+              <i class="icon-mail icon-lg"></i>
+            </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0" aria-labelledby="notificationDropdown">
               <a class="dropdown-item py-3 border-bottom">
                 <p class="mb-0 font-weight-medium float-left">You have 4 new notifications </p>
@@ -147,6 +186,9 @@
                 <p class="fw-light text-muted mb-0">allenmoreno@gmail.com</p>
               </div>
               <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2"></i> My Profile <span class="badge badge-pill badge-danger">1</span></a>
+              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-message-text-outline text-primary me-2"></i> Messages</a>
+              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-calendar-check-outline text-primary me-2"></i> Activity</a>
+              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-help-circle-outline text-primary me-2"></i> FAQ</a>
               <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sign Out</a>
             </div>
           </li>
@@ -333,82 +375,52 @@
         <ul class="nav">
           <li class="nav-item active">
             <a class="nav-link" href="dashboard.html">
-              <i class="mdi mdi-view-dashboard menu-icon"></i>
+              <i class="mdi mdi-grid-large menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-              <i class="menu-icon mdi mdi-file-document"></i>
+              <i class="menu-icon mdi mdi-floor-plan"></i>
               <span class="menu-title">Inventory Analysis</span>
               <i class="menu-arrow"></i> 
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="#">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Dropdowns</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Typography</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#ui-CRM" aria-expanded="false" aria-controls="ui-basic">
-              <i class="menu-icon mdi mdi-vector-combine"></i>
-              <span class="menu-title">CRM</span>
-              <i class="menu-arrow"></i> 
-            </a>
-            <div class="collapse" id="ui-CRM">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="#">Customer</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Company</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Quotes</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Invoice</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#ui-purchase" aria-expanded="false" aria-controls="ui-basic">
-              <i class="menu-icon mdi mdi-cart-outline"></i>
-              <span class="menu-title">Purchase</span>
-              <i class="menu-arrow"></i> 
-            </a>
-            <div class="collapse" id="ui-purchase">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="#">Vendors</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Purchase Order</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Payments</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#ui-sales" aria-expanded="false" aria-controls="ui-basic">
-              <i class="menu-icon mdi mdi-chart-line"></i>
-              <span class="menu-title">Sales Analysis</span>
-              <i class="menu-arrow"></i> 
-            </a>
-            <div class="collapse" id="ui-sales">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="#">Out For Sale</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Sales Tracker</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <i class="mdi mdi-account-circle-outline menu-icon"></i>
+              <i class="mdi mdi-grid-large menu-icon"></i>
+              <span class="menu-title">CRM</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="mdi mdi-grid-large menu-icon"></i>
+              <span class="menu-title">Calendar</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="mdi mdi-grid-large menu-icon"></i>
+              <span class="menu-title">Sales Analysis</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="mdi mdi-grid-large menu-icon"></i>
               <span class="menu-title">User Management</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <i class="mdi mdi-account-key menu-icon"></i>
+              <i class="mdi mdi-grid-large menu-icon"></i>
               <span class="menu-title">Roles & Permission</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="mdi mdi-wifi menu-icon"></i>
-              <span class="menu-title">Feed</span>
             </a>
           </li>
           
@@ -425,17 +437,22 @@
                         <h4>Overall Status</h4>
                     </div>
                   <div>
+                    <div class="btn-wrapper">
+                      <a href="#" class="btn btn-otline-dark align-items-center"><i class="icon-share"></i> Share</a>
+                      <a href="#" class="btn btn-otline-dark"><i class="icon-printer"></i> Print</a>
+                      <a href="#" class="btn btn-primary text-white me-0"><i class="icon-download"></i> Export</a>
+                    </div>
                   </div>
                 </div>
                 <div class="tab-content tab-content-basic">
                   <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview"> 
                     <div class="row">
                       <div class="col-sm-12">
-                        <div class="statistics-details d-flex align-items-center justify-content-between dashbrd flex-sm-row flex-column">
+                        <div class="statistics-details d-flex align-items-center justify-content-between">
                           <div class="card card-rounded">
                             <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2 mb-sm-0">
-                                <div class="icon_home one">
+                                <div class="icon_home">
                                     <icon class="mdi mdi-cart"></icon>
                                 </div>
                                 <div>
@@ -449,8 +466,8 @@
                         <div class="card card-rounded">
                             <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2 mb-sm-0">
-                                <div class="icon_home two">
-                                    <icon class="mdi mdi-file-document-box"></icon>
+                                <div class="icon_home">
+                                    <icon class="mdi mdi-cart"></icon>
                                 </div>
                                 <div>
                                     <h3 class="rate-percentage">32.53%</h3>
@@ -463,8 +480,8 @@
                         <div class="card card-rounded">
                             <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2 mb-sm-0">
-                                <div class="icon_home three">
-                                    <icon class="mdi mdi mdi-chart-bar"></icon>
+                                <div class="icon_home">
+                                    <icon class="mdi mdi-cart"></icon>
                                 </div>
                                 <div>
                                     <h3 class="rate-percentage">32.53%</h3>
@@ -477,8 +494,8 @@
                         <div class="card card-rounded">
                             <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2 mb-sm-0">
-                                <div class="icon_home four">
-                                    <icon class="mdi mdi-cash-usd"></icon>
+                                <div class="icon_home">
+                                    <icon class="mdi mdi-cart"></icon>
                                 </div>
                                 <div>
                                     <h3 class="rate-percentage">32.53%</h3>
@@ -491,8 +508,8 @@
                         <div class="card card-rounded">
                             <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2 mb-sm-0">
-                                <div class="icon_home five">
-                                    <icon class="mdi mdi-credit-card"></icon>
+                                <div class="icon_home">
+                                    <icon class="mdi mdi-cart"></icon>
                                 </div>
                                 <div>
                                     <h3 class="rate-percentage">32.53%</h3>
@@ -529,23 +546,24 @@
                       <div class="col-lg-4 d-flex flex-column">
                         <div class="row flex-grow">
                           <div class="col-md-6 col-lg-12 grid-margin stretch-card">
-                            <div class="card card-rounded">
+                            <div class="card bg-primary card-rounded">
                               <div class="card-body pb-0">
-                                
+                                <h4 class="card-title card-title-dash text-white mb-4">Status Summary</h4>
                                 <div class="row">
-                                  <div class="col-lg-12">
-                                    <div class="d-flex justify-content-between align-items-center mb-3">
-                                      <h4 class="card-title card-title-dash">Geography Orders</h4>
+                                  <div class="col-sm-4">
+                                    <p class="status-summary-ight-white mb-1">Closed Value</p>
+                                    <h2 class="text-info">357</h2>
+                                  </div>
+                                  <div class="col-sm-8">
+                                    <div class="status-summary-chart-wrapper pb-4">
+                                      <canvas id="status-summary"></canvas>
                                     </div>
-                                    <canvas class="my-auto" id="doughnutChart" height="200"></canvas>
-                                    <div id="doughnut-chart-legend" class="mt-2 text-center mb-2"></div>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-
-                          <!-- <div class="col-md-6 col-lg-12 grid-margin stretch-card">
+                          <div class="col-md-6 col-lg-12 grid-margin stretch-card">
                             <div class="card card-rounded">
                               <div class="card-body">
                                 <h4 class="card-title card-title-dash mb-4">Waiting for Approval</h4>
@@ -575,7 +593,7 @@
                                 </div>
                               </div>
                             </div>
-                          </div> -->
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -587,10 +605,22 @@
                               <div class="card-body">
                                 <div class="d-sm-flex justify-content-between align-items-start">
                                   <div>
-                                    <h4 class="card-title card-title-dash">Sales Overview</h4>
+                                    <h4 class="card-title card-title-dash">Inventory Overview</h4>
                                    
                                   </div>
-
+                                  <div>
+                                    <div class="dropdown">
+                                      <button class="btn btn-secondary dropdown-toggle toggle-dark btn-lg mb-0 me-0" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> This month </button>
+                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                        <h6 class="dropdown-header">Settings</h6>
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                      </div>
+                                    </div>
+                                  </div>
                                 </div>
                                 <div class="d-sm-flex align-items-center mt-1 justify-content-between">
                                   <div class="d-sm-flex align-items-center mt-4 justify-content-between"><h2 class="me-2 fw-bold">$36,2531.00</h2><h4 class="me-2">GBP</h4><h4 class="text-success">(+1.37%)</h4></div>
@@ -604,7 +634,147 @@
                           </div>
                         </div>
 
-                        
+                        <div class="row flex-grow">
+                          <div class="col-12 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">
+                                <div class="d-sm-flex justify-content-between align-items-start">
+                                  <div>
+                                    <h4 class="card-title card-title-dash">Customer Status Overview</h4>
+                                   <p class="card-subtitle card-subtitle-dash">You have 50+ Customers</p>
+                                  </div>
+                                  <div>
+                                    <button class="btn btn-primary btn-lg text-white mb-0 me-0" type="button"><i class="mdi mdi-account-plus"></i>Add new Customer</button>
+                                  </div>
+                                </div>
+                                <div class="table-responsive  mt-1">
+                                  <table class="table select-table">
+                                    <thead>
+                                      <tr>
+                                        <th>Customer</th>
+                                        <th>Email & Phone</th>
+                                        <th>Country</th>
+                                        <th>Status</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        
+                                        <td>
+                                          <div class="d-flex ">
+                                            <img src="images/faces/face1.jpg" alt="">
+                                            <div>
+                                              <h6>Ada Loveace</h6>
+                                              <p>CEO</p>
+                                            </div>
+                                          </div>
+                                        </td>
+                                        <td>
+                                          <h6>adaloveace@gmail.com</h6>
+                                          <p>+44 79757 77666</p>
+                                        </td>
+                                        <td>
+                                          <div>
+                                            <p>UK</p>
+                                          </div>
+                                        </td>
+                                        <td><div class="badge badge-opacity-warning">In progress</div></td>
+                                      </tr>
+                                      <tr>
+                                        
+                                        <td>
+                                          <div class="d-flex">
+                                            <img src="images/faces/face2.jpg" alt="">
+                                            <div>
+                                              <h6>Grace Hopper</h6>
+                                              <p>Sales Exective</p>
+                                            </div>
+                                          </div>
+                                        </td>
+                                        <td>
+                                          <h6>Hopper@gmail.com</h6>
+                                          <p>+44 79757 77666</p>
+                                        </td>
+                                        <td>
+                                          <div>
+                                            <p>USA</p>
+                                          </div>
+                                        </td>
+                                        <td><div class="badge badge-opacity-warning">In progress</div></td>
+                                      </tr>
+                                      <tr>
+                                        
+                                        <td>
+                                          <div class="d-flex">
+                                            <img src="images/faces/face3.jpg" alt="">
+                                            <div>
+                                              <h6>Magaret Hamilton</h6>
+                                              <p>Operation Manager</p>
+                                            </div>
+                                          </div>
+                                        </td>
+                                        <td>
+                                          <h6>Hamilton@gmail.com</h6>
+                                          <p>+44 79757 77666</p>
+                                        </td>
+                                        <td>
+                                          <div>
+                                            <p>UK</p>
+                                          </div>
+                                        </td>
+                                        <td><div class="badge badge-opacity-warning">In progress</div></td>
+                                      </tr>
+                                      <tr>
+                                        
+                                        <td>
+                                          <div class="d-flex">
+                                            <img src="images/faces/face4.jpg" alt="">
+                                            <div>
+                                              <h6>Matthew Bailey</h6>
+                                              <p>COO</p>
+                                            </div>
+                                          </div>
+                                        </td>
+                                        <td>
+                                          <h6>bailey@gmail.com</h6>
+                                          <p>+44 23234 56366</p>
+                                        </td>
+                                        <td>
+                                          <div>
+                                            <p>UK</p>
+                                          </div>
+                                        </td>
+                                        <td><div class="badge badge-opacity-danger">Lost</div></td>
+                                      </tr>
+                                      <tr>
+                                        
+                                        <td>
+                                          <div class="d-flex">
+                                            <img src="images/faces/face5.jpg" alt="">
+                                            <div>
+                                              <h6>Katherine Butler</h6>
+                                              <p>Head admin</p>
+                                            </div>
+                                          </div>
+                                        </td>
+                                        <td>
+                                          <h6>Butler@gmail.com</h6>
+                                          <p>+44 79757 77666</p>
+                                        </td>
+                                        <td>
+                                          <div>
+                                            <p>UK</p>
+                                          </div>
+                                        </td>
+                                        <td><div class="badge badge-opacity-success">Won</div></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                         <div class="row flex-grow">
                           <div class="col-md-6 col-lg-6 grid-margin stretch-card">
                             <div class="card card-rounded">
@@ -615,11 +785,11 @@
                                     
                                     <div>
                                     <p class="mb-2 font-weight-medium">
-                                      Ada Loveace
+                                      Product 1
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                       <div class="d-flex align-items-center">
-                                        <p class="mb-0 text-small text-muted">Order Date: Mar 14, 2019 </p>
+                                        <p class="mb-0 text-small text-muted">Mar 14, 2019 / Ecommerce</p>
                                       </div>
                                     </div>
                                     </div>
@@ -632,12 +802,12 @@
                                   <div class="wrapper w-100 d-flex justify-content-between">
                                     <div>
                                     <p class="mb-2 font-weight-medium">
-                                      Grace Hopper
+                                      Comments Added
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                       <div class="d-flex align-items-center">
                                         
-                                        <p class="mb-0 text-small text-muted">Order Date: Mar 14, 2019</p>
+                                        <p class="mb-0 text-small text-muted">Mar 14, 2019 / Ecommerce</p>
                                       </div>
                                     </div>
                                     </div>
@@ -651,12 +821,12 @@
 
                                     <div>
                                     <p class="mb-2 font-weight-medium">
-                                      Magaret Hamilton
+                                      Call (Duration : 01hr and 5 Min)
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                       <div class="d-flex align-items-center">
                                         
-                                        <p class="mb-0 text-small text-muted">Order Date: Mar 14, 2019</p>
+                                        <p class="mb-0 text-small text-muted">Mar 14, 2019 / Physical</p>
                                       </div>
                                     </div>
                                   </div>
@@ -670,12 +840,12 @@
 
                                     <div>
                                     <p class="mb-2 font-weight-medium">
-                                      Matthew Bailey
+                                      Quote Generated
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                       <div class="d-flex align-items-center">
                                         
-                                        <p class="mb-0 text-small text-muted">Order Date: Mar 14, 2019</p>
+                                        <p class="mb-0 text-small text-muted">Mar 14, 2019 / Physical</p>
                                       </div>
                                     </div>
                                     </div>
@@ -695,8 +865,173 @@
                               </div>
                             </div>
                           </div>
-                          
                           <div class="col-md-6 col-lg-6 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                  <h4 class="card-title card-title-dash">Activities</h4>
+                                  <p class="mb-0">20 finished, 5 remaining</p>
+                                </div>
+                                <ul class="bullet-line-list">
+                                  <li>
+                                    <div class="d-flex justify-content-between">
+                                      <div>Email Tracking</div>
+                                      <p>Just now</p>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="d-flex justify-content-between">
+                                      <div>Comments Added</div>
+                                      <p>1h</p>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="d-flex justify-content-between">
+                                      <div>Call (Duration : 01hr and 5 Min)</div>
+                                      <p>1h</p>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="d-flex justify-content-between">
+                                      <div>Quote Generated</div>
+                                      <p>1h</p>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="d-flex justify-content-between">
+                                      <div>Comments Added</div>
+                                      <p>1h</p>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="d-flex justify-content-between">
+                                      <div>Call (Duration : 01hr and 5 Min)</div>
+                                      <p>1h</p>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="d-flex justify-content-between">
+                                      <div>Quote Generated</div>
+                                      <p>1h</p>
+                                    </div>
+                                  </li>
+                                </ul>
+                                <div class="list align-items-center pt-3">
+                                  <div class="wrapper w-100">
+                                    <p class="mb-0">
+                                      <a href="#" class="fw-bold text-primary">Show all <i class="mdi mdi-arrow-right ms-2"></i></a>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 d-flex flex-column">
+                        <div class="row flex-grow">
+                          <div class="col-12 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <h4 class="card-title card-title-dash">Credit given & Payment status</h4>
+                                      <div class="add-items d-flex mb-0">
+                                        <!-- <input type="text" class="form-control todo-list-input" placeholder="What do you need to do today?"> -->
+                                        <button class="add btn btn-icons btn-rounded btn-primary todo-list-add-btn text-white me-0 pl-12p"><i class="mdi mdi-plus"></i></button>
+                                      </div>
+                                    </div>
+                                    <div class="list-wrapper">
+                                      <ul class="todo-list todo-list-rounded">
+                                        <li class="d-block">
+                                          <div class="form-check w-100">
+                                           
+                                              <p class="mb-2 font-weight-medium"> Percepta security <span>(Ecommerce)</span></p>
+                                           
+                                            <div class="d-flex mt-2">
+                                              <div class="text-small me-3">Inv.Date - 24 June 2020</div>
+                                              <div class="badge badge-opacity-warning me-3">Credit Days Left - 10</div>
+                                              </div>
+                                          </div>
+                                        </li>
+                                        <li class="d-block">
+                                          <div class="form-check w-100">                                            
+                                              <p class="mb-2 font-weight-medium"> Exela Movers <span>(Physical)</span></p>                                            
+                                            <div class="d-flex mt-2">
+                                              <div class="text-small me-3">Inv.Date - 23 June 2020</div>
+                                              <div class="badge badge-opacity-success me-3">Credit Days Left - 30</div>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        
+                                        <li class="border-bottom-0">
+                                          <div class="form-check w-100">
+                                            
+                                              <p class="mb-2 font-weight-medium"> Intrepid Travel <span>(Ecommerce)</span></p>
+                                            
+                                            <div class="d-flex mt-2">
+                                              <div class="text-small me-3">Inv.Date - 24 June 2020</div>
+                                              <div class="badge badge-opacity-danger me-3">Credit Days Left - 0</div>
+                                            </div>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row flex-grow">
+                          <div class="col-12 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                      <h4 class="card-title card-title-dash">Geography Orders</h4>
+                                    </div>
+                                    <canvas class="my-auto" id="doughnutChart" height="200"></canvas>
+                                    <div id="doughnut-chart-legend" class="mt-5 text-center"></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row flex-grow">
+                          <div class="col-12 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                      <div>
+                                        <h4 class="card-title card-title-dash">Category Wise Quotation</h4>
+                                      </div>
+                                      <div>
+                                        <!-- <div class="dropdown">
+                                          <button class="btn btn-secondary dropdown-toggle toggle-dark btn-lg mb-0 me-0" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Month Wise </button>
+                                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                                            <h6 class="dropdown-header">week Wise</h6>
+                                            <a class="dropdown-item" href="#">Year Wise</a>
+                                          </div>
+                                        </div> -->
+                                      </div>
+                                    </div>
+                                    <div class="mt-3">
+                                      <canvas id="cwq"></canvas>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row flex-grow">
+                          <div class="col-12 grid-margin stretch-card">
                             <div class="card card-rounded">
                               <div class="card-body">
                                 <div class="row">
@@ -759,138 +1094,10 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="list align-items-center pt-3">
-                                  <div class="wrapper w-100">
-                                    <p class="mb-0">
-                                      <a href="#" class="fw-bold text-primary">Show all <i class="mdi mdi-arrow-right ms-2"></i></a>
-                                    </p>
-                                  </div>
-                                </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="col-lg-4 d-flex flex-column">
-                        <div class="row flex-grow">
-                          <div class="col-12 grid-margin stretch-card">
-                            <div class="card card-rounded">
-                              <div class="card-body">
-                                <div class="row">
-                                  <div class="col-lg-12">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                      <h4 class="card-title card-title-dash">Credit given & Payment status</h4>
-                                      <div class="add-items d-flex mb-0">
-                                        <!-- <input type="text" class="form-control todo-list-input" placeholder="What do you need to do today?"> -->
-                                        <button class="add btn btn-icons btn-rounded btn-primary todo-list-add-btn text-white me-0 pl-12p"><i class="mdi mdi-plus"></i></button>
-                                      </div>
-                                    </div>
-                                    <div class="list-wrapper">
-                                      <ul class="todo-list todo-list-rounded">
-                                        <li class="d-block">
-                                          <div class="form-check w-100">
-                                           
-                                              <p class="mb-2 font-weight-medium"> Percepta security <span>(Ecommerce)</span></p>
-                                           
-                                            <div class="d-flex mt-2">
-                                              <div class="text-small me-3">Inv.Date - 24 June 2020</div>
-                                              <div class="badge badge-opacity-warning me-3">Credit Days Left - 10</div>
-                                              </div>
-                                          </div>
-                                        </li>
-                                        <li class="d-block">
-                                          <div class="form-check w-100">                                            
-                                              <p class="mb-2 font-weight-medium"> Exela Movers <span>(Direct)</span></p>                                            
-                                            <div class="d-flex mt-2">
-                                              <div class="text-small me-3">Inv.Date - 23 June 2020</div>
-                                              <div class="badge badge-opacity-success me-3">Credit Days Left - 30</div>
-                                            </div>
-                                          </div>
-                                        </li>
-                                        
-                                        <li class="border-bottom-0">
-                                          <div class="form-check w-100">
-                                            
-                                              <p class="mb-2 font-weight-medium"> Intrepid Travel <span>(Ecommerce)</span></p>
-                                            
-                                            <div class="d-flex mt-2">
-                                              <div class="text-small me-3">Inv.Date - 24 June 2020</div>
-                                              <div class="badge badge-opacity-danger me-3">Credit Days Left - 0</div>
-                                            </div>
-                                          </div>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="row flex-grow">
-                          <div class="col-md-6 col-lg-12 grid-margin stretch-card">
-                            <div class="card card-rounded">
-                              <div class="card-body">
-                                <h4 class="card-title card-title-dash mb-4">Waiting for Approval</h4>
-                                <div class="row">
-                                  <div class="col-sm-6">
-                                    <div class="d-flex justify-content-between align-items-center mb-2 mb-sm-0">
-                                      <div class="circle-progress-width">
-                                        <div id="totalVisitors" class="progressbar-js-circle pr-2"></div>
-                                      </div>
-                                      <div>
-                                        <p class="text-small mb-2">Quotation</p>
-                                        <h4 class="mb-0 fw-bold">20</h4>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-sm-6">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                      <div class="circle-progress-width">
-                                        <div id="visitperday" class="progressbar-js-circle pr-2"></div>
-                                      </div>
-                                      <div>
-                                        <p class="text-small mb-2">Invoice</p>
-                                        <h4 class="mb-0 fw-bold">35</h4>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-12 grid-margin stretch-card">
-                            <div class="card card-rounded">
-                              <div class="card-body">
-                                <div class="row">
-                                  <div class="col-lg-12">
-                                    <div class="d-flex justify-content-between align-items-center mb-3">
-                                      <div>
-                                        <h4 class="card-title card-title-dash">Category Wise Quotation</h4>
-                                      </div>
-                                      <div>
-                                        <!-- <div class="dropdown">
-                                          <button class="btn btn-secondary dropdown-toggle toggle-dark btn-lg mb-0 me-0" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Month Wise </button>
-                                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
-                                            <h6 class="dropdown-header">week Wise</h6>
-                                            <a class="dropdown-item" href="#">Year Wise</a>
-                                          </div>
-                                        </div> -->
-                                      </div>
-                                    </div>
-                                    <div class="mt-3">
-                                      <canvas id="cwq"></canvas>
-                                    </div>
-                                  </div>
-                                </div>
-                                
-                              </div>
-                            </div>
-                          </div>
-                          
-                        </div>
-           
                       </div>
                     </div>
                   </div>
@@ -903,8 +1110,8 @@
         <!-- partial:partials/_footer.html -->
         <footer class="footer">
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
-            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">CommerzNxt</span>
-            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">© 2022. All rights reserved.</span>
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Copyright © 2021. All rights reserved.</span>
           </div>
         </footer>
         <!-- partial -->

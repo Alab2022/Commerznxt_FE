@@ -11,9 +11,9 @@
       saleGradientBg2.addColorStop(0, 'rgba(0, 208, 255, 0.19)');
       saleGradientBg2.addColorStop(1, 'rgba(0, 208, 255, 0.03)');
       var salesTopData = {
-          labels: ["SUN","sun", "MON", "mon", "TUE","tue", "WED", "wed", "THU", "thu", "FRI", "fri", "SAT"],
+          labels: ["JAN","sun", "FEB", "mon", "MAR","tue", "APR", "wed", "MAY", "thu", "JUN", "fri", "JUL"],
           datasets: [{
-              label: 'This week',
+              label: '2021',
               data: [50, 110, 60, 290, 200, 115, 130, 170, 90, 210, 240, 280, 200],
               backgroundColor: saleGradientBg,
               borderColor: [
@@ -27,7 +27,7 @@
               pointBackgroundColor: ['#1F3BB3)', '#1F3BB3', '#1F3BB3', '#1F3BB3','#1F3BB3)', '#1F3BB3', '#1F3BB3', '#1F3BB3','#1F3BB3)', '#1F3BB3', '#1F3BB3', '#1F3BB3','#1F3BB3)'],
               pointBorderColor: ['#fff','#fff','#fff','#fff','#fff','#fff','#fff','#fff','#fff','#fff','#fff','#fff','#fff',],
           },{
-            label: 'Last week',
+            label: '2022',
             data: [30, 150, 190, 250, 120, 150, 130, 20, 30, 15, 40, 95, 180],
             backgroundColor: saleGradientBg2,
             borderColor: [
@@ -117,7 +117,7 @@
       saleGradientBg2.addColorStop(0, 'rgba(0, 208, 255, 0.19)');
       saleGradientBg2.addColorStop(1, 'rgba(34, 36, 55, 0.2)');
       var salesTopDataDark = {
-          labels: ["SUN","sun", "MON", "mon", "TUE","tue", "WED", "wed", "THU", "thu", "FRI", "fri", "SAT"],
+          labels: ["tes","we", "MON", "mon", "TUE","tue", "WED", "wed", "THU", "thu", "FRI", "fri", "SAT"],
           datasets: [{
               label: '# of Votes',
               data: [50, 110, 60, 290, 200, 115, 130, 170, 90, 210, 240, 280, 200],
@@ -371,7 +371,7 @@
       var marketingOverviewData = {
           labels: ["JAN","FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"],
           datasets: [{
-              label: 'Last week',
+              label: '2021',
               data: [110, 220, 200, 190, 220, 110, 210, 110, 205, 202, 201, 150],
               backgroundColor: "#52CDFF",
               borderColor: [
@@ -381,7 +381,7 @@
               fill: true, // 3: no fill
               
           },{
-            label: 'This week',
+            label: '2022',
             data: [215, 290, 210, 250, 290, 230, 290, 210, 280, 220, 190, 300],
             backgroundColor: "#1F3BB3",
             borderColor: [
@@ -554,27 +554,27 @@
       var doughnutChartCanvas = $("#doughnutChart").get(0).getContext("2d");
       var doughnutPieData = {
         datasets: [{
-          data: [40, 20, 30, 10],
+          data: [40, 20, 30],
           backgroundColor: [
             "#1F3BB3",
             "#FDD0C7",
             "#52CDFF",
-            "#81DADA"
+ 
           ],
           borderColor: [
             "#1F3BB3",
             "#FDD0C7",
             "#52CDFF",
-            "#81DADA"
+
           ],
         }],
   
         // These labels appear in the legend and in the tooltips when hovering different arcs
         labels: [
-          'Total',
-          'Net',
-          'Gross',
-          'AVG',
+          'Darlington',
+          'Blackpool',
+          'Bristol',
+
         ]
       };
       var doughnutPieOptions = {
@@ -634,10 +634,10 @@
       });
       document.getElementById('doughnut-chart-legend').innerHTML = doughnutChart.generateLegend();
     }
-    if ($("#leaveReport").length) {
-      var leaveReportChart = document.getElementById("leaveReport").getContext('2d');
+    if ($("#cwq").length) {
+      var leaveReportChart = document.getElementById("cwq").getContext('2d');
       var leaveReportData = {
-          labels: ["Jan","Feb", "Mar", "Apr", "May"],
+          labels: ["Cat 1","Cat 2", "Cat 3", "Cat 4", "Cat 5"],
           datasets: [{
               label: 'Last week',
               data: [18, 25, 39, 11, 24],

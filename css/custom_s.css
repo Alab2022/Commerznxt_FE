@@ -26,7 +26,6 @@
     right: 30px;
     height: 45px;
     width: 45px;
-    background: #1F3BB3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,4 +39,73 @@
 }
 .navbar .navbar-brand-wrapper{
     padding: 20px 0px 0 15px;
+}
+.nav-item .navbar-date-picker .input-group-prepend > .input-group-text {
+    border-color: transparent;
+    border-right: 1px solid #dee2e6;
+    background: transparent;
+    height: 100%;
+}
+
+.nav-item .navbar-date-picker .calendar-icon {
+    color: #000000;
+    font-size: 12px;
+}
+.nav-item .navbar-date-picker .input-group-prepend {
+    height: 34px;
+    border-color: transparent;
+    border-radius: 6px 0 0 6px;
+    background: r=transparent;
+    border-right: 1px solid #dee2e6;
+}
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item .navbar-date-picker .form-control{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    border: none;
+    border-left: none;
+    max-width: 120px;
+    height: 34px;
+    border-radius: 0 6px 6px 0;
+}
+.icon_home.one{
+    background: #9A9AE4;
+}
+.icon_home.two{
+    background: #60C8E3;
+}
+.icon_home.three{
+    background: #60D3B2;
+}
+.icon_home.four{
+    background: #F97B7E;
+}
+.icon_home.five{
+    background: #FEB456;
+}
+.dashbrd .card .card-body {
+    padding: .8rem 1.3rem;
+}
+.navbar-toggler {
+    background: #ebeced;
+    padding:8px 10px!important;
+    border-radius: 10px!important;
+    margin-right: 10px;
+}
+.sidebar .nav .nav-item.active:hover > .nav-link i{
+    color: #fff;
+}
+.sidebar .nav .nav-item.active:hover > .nav-link .menu-title, 
+.sidebar .nav .nav-item.active:hover > .nav-link .menu-arrow{
+    color: #fff;
+}
+@media (max-width: 991px){
+.main-panel {
+    padding-left: 0px!important;
+}
+.dashbrd .card.card-rounded {
+    margin-bottom: 10px;
+}
 }
