@@ -31432,19 +31432,19 @@ border-radius: 10px;
 .fo-search .form-group input {
   background: white;
   border: 1px solid #E7EDF2;
-  height: 54px;
+  height: 40px;
   border-radius: 15px;
   padding: 0 20px;
   width: 100%;
 }
 .fo-search span img.icon-font {
   background: #3e5cbc;
-  padding: 11px;
-  width: 42px;
-  border-radius: 9px;
+  padding: 8px;
+  width: 29px;
+  border-radius: 8px;
   position: absolute;
   z-index: 1;
-  right: 5px;
+  right: 6px;
   top: 6px;
 }
 .fo-search {
@@ -31453,8 +31453,8 @@ border-radius: 10px;
   width: 300px;
 }
 .table_header .btn-group button.btn.btn-outline-secondary.dropdown-toggle {
-  height: 54px;
-  border-radius: 10px;
+  height: 40px;
+  border-radius: 8px;
   border: 1px solid #E7EDF2;
   background: #fff !important;
 }
@@ -31469,15 +31469,18 @@ td.table-wrap {
 .table_header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .cv-right {
   display: flex;
 }
 button.btn.btn-primary.btn-icon-text {
-  height: 52px;
-  border-radius: 10px;
-  text-align: center;
-  background: #3e5cbc;
+  height: 40px;
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    background: #3e5cbc;
+    align-items: center;
 }
 button.btn.btn-outline-secondary.dropdown-toggle:hover {
   color: #798692 !important;
@@ -31530,5 +31533,7 @@ button.btn.btn-orange.btn-rounded.btn-icon {
   color: white;
   border-radius: 10px;
   padding: 11px;
-
+}
+.table_header h4.card-title {
+  margin-bottom: 0;
 }
