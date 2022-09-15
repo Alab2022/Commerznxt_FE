@@ -183,9 +183,9 @@
             <div class="col-sm-12">
               <div class="home-tab">
                 <div class="d-sm-flex align-items-center justify-content-space-between border-bottom">
-                    <div>
-                        <h4>Category Analysis</h4>
-                    </div>
+                    <!-- <div>
+                        <h4>Total No. of Orders</h4>
+                    </div> -->
                   <div>
                   </div>
                 </div>
@@ -341,7 +341,7 @@
                         </div>
                       </div>
                     </div> 
-                    <div class="row">
+                    <!-- <div class="row">
                       <div class="col-lg-6 d-flex flex-column">
                         <div class="row flex-grow">
                           <div class="col-12 grid-margin stretch-card">
@@ -349,7 +349,7 @@
                               <div class="card-body">
                                 <div class="d-sm-flex justify-content-between align-items-start">
                                   <div>
-                                    <h4 class="card-title card-title-dash">Top Selling Categories</h4>
+                                    <h4 class="card-title card-title-dash">Current Deals</h4>
                                    
                                   </div>
 
@@ -368,7 +368,6 @@
                                   <canvas id="marketingOverview"></canvas>
                                 </div>
                               </div>
-                              
                             </div>
                           </div>
                         </div>
@@ -381,7 +380,7 @@
                               <div class="card-body">
                                 <div class="d-sm-flex justify-content-between align-items-start">
                                   <div>
-                                    <h4 class="card-title card-title-dash">Categories On Offer</h4>
+                                    <h4 class="card-title card-title-dash">Top Sale Products</h4>
                                    
                                   </div>
 
@@ -400,11 +399,11 @@
 
                       </div>
                       
-                    </div>
+                    </div> -->
 
                     <div class="table_wrapper">
                     <div class="table_header">
-                <h4 class="card-title">Out Of Stock</h4>
+                <h4 class="card-title">Total No. of Orders</h4>
                 <div class="cv-right">
                   <div class="fo-search">
                     <div class="form-group">
@@ -412,19 +411,19 @@
                       <span><img class="icon-font" src="images/search.svg"></span>
                     </div>
                   </div>
-                  <div class="btn-group">
+                  <!-- <div class="btn-group">
                             <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">Export to CSV</button>
                             <div class="dropdown-menu">
                               <a class="dropdown-item">Go back</a>
                               <a class="dropdown-item">Delete</a>
                               <a class="dropdown-item">Swap</a>
                             </div>                          
-                          </div>
+                          </div> -->
 
                           <button type="button" class="btn btn-primary btn-icon-text">
                           
-                          Export
-                          <span><img class="icon-size" src="images/export.svg"></span>
+                          Create Order
+                          <span><img class="icon-size" src="images/add.svg"></span>
                         </button>
                 </div>
 
@@ -445,16 +444,22 @@
                       <thead>
                         <tr>
                         <th>
-                            Category
+                            Customer name
                           </th>
                           <th>
-                            Product name
+                            Order number
                           </th>
                           <th>
-                            Status
+                            Order date
                           </th>
                           <th>
-                            Sale end date
+                            Order value
+                          </th>
+                          <th>
+                            Sales executive
+                          </th>
+                          <th>
+                            Actions
                           </th>
                           
                           
@@ -464,54 +469,81 @@
                       <tbody>
                         <tr>
                         <td>
-                          Category 1
-                          </td>
-                          <td >
-                          boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
-Sports Modes Smartwatch  (Black Strap, Free Size)
-                          </td>
-                          
-                          <td>
-                          <span class="st_green">Enable</span>
-                          </td>
-                          <td>
-                          12th October, 2020  |  11:35 PM
-                          </td>
+                          Stephen Strange
+                        </td>
+                        <td>
+                          M$5246
+                        </td>
+                        <td>
+                        12th Oct, 2020  |  11:35 PM
+                        </td>
+                        <td>
+                          10,000
+                        </td>
+                        <td>
+                          Executive 1
+                        </td>
+                        <td class="fo-casualities">
+                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-pencil"></i>
+                      </button>
+                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
+                        <i class="mdi mdi-delete"></i>
+                      </button>
+                        </td>
                         </tr>
-
                         <tr>
                         <td>
-                          Category 1
-                          </td>
-                          <td >
-                          boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
-Sports Modes Smartwatch  (Black Strap, Free Size)
-                          </td>
-                          
-                          <td>
-                          <span class="st_danger">Disable</span>
-                          </td>
-                          <td>
-                          12th October, 2020  |  11:35 PM
-                          </td>
+                          Stephen Strange
+                        </td>
+                        <td>
+                          M$5246
+                        </td>
+                        <td>
+                        12th Oct, 2020  |  11:35 PM
+                        </td>
+                        <td>
+                          10,000
+                        </td>
+                        <td>
+                          Executive 1
+                        </td>
+                        <td class="fo-casualities">
+                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-pencil"></i>
+                      </button>
+                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
+                        <i class="mdi mdi-delete"></i>
+                      </button>
+                        </td>
                         </tr>
-
                         <tr>
                         <td>
-                          Category 1
-                          </td>
-                          <td >
-                          boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
-Sports Modes Smartwatch  (Black Strap, Free Size)
-                          </td>
-                          
-                          <td>
-                          <span class="st_danger">Disable</span>
-                          </td>
-                          <td>
-                          12th October, 2020  |  11:35 PM
-                          </td>
+                          Stephen Strange
+                        </td>
+                        <td>
+                          M$5246
+                        </td>
+                        <td>
+                        12th Oct, 2020  |  11:35 PM
+                        </td>
+                        <td>
+                          10,000
+                        </td>
+                        <td>
+                          Executive 1
+                        </td>
+                        <td class="fo-casualities">
+                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-pencil"></i>
+                      </button>
+                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
+                        <i class="mdi mdi-delete"></i>
+                      </button>
+                        </td>
                         </tr>
+                        
+                       
                         
                       </tbody>
                     </table>

@@ -349,7 +349,7 @@
                               <div class="card-body">
                                 <div class="d-sm-flex justify-content-between align-items-start">
                                   <div>
-                                    <h4 class="card-title card-title-dash">Top Selling Categories</h4>
+                                    <h4 class="card-title card-title-dash">Current Deals</h4>
                                    
                                   </div>
 
@@ -380,7 +380,7 @@
                               <div class="card-body">
                                 <div class="d-sm-flex justify-content-between align-items-start">
                                   <div>
-                                    <h4 class="card-title card-title-dash">Categories On Offer</h4>
+                                    <h4 class="card-title card-title-dash">Top Sale Products</h4>
                                    
                                   </div>
 
@@ -444,13 +444,13 @@
                       <thead>
                         <tr>
                         <th>
-                            Category
+                            Product
                           </th>
                           <th>
-                            Product name
+                            SKU
                           </th>
                           <th>
-                            Status
+                            Sale start date
                           </th>
                           <th>
                             Sale end date
@@ -463,16 +463,16 @@
                       <tbody>
                         <tr>
                         <td>
-                          Category 1
+                          Product 1
+                          </td>
+                          <td>
+                          WSDAFT01
                           </td>
                           <td >
-                          boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
-Sports Modes Smartwatch  (Black Strap, Free Size)
+                          12th October, 2020  |  11:35 PM
                           </td>
                           
-                          <td>
-                          <span class="st_green">Enable</span>
-                          </td>
+                          
                           <td>
                           12th October, 2020  |  11:35 PM
                           </td>
@@ -480,33 +480,32 @@ Sports Modes Smartwatch  (Black Strap, Free Size)
 
                         <tr>
                         <td>
-                          Category 1
+                          Product 1
+                          </td>
+                          <td>
+                          WSDAFT01
                           </td>
                           <td >
-                          boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
-Sports Modes Smartwatch  (Black Strap, Free Size)
+                          12th October, 2020  |  11:35 PM
                           </td>
                           
-                          <td>
-                          <span class="st_danger">Disable</span>
-                          </td>
+                          
                           <td>
                           12th October, 2020  |  11:35 PM
                           </td>
-                        </tr>
 
                         <tr>
                         <td>
-                          Category 1
+                          Product 1
+                          </td>
+                          <td>
+                          WSDAFT01
                           </td>
                           <td >
-                          boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
-Sports Modes Smartwatch  (Black Strap, Free Size)
+                          12th October, 2020  |  11:35 PM
                           </td>
                           
-                          <td>
-                          <span class="st_danger">Disable</span>
-                          </td>
+                          
                           <td>
                           12th October, 2020  |  11:35 PM
                           </td>

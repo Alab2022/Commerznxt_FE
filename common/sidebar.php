@@ -17,6 +17,8 @@
                 <li class="nav-item"> <a class="nav-link" href="IA_stockoverview.php">Stock overview</a></li>
                 <li class="nav-item"> <a class="nav-link" href="IA_categoryanalysis.php">Category Analysis</a></li>
                 <li class="nav-item"> <a class="nav-link" href="IA_outofstock.php">Out of stock</a></li>
+                <li class="nav-item"> <a class="nav-link" href="IA_totalnooforders.php">Total no of Orders</a></li>
+                
               </ul>
             </div>
           </li>
