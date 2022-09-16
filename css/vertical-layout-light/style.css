@@ -22796,7 +22796,7 @@ code {
 }
 
 .card .card-title {
-  color: #010101;
+  color:  #6D6D6D;
   margin-bottom: 1.2rem;
   text-transform: capitalize;
   font-size: 1.125rem;
@@ -31480,6 +31480,7 @@ td.table-wrap {
 button.btn.btn-primary.btn-icon-text {
   height: 40px;
     display: flex;
+    color: #fff;
     border-radius: 10px;
     text-align: center;
     background: #3e5cbc;
@@ -31549,7 +31550,7 @@ button.btn.btn-orange.btn-rounded.btn-icon {
 ::placeholder{
   color: #6D6D6D !important;
   opacity: 1;
-  font-size: 14px;
+  font-size: 14px !important;
  }
  .fo-search.do{
   margin-right:0;
@@ -31661,4 +31662,98 @@ a#UserDropdown i.mdi.mdi-filter-variant {
   font-size: large;
   position: relative;
   top: 3px;
+}
+.d-sm-flex.align-items-center.justify-content-between.border-bottom, .d-sm-flex.align-items-center.justify-content-space-between.border-bottom{
+  margin-bottom: 20px;
+}
+span.count_indicator {
+  background: #60C8E3;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.form_wrapper.vendors {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} 
+
+.form_wrapper.vendors .form-group {
+  width: 32.5%;
+}
+.form_wrapper.vendors .form-group input {
+  height: 40px;
+}
+.form_wrapper.vendors .form-group select.js-example-basic-single.w-100 {
+  height: 40px;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 0 17px;
+}
+.form_wrapper.vendors .form-group select.js-example-basic-single.w-100 {
+  height: 40px;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 0 17px;
+  font-size: 14px;
+  color: #6D6D6D;
+}
+.form_wrapper.vendors .form-group label {
+  font-size: 14px;
+  font-weight: 500;
+}
+.card-body.vendors .nav-item .nav-link {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+}
+.card.card-rounded li.nav-item .nav-link {
+  background: none;
+  border: none;
+}
+.card-body.vendors div#myTabContent {
+  border: none;
+  padding-bottom: 0;
+}
+.card-body.vendors icon.mdi {
+  margin-right: 10px;
+}
+.icon-acc {
+  width: 60%;
+}
+.accordion-button:focus{
+  border:none;
+  box-shadow: none;
+}
+button.accordion-button.collapsed {
+  background: #f7f9ff;
+  border-radius: 10px !important;
+  margin-bottom: 15px !important;
+  font-size: 14px;
+}
+button.accordion-button.collapsed:last-child {
+  margin-bottom: 0;
+}
+.accordion-item {
+  border: none;
+}
+button.accordion-button {
+  border-radius: 10px;
+  box-shadow: none !important;
+}
+.form-group.ad-width {
+  width: 66% !important;
+}
+.d-flex.text-right.vendors {
+  margin-top: 25px;
+}
+.form-group.remark input {
+  height: 90px;
+}
+.form-group.remark label {
+  font-size: 14px;
+  font-weight: 500;
 }

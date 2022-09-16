@@ -49,9 +49,9 @@
             </a>
             <div class="collapse" id="ui-purchase">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="#">Vendors</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Purchase Order</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Payments</a></li>
+                <li class="nav-item"> <a class="nav-link" href="p_vendorlist.php">Vendors</a></li>
+                <li class="nav-item"> <a class="nav-link" href="p_purchaseorder.php">Purchase Order</a></li>
+                <li class="nav-item"> <a class="nav-link" href="p_payments.php">Payments</a></li>
               </ul>
             </div>
           </li>
