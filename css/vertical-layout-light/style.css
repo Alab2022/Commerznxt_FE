@@ -25876,7 +25876,7 @@ dl li {
 .home-tab .nav-tabs .nav-item .nav-link {
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 18px;
   /* color: #212121; */
   padding: 12px 35px;
@@ -25897,7 +25897,7 @@ dl li {
 .home-tab .nav-tabs .nav-item .nav-link.active {
   background: transparent;
   /* color: #1F3BB3; */
-  border-bottom: 2px solid #1F3BB3!important;
+  /* border-bottom: 2px solid #1F3BB3!important; */
   border-right: 0px solid #dee2e6!important;
 }
 

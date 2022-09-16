@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="css/vertical-layout-light/style.css">
   <link rel="stylesheet" href="css/custom_s.css">
   <!-- endinject -->
+  
+
   <link rel="shortcut icon" href="images/favicon.png" />
 </head>
 <body>
