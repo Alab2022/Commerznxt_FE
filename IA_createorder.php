@@ -183,9 +183,9 @@
             <div class="col-sm-12">
               <div class="home-tab">
                 <div class="d-sm-flex align-items-center justify-content-space-between border-bottom">
-                    <div>
-                        <h4>Category Analysis</h4>
-                    </div>
+                    <!-- <div>
+                        <h4>Total No. of Orders</h4>
+                    </div> -->
                   <div>
                   </div>
                 </div>
@@ -341,7 +341,7 @@
                         </div>
                       </div>
                     </div> 
-                    <div class="row">
+                    <!-- <div class="row">
                       <div class="col-lg-6 d-flex flex-column">
                         <div class="row flex-grow">
                           <div class="col-12 grid-margin stretch-card">
@@ -349,7 +349,7 @@
                               <div class="card-body">
                                 <div class="d-sm-flex justify-content-between align-items-start">
                                   <div>
-                                    <h4 class="card-title card-title-dash">Top Selling Categories</h4>
+                                    <h4 class="card-title card-title-dash">Current Deals</h4>
                                    
                                   </div>
 
@@ -380,7 +380,7 @@
                               <div class="card-body">
                                 <div class="d-sm-flex justify-content-between align-items-start">
                                   <div>
-                                    <h4 class="card-title card-title-dash">Categories On Offer</h4>
+                                    <h4 class="card-title card-title-dash">Top Sale Products</h4>
                                    
                                   </div>
 
@@ -399,11 +399,11 @@
 
                       </div>
                       
-                    </div>
+                    </div> -->
 
                     <div class="table_wrapper">
                     <div class="table_header">
-                <h4 class="card-title">Out Of Stock</h4>
+                <h4 class="card-title">Create Order</h4>
                 <div class="cv-right">
                   <div class="fo-search">
                     <div class="form-group">
@@ -411,29 +411,58 @@
                       <span><img class="icon-font" src="images/search.svg"></span>
                     </div>
                   </div>
-                  <div class="btn-group">
+                  <!-- <div class="btn-group">
                             <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">Export to CSV</button>
                             <div class="dropdown-menu">
                               <a class="dropdown-item">Go back</a>
                               <a class="dropdown-item">Delete</a>
                               <a class="dropdown-item">Swap</a>
                             </div>                          
-                          </div>
+                          </div> -->
 
                           <button type="button" class="btn btn-primary btn-icon-text">
                           
-                          Export
-                          <span><img class="icon-size" src="images/export.svg"></span>
+                          View Status
+                          
                         </button>
                 </div>
 
                 
                 </div>
                     <div class="col-lg-12 grid-margin stretch-card">
+                      
               <div class="card card-rounded">
 
                 <div class="card-body">
+                <div class="table-inner-header d-flex">
+                <div class="row g-3 align-items-center">
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label">Select Customer</label>
+  </div>
+  <div class="col-auto">
+    <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+  </div>
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label">Contact Number</label>
+  </div>
+  <div class="col-auto">
+    <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+  </div>
+  
 
+</div>
+<div class="mini-buttons">
+<div class="btn-group" role="group" aria-label="Basic example">
+                          <button type="button" class="btn btn-secondary gr2">
+                            <i class="mdi mdi-plus"></i>
+                          </button>
+                          <button type="button" class="btn btn-secondary bl1">
+                            <i class="mdi mdi-delete"></i>
+                          </button>
+                          
+                        </div>
+</div>
+</div>
                 
                   
                   <!-- <p class="card-description">
@@ -443,81 +472,158 @@
                     <table class="table table-striped">
                       <thead>
                         <tr>
-                        <th>
-                            Category
+                          <th>
+                            #
                           </th>
                           <th>
                             Product name
                           </th>
                           <th>
-                            Status
+                            SKU
                           </th>
                           <th>
-                            Sale end date
+                            Quantity
                           </th>
-                          
+                          <th>
+                          Price per qty
+                          </th>
                           
                         </tr>
                         
                       </thead>
                       <tbody>
                         <tr>
-                        <td>
-                          Category 1
+                          <td>
+                          <div class="form-check form-check-flat form-check-primary">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input">
+                        
+                      </label>
+                    </div>
                           </td>
-                          <td >
+                         
+                          <td class="table-wrap">
                           boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
 Sports Modes Smartwatch  (Black Strap, Free Size)
                           </td>
                           
                           <td>
-                          <span class="st_green">Enable</span>
+                          W3089GTA
                           </td>
                           <td>
-                          12th October, 2020  |  11:35 PM
+                            20
+                          </td>
+                          <td>
+                            100
                           </td>
                         </tr>
 
                         <tr>
                         <td>
-                          Category 1
+                          <div class="form-check form-check-flat form-check-primary">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input">
+                        
+                      </label>
+                    </div>
                           </td>
-                          <td >
+                          <td class="table-wrap">
                           boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
 Sports Modes Smartwatch  (Black Strap, Free Size)
                           </td>
                           
                           <td>
-                          <span class="st_danger">Disable</span>
+                          W3089GTA
                           </td>
                           <td>
-                          12th October, 2020  |  11:35 PM
+                            20
+                          </td>
+                          <td>
+                            2087
                           </td>
                         </tr>
 
                         <tr>
                         <td>
-                          Category 1
+                          <div class="form-check form-check-flat form-check-primary">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input">
+                        
+                      </label>
+                    </div>
                           </td>
-                          <td >
+                          <td class="table-wrap">
                           boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
 Sports Modes Smartwatch  (Black Strap, Free Size)
                           </td>
                           
                           <td>
-                          <span class="st_danger">Disable</span>
+                          W3089GTA
                           </td>
                           <td>
-                          12th October, 2020  |  11:35 PM
+                            20
+                          </td>
+                          <td>
+                            2090
+                          </td>
+                        </tr>
+
+                        <tr class="bg-none">
+                        <td>
+                          
+                          </td>
+                          <td >
+                          
+                          </td>
+                          
+                          <td>
+                          
+                          </td>
+                          <td>
+                            Total
+                          </td>
+                          <td>
+                            <strong>£ 1105</strong>
                           </td>
                         </tr>
                         
                       </tbody>
                     </table>
+
+                    
                   </div>
+
+                  <div class="fo-attachments d-flex">
+                  <div class="form-group">
+                      
+                      <input w-100 type="text" class="form-control" id="exampleInputName1" placeholder="Add notes">
+                    </div>
+
+                    <div class="mini-buttons">
+<div class="btn-group" role="group" aria-label="Basic example">
+                          
+                          <button type="button" class="btn btn-secondary bl1">
+                            <i class="mdi mdi-attachment"></i>
+                          </button>
+                          
+                        </div>
+</div>
+                  </div>
+
+
                 </div>
               </div>
             </div>
+            <div  class="d-flex text-right">
+                    <div class="btn-wrapper me-10">
+                    
+                    <a href="#" class="btn btn-outline btn-lg btn-white btn-pad">Cancel</a>
+                    
+                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save</a>
+                  </div>
+                    
+                    
+                  </div>
                     </div>
                   </div>
                 </div>

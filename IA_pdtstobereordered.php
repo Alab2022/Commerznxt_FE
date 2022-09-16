@@ -183,9 +183,9 @@
             <div class="col-sm-12">
               <div class="home-tab">
                 <div class="d-sm-flex align-items-center justify-content-space-between border-bottom">
-                    <div>
-                        <h4>Category Analysis</h4>
-                    </div>
+                    <!-- <div>
+                        <h4>Total No. of Orders</h4>
+                    </div> -->
                   <div>
                   </div>
                 </div>
@@ -341,7 +341,7 @@
                         </div>
                       </div>
                     </div> 
-                    <div class="row">
+                    <!-- <div class="row">
                       <div class="col-lg-6 d-flex flex-column">
                         <div class="row flex-grow">
                           <div class="col-12 grid-margin stretch-card">
@@ -349,7 +349,7 @@
                               <div class="card-body">
                                 <div class="d-sm-flex justify-content-between align-items-start">
                                   <div>
-                                    <h4 class="card-title card-title-dash">Top Selling Categories</h4>
+                                    <h4 class="card-title card-title-dash">Current Deals</h4>
                                    
                                   </div>
 
@@ -380,7 +380,7 @@
                               <div class="card-body">
                                 <div class="d-sm-flex justify-content-between align-items-start">
                                   <div>
-                                    <h4 class="card-title card-title-dash">Categories On Offer</h4>
+                                    <h4 class="card-title card-title-dash">Top Sale Products</h4>
                                    
                                   </div>
 
@@ -399,32 +399,28 @@
 
                       </div>
                       
-                    </div>
+                    </div> -->
 
                     <div class="table_wrapper">
                     <div class="table_header">
-                <h4 class="card-title">Out Of Stock</h4>
+                <h4 class="card-title">Products to be re-ordered</h4>
                 <div class="cv-right">
-                  <div class="fo-search">
+                  <div class="fo-search do">
                     <div class="form-group">
                       <input type="text" placeholder="Search">
                       <span><img class="icon-font" src="images/search.svg"></span>
                     </div>
                   </div>
-                  <div class="btn-group">
+                  <!-- <div class="btn-group">
                             <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">Export to CSV</button>
                             <div class="dropdown-menu">
                               <a class="dropdown-item">Go back</a>
                               <a class="dropdown-item">Delete</a>
                               <a class="dropdown-item">Swap</a>
                             </div>                          
-                          </div>
+                          </div> -->
 
-                          <button type="button" class="btn btn-primary btn-icon-text">
                           
-                          Export
-                          <span><img class="icon-size" src="images/export.svg"></span>
-                        </button>
                 </div>
 
                 
@@ -443,17 +439,14 @@
                     <table class="table table-striped">
                       <thead>
                         <tr>
-                        <th>
-                            Category
-                          </th>
                           <th>
                             Product name
                           </th>
                           <th>
-                            Status
+                            SKU
                           </th>
                           <th>
-                            Sale end date
+                            Quantity
                           </th>
                           
                           
@@ -462,53 +455,47 @@
                       </thead>
                       <tbody>
                         <tr>
-                        <td>
-                          Category 1
-                          </td>
-                          <td >
+                         
+                          <td class="table-wrap">
                           boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
 Sports Modes Smartwatch  (Black Strap, Free Size)
                           </td>
                           
                           <td>
-                          <span class="st_green">Enable</span>
+                          W3089GTA
                           </td>
                           <td>
-                          12th October, 2020  |  11:35 PM
+                            20
                           </td>
                         </tr>
 
                         <tr>
-                        <td>
-                          Category 1
-                          </td>
-                          <td >
+                         
+                          <td class="table-wrap">
                           boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
 Sports Modes Smartwatch  (Black Strap, Free Size)
                           </td>
                           
                           <td>
-                          <span class="st_danger">Disable</span>
+                          W3089GTA
                           </td>
                           <td>
-                          12th October, 2020  |  11:35 PM
+                            20
                           </td>
                         </tr>
 
                         <tr>
-                        <td>
-                          Category 1
-                          </td>
-                          <td >
+                         
+                          <td class="table-wrap">
                           boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
 Sports Modes Smartwatch  (Black Strap, Free Size)
                           </td>
                           
                           <td>
-                          <span class="st_danger">Disable</span>
+                          W3089GTA
                           </td>
                           <td>
-                          12th October, 2020  |  11:35 PM
+                            20
                           </td>
                         </tr>
                         
