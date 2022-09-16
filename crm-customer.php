@@ -279,7 +279,7 @@
                             <img src="images/faces/face1.jpg" alt="image"/>
                           </td>
                           <td>
-                            Herman Beck
+                            <a href="crm-customer-view.php"> Herman Beck</a>
                           </td>
                           <td>
                           CEO
