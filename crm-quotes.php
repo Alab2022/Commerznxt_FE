@@ -212,7 +212,7 @@
                           <div class="col-12 col-lg-4 col-lg-12 grid-margin stretch-card">
                             <div class="card card-rounded">
                               <div class="card-body">
-                              <div class="row g-3 align-items-center">
+                              <div class="row g-3 align-items-center quotes-top">
   <div class="col-auto">
     <label for="inputPassword6" class="col-form-label">Select Customer</label>
   </div>
@@ -226,9 +226,9 @@
     <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
   </div>
   <div class="col-auto">
-  <button type="button" class="btn btn-outline-success btn-icon-text">
+  <button type="button" class="btn btn-danger btn-icon-text">
                           <i class="ti-alert btn-icon-prepend"></i>                                                    
-                          Warning
+                          1 Pending Action
                         </button>
   </div>
 
@@ -296,7 +296,10 @@
                           2
                           </td>
                           <td>
-                          <icon class="mdi mdi-eye"></icon>
+                          <button type="button" class="btn btn-danger btn-icon-text">
+                          <i class="mdi mdi-plus btn-icon-prepend"></i>                                                    
+                          
+                        </button>
                           </td>
                         </tr>
                         <tr>

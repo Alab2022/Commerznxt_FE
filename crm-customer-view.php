@@ -184,26 +184,47 @@
           
             <div class="col-sm-12">
               <div class="home-tab">
+              <div class="d-flex align-items-center justify-content-between border-bottom">
               <div>
-                        <h4>Customer Status Overview</h4>
+                        <h4>Customer Details</h4>
                     </div>
+                    <div><a href="crm-customer.php" class="btn btn-primary text-white me-10 d-flex"><i class="mdi mdi-arrow-left"></i> Back</a></div>
+              </div>
                 <div class="tab-content tab-content-basic">
                   <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview"> 
                      
                     <div class="row">
-                    <div class="col-sm-3">
+                      
+                    <div class="col-sm-3 d-flex flex-column ">
+                    <div class="row flex-grow">
+                    <div class="col-12 ">
           <div class="card card-rounded">
                               <div class="card-body">
+                                <div class="text-center prof-card">
+                                
                               <img src="images/faces/face24.jpg" alt="image">
-
+                              <i class="comn btn-edit"><img src="images/activity/edit.svg" alt="image"></i>
+                                <h3>Arul Prakash</h3>
+                                <h6 class="text-muted">
+                                CEO.ComerceNxt
+</h6>
+<div class=" title-border"></div>
+<ul class="custom">
+  <li><i class="comn btn-green"><img src="images/activity/calls.svg" alt="image"></i>97653 09876</li>
+  <li><i class="comn btn-blue"><img src="images/activity/email.svg" alt="image"></i>john@cnxt.com</li>
+</ul>
+<div class=" title-border"></div>
+<button class="btn btn-primary btn-lg btn-block" data-bs-toggle="modal" data-bs-target="#staticBackdrop">About this Contact</button>
+                      </div>
                               </div>
+          </div></div>
           </div>
           </div>
                       <div class="col-lg-9 d-flex flex-column">
                         <div class="row flex-grow">
-                          <div class="col-12 col-lg-4 col-lg-12 grid-margin stretch-card">
-                            <div class="card card-rounded">
-                              <div class="card-body">
+                          <div class="col-12 col-lg-4 col-lg-12">
+                            <div class="card card-rounded overviewtop">
+                              <div class="card-body overview">
                               <ul class="nav nav-tabs nav-activity" id="myTab" role="tablist">
   <li class="nav-item text-center txt_purple" role="presentation">
   
@@ -275,201 +296,120 @@
     Event
     </button>
   </li>
-</ul>
+</ul></div></div>
+<div class="card card-rounded">
+                              <div class="card-body">
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="new" role="tabpanel" aria-labelledby="new-tab">
-  <div class="table-responsive">
-                    <table class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th>
-                            User
-                          </th>
-                          <th>
-                            Name
-                          </th>
-                          <th>
-                            Designation
-                          </th>
-                          <th>
-                            Email
-                          </th>
-                          <th>
-                            Phone
-                          </th>
-                          <th>
-                            Country
-                          </th>
-                          <th>
-                            Created On
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face1.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Herman Beck
-                          </td>
-                          <td>
-                          CEO
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376 
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face2.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Messsy Adam
-                          </td>
-                          <td>
-                          Sales Executive
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face3.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            John Richards
-                          </td>
-                          <td>
-                          Operation Manager
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face4.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Peter Meggik
-                          </td>
-                          <td>
-                          COO
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face5.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Edward
-                          </td>
-                          <td>
-                          CEO
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face6.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            John Doe
-                          </td>
-                          <td>
-                          Sales Executive
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face7.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Henry Tom
-                          </td>
-                          <td>
-                          Operation Manager
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+  
+  <!-- Timeline Starts -->
+  <div class="vertical-timeline vertical-timeline--animate vertical-timeline--one-column">
+                                                <div class="vertical-timeline-item vertical-timeline-element">
+                                                    <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                        <i class="icon_timeline btn-d-yellow"><img src="images/activity/email.svg" alt="image"></i>
+                                                        </span>
+                                                        <div class="vertical-timeline-element-content bounce-in">
+                                                            <h4 class="timeline-title">Meeting with client</h4>
+                                                            <p>Meeting with USA Client, today at <a href="javascript:void(0);" data-abc="true">12:00 PM</a></p>
+                                                            <span class="vertical-timeline-element-date">9:30 AM</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="vertical-timeline-item vertical-timeline-element">
+                                                    <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                        <i class="icon_timeline btn-blue"><img src="images/activity/email.svg" alt="image"></i>
+                                                        
+                                                        </span>
+                                                        <div class="vertical-timeline-element-content bounce-in">
+                                                            <p>Another meeting with UK client today, at <b class="text-danger">3:00 PM</b></p>
+                                                            <p>Yet another one, at <span class="text-success">5:00 PM</span></p>
+                                                            <span class="vertical-timeline-element-date">12:25 PM</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="vertical-timeline-item vertical-timeline-element">
+                                                    <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                            <i class="icon_timeline btn-red"><img src="images/activity/email.svg" alt="image"></i>
+                                                        </span>
+                                                        <div class="vertical-timeline-element-content bounce-in">
+                                                            <h4 class="timeline-title">Discussion with team about new product launch</h4>
+                                                            <p>meeting with team mates about the launch of new product. and tell them about new features</p>
+                                                            <span class="vertical-timeline-element-date">6:00 PM</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="vertical-timeline-item vertical-timeline-element">
+                                                    <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                        <i class="icon_timeline btn-orange"><img src="images/activity/email.svg" alt="image"></i>
+                                                        </span>
+                                                        <div class="vertical-timeline-element-content bounce-in">
+                                                            <h4 class="timeline-title text-success">Discussion with marketing team</h4>
+                                                            <p>Discussion with marketing team about the popularity of last product</p>
+                                                            <span class="vertical-timeline-element-date">9:00 AM</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="vertical-timeline-item vertical-timeline-element">
+                                                    <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                        <i class="icon_timeline btn-purple"><img src="images/activity/email.svg" alt="image"></i>
+                                                        </span>
+                                                        <div class="vertical-timeline-element-content bounce-in">
+                                                            <h4 class="timeline-title">Purchase new hosting plan</h4>
+                                                            <p>Purchase new hosting plan as discussed with development team, today at <a href="javascript:void(0);" data-abc="true">10:00 AM</a></p>
+                                                            <span class="vertical-timeline-element-date">10:30 PM</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="vertical-timeline-item vertical-timeline-element">
+                                                    <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                        <i class="icon_timeline btn-green"><img src="images/activity/email.svg" alt="image"></i>
+                                                        </span>
+                                                        <div class="vertical-timeline-element-content bounce-in">
+                                                            <p>Another conference call today, at <b class="text-danger">11:00 AM</b></p>
+                                                            <p>Yet another one, at <span class="text-success">1:00 PM</span></p>
+                                                            <span class="vertical-timeline-element-date">12:25 PM</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="vertical-timeline-item vertical-timeline-element">
+                                                    <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                        <i class="icon_timeline btn-orange"><img src="images/activity/email.svg" alt="image"></i>
+                                                        </span>
+                                                        <div class="vertical-timeline-element-content bounce-in">
+                                                            <p>Another meeting with UK client today, at <b class="text-danger">3:00 PM</b></p>
+                                                            <p>Yet another one, at <span class="text-success">5:00 PM</span></p>
+                                                            <span class="vertical-timeline-element-date">12:25 PM</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="vertical-timeline-item vertical-timeline-element">
+                                                    <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                        <i class="icon_timeline btn-red"><img src="images/activity/email.svg" alt="image"></i>
+                                                        </span>
+                                                        <div class="vertical-timeline-element-content bounce-in">
+                                                            <h4 class="timeline-title">Discussion with team about new product launch</h4>
+                                                            <p>meeting with team mates about the launch of new product. and tell them about new features</p>
+                                                            <span class="vertical-timeline-element-date">6:00 PM</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                
+                                                
+                                                   
+                                                
+                                            </div>
+  <!-- Timeline Ends -->
 
   </div>
   <div class="tab-pane fade" id="inp" role="tabpanel" aria-labelledby="inp-tab">two</div>
@@ -477,6 +417,7 @@
   <div class="tab-pane fade" id="won" role="tabpanel" aria-labelledby="won-tab">two</div>
   <div class="tab-pane fade" id="lost" role="tabpanel" aria-labelledby="lost-tab">three</div>
 </div>
+</div></div>
                               
                               
                               </div>
@@ -493,6 +434,99 @@
             </div>
           </div>
         </div>
+        <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Customer Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <form class="row g-3">
+  <div class="col-md-4">
+    <label for="inputEmail4" class="form-label">First Name</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-4">
+    <label for="inputPassword4" class="form-label">Last Name</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-md-4">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-4">
+    <label for="inputPassword4" class="form-label">Mobile No</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-md-4">
+    <label for="inputPassword4" class="form-label">Designation</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-md-4">
+    <label for="inputPassword4" class="form-label">Company Name</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">About the Deal</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Status</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Industry</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">No.of Employees</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Lead Source</label>
+    <input type="text" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Street</label>
+    <input type="text" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <input type="text" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Country</label>
+    <input type="text" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Deal Value</label>
+    <input type="text" class="form-control" id="inputPassword4">
+  </div>
+
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </div>
+  </div>
+</div>
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->
         <?php include('common/footer.php'); ?>

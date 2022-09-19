@@ -38,8 +38,7 @@
             <div class="add-items d-flex px-3 mb-0">
               <form class="form w-100">
                 <div class="form-group d-flex">
-                  <input type="text" class="form-control todo-list-input" placeholder="Add To-do">
-                  <button type="submit" class="add btn btn-primary todo-list-add-btn" id="add-task">Add</button>
+                  <div><a href="crm-customer.php" class="btn btn-primary text-white me-10 d-flex"><i class="mdi mdi-arrow-left"></i> Back</a></div>
                 </div>
               </form>
             </div>
@@ -189,7 +188,7 @@
                     <div  class="d-flex">
                     <div class="btn-wrapper me-10">
                     
-                    <a href="#" class="btn btn-primary text-white me-10 d-flex"><i class="icon-plus"></i> Add</a>
+                    <div><a href="crm-quotes.php" class="btn btn-primary text-white me-10 d-flex"><i class="mdi mdi-plus"></i> Add</a></div>
                   </div>
                     <div class="input-group">
                 <input class="form-control border-end-0 border" type="search" value="search" id="example-search-input">
@@ -363,7 +362,7 @@
                       </tbody>
                     </table>
                   </div>
-<div class="text-end fw-bold">Total Quote Value : 10,000</div>
+<div class="text-end fw-bold quote_value">Total Quote Value : 10,000</div>
                               
                               
                               </div>
