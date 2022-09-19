@@ -184,9 +184,9 @@
               <div class="home-tab">
                 <div class="d-flex align-items-center justify-content-between border-bottom">
                     <div>
-                        <h4>Quotes</h4>
+                        <h4>Sales Invoice</h4>
                     </div>
-                    <div  class="d-flex">
+                    <!-- <div  class="d-flex">
                     <div class="btn-wrapper me-10">
                     
                     <a href="#" class="btn btn-primary text-white me-10 d-flex"><i class="icon-plus"></i> Add</a>
@@ -200,7 +200,7 @@
                 </span>
             </div>
                     
-                  </div>
+                  </div> -->
 
                 </div>
                 <div class="tab-content tab-content-basic">
@@ -220,26 +220,11 @@
     <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
   </div>
   <div class="col-auto">
-    <label for="inputPassword6" class="col-form-label">Contact Number</label>
+    <label for="inputPassword6" class="col-form-label">Order ID</label>
   </div>
   <div class="col-auto">
     <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
   </div>
-  <div class="col-auto">
-  <button type="button" class="btn btn-danger btn-icon-text" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                          <i class="ti-alert btn-icon-prepend"></i>                                                    
-                          1 Pending Action
-                        </button></div>
-                        <div class="col-auto d-flex justify-content-end">
-                        <button type="button" class="btn btn-primary">
-                          <i class="mdi mdi-plus"></i>                                                    
-                          
-                        </button>
-                        <button type="button" class="btn btn-primary">
-                          <i class="mdi mdi-minus"></i>                                                    
-                          
-                        </button>
-                        </div>
                        
   
 
@@ -252,16 +237,13 @@
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                           </th>
                           <th>
-                            Product Name
-                          </th>
-                          <th>
-                            SKU ID
+                            Order Id
                           </th>
                           <th>
                             QTY
                           </th>
                           <th>
-                            Price/QTY
+                            Order Value
                           </th>
                         </tr>
                       </thead>
@@ -271,11 +253,9 @@
                           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                           </td>
                           <td>
-                            COMNXT-Q-01
+                            <a href="crm-invoice-det.php"> COMNXT-Q-01</a>
                           </td>
-                          <td>
-                          Thomas Douglas
-                          </td>
+
                           <td>
                           20000
                           </td>
@@ -291,9 +271,7 @@
                           <td>
                           COMNXT-Q-02
                           </td>
-                          <td>
-                          Catherine
-                          </td>
+
                           <td>
                           20000
                           </td>
@@ -310,10 +288,7 @@
                   </div>
 <div>
   <table class="table_alt float-end">
-    <tr>
-      <td>Discount(%)</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
-    </tr>
+
     <tr>
       <td>Total</td>
       <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
@@ -333,10 +308,7 @@
                     </div>
                     <div  class="d-flex">
                     <div class="btn-wrapper me-10">
-                    
-                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Cancel</a>
-                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save & Send Email</a>
-                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save</a>
+                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Create Invoice</a>
                   </div>
                     
                     

@@ -37,7 +37,7 @@
                 <li class="nav-item"> <a class="nav-link" href="crm-customer.php">Customer</a></li>
                 <li class="nav-item"> <a class="nav-link" href="crm-company.php">Company</a></li>
                 <li class="nav-item"> <a class="nav-link" href="crm-quotes-list.php">Quotes</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Invoice</a></li>
+                <li class="nav-item"> <a class="nav-link" href="crm-invoice.php">Invoice</a></li>
               </ul>
             </div>
           </li>

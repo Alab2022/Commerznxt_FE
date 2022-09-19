@@ -238,7 +238,7 @@
                       <tbody>
                         <tr>
                           <td>
-                            COMNXT-Q-01
+                            <a href="crm-quotes.php">COMNXT-Q-01</a>
                           </td>
                           <td>
                           Thomas Douglas

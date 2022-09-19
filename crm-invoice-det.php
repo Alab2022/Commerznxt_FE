@@ -184,20 +184,11 @@
               <div class="home-tab">
                 <div class="d-flex align-items-center justify-content-between border-bottom">
                     <div>
-                        <h4>Quotes</h4>
+                        <h4>Sales Invoice</h4>
                     </div>
                     <div  class="d-flex">
-                    <div class="btn-wrapper me-10">
-                    
-                    <a href="#" class="btn btn-primary text-white me-10 d-flex"><i class="icon-plus"></i> Add</a>
-                  </div>
-                    <div class="input-group">
-                <input class="form-control border-end-0 border" type="search" value="search" id="example-search-input">
-                <span class="input-group-append">
-                    <button class="bg-white border-start-0 border-bottom-0 border ms-n5 btn-search" type="button">
-                    <icon class="mdi mdi-magnify"></icon>
-                    </button>
-                </span>
+                    <div >
+                Order Id: CNXT009
             </div>
                     
                   </div>
@@ -214,13 +205,13 @@
                               <div class="card-body">
                               <div class="row g-3 align-items-center quotes-top">
   <div class="col-auto">
-    <label for="inputPassword6" class="col-form-label">Select Customer</label>
+    <label for="inputPassword6" class="col-form-label">Customer Name</label>
   </div>
   <div class="col-auto">
     <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
   </div>
   <div class="col-auto">
-    <label for="inputPassword6" class="col-form-label">Contact Number</label>
+    <label for="inputPassword6" class="col-form-label">Invoice Date</label>
   </div>
   <div class="col-auto">
     <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -310,6 +301,10 @@
                   </div>
 <div>
   <table class="table_alt float-end">
+  <tr>
+      <td>Tax(%)</td>
+      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+    </tr>
     <tr>
       <td>Discount(%)</td>
       <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
@@ -318,6 +313,23 @@
       <td>Total</td>
       <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
     </tr>
+    <tr>
+      <td><h5> Additional Info </h5></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Advance Received</td>
+      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+    </tr>
+    <tr>
+      <td>Credit Period</td>
+      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+    </tr>
+
   </table>
 
 </div>
@@ -333,8 +345,8 @@
                     </div>
                     <div  class="d-flex">
                     <div class="btn-wrapper me-10">
-                    
-                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Cancel</a>
+                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad"  data-bs-toggle="modal" data-bs-target="#paymentplan">View Payment Plan</a>
+                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad"  data-bs-toggle="modal" data-bs-target="#paymentplan">Create Payment Plan</a>
                     <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save & Send Email</a>
                     <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save</a>
                   </div>
@@ -391,6 +403,81 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
         <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Payment Plan-->
+<div class="modal fade" id="paymentplan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Payment Plan</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 row">
+      <label for="staticEmail" class="col-sm-4 col-form-label">Total Amount</label>
+      <div class="col-sm-8">
+      <input type="text" class="form-control" id="inputPassword">
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <label for="staticEmail" class="col-sm-4 col-form-label">Credit Period</label>
+      <div class="col-sm-8">
+      <input type="text" class="form-control" id="inputPassword">
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <label for="staticEmail" class="col-sm-4 col-form-label">No.Of Installment</label>
+      <div class="col-sm-8">
+      <input type="text" class="form-control" id="inputPassword">
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <label for="staticEmail" class="col-sm-4 col-form-label">1st Installment</label>
+      <div class="col-sm-8">
+      <input type="text" class="form-control" id="inputPassword">
+      <div class="d-flex mtop-5">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label for="staticEmail" class="col-sm-6 col-form-label mark">Mark as Received</label>
+      </div>
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <label for="staticEmail" class="col-sm-4 col-form-label">2nd Installment</label>
+      <div class="col-sm-8">
+      <input type="text" class="form-control" id="inputPassword">
+      <div class="d-flex mtop-5">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label for="staticEmail" class="col-sm-6 col-form-label mark">Mark as Received</label>
+      </div>
+      </div>
+    </div>
+
+    <div class="mb-3 row">
+      <label for="inputPassword" class="col-sm-4 col-form-label">Password</label>
+      <div class="col-sm-8">
+      <select class="form-select" aria-label="Default select example">
+  <option selected>Select</option>
+  <option value="1">Approve</option>
+  <option value="2">Reject</option>
+  <option value="3">Hold</option>
+  <option value="3">Redo</option>
+</select>
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <label for="staticEmail" class="col-sm-4 col-form-label">Comments</label>
+      <div class="col-sm-8">
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Save</button>
       </div>
     </div>
   </div>
