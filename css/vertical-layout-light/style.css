@@ -20672,7 +20672,7 @@ code {
   font-size: 12px;
   line-height: 12px;
   margin-bottom: 12px;
-  margin-right: 12px;
+
   align-items: center;
 }
 
@@ -25902,7 +25902,7 @@ dl li {
 }
 
 .home-tab .tab-content {
-  padding: 10px 0 24px 0px;
+  padding: 0;
   font-family: "Manrope", sans-serif;
   border: none;
 }
@@ -31751,4 +31751,38 @@ button.accordion-button {
 .form-group.remark label {
   font-size: 14px;
   font-weight: 500;
+}
+.card-body.fo-nopad {
+  padding: 0;
+}
+li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA {
+  position: absolute;
+  right: 24px;
+  top: 37px;
+  background: #60C8E3;
+  border-radius: 10px;
+}
+li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
+  margin-right: 0;
+}
+.cmt-input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    width: 100%;
+}
+.cmt-input input {
+  margin-top: 10px;
+  padding: 15px;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+.top_commment_form.d-flex{
+  align-items: flex-start;
+}
+.cmt-input label{
+  font-size: 12px;
+  font-weight: 700;
 }

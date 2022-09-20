@@ -440,9 +440,13 @@
                   </div>
 
   </div>
-  <div class="tab-pane fade" id="inp" role="tabpanel" aria-labelledby="inp-tab">two</div>
+  <div class="tab-pane fade" id="inp" role="tabpanel" aria-labelledby="inp-tab">
+  
+
+
+  </div>
   <div class="tab-pane fade" id="quotes" role="tabpanel" aria-labelledby="quotes-tab">three</div>
-  <div class="tab-pane fade" id="won" role="tabpanel" aria-labelledby="won-tab">two</div>
+  <div class="tab-pane fade" id="won" role="tabpanel" aria-labelledby="won-tab">1</div>
   <div class="tab-pane fade" id="lost" role="tabpanel" aria-labelledby="lost-tab">three</div>
 </div>
                               

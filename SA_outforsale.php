@@ -182,281 +182,211 @@
           <div class="row">
             <div class="col-sm-12">
               <div class="home-tab">
-                <div class="d-flex align-items-center justify-content-between border-bottom">
+                <div class="d-sm-flex align-items-center justify-content-space-between border-bottom">
                     <div>
-                        <h4>Company Status Overview </h4>
+                        <h4>Out for sale</h4>
                     </div>
-                    <div  class="d-flex">
-                    <div class="btn-wrapper me-10">
-                    
-                    <a href="#" class="btn btn-primary text-white me-10 d-flex"><i class="icon-plus"></i> Add</a>
+                  <div>
                   </div>
-                    <div class="input-group">
-                <input class="form-control border-end-0 border" type="search" value="search" id="example-search-input">
-                <span class="input-group-append">
-                    <button class="bg-white border-start-0 border-bottom-0 border ms-n5 btn-search" type="button">
-                    <icon class="mdi mdi-magnify"></icon>
-                    </button>
-                </span>
-            </div>
-                    
-                  </div>
-
                 </div>
-                <div class="tab-content tab-content-basic">
-                  <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview"> 
-                     
+                
                     <div class="row">
-                      <div class="col-lg-12 d-flex flex-column">
+                      <div class="col-lg-6 d-flex flex-column">
                         <div class="row flex-grow">
-                          <div class="col-12 col-lg-4 col-lg-12 grid-margin stretch-card">
+                          <div class="col-12 grid-margin stretch-card">
                             <div class="card card-rounded">
                               <div class="card-body">
-                              <ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item txt_orange" role="presentation">
-    <button class="nav-link active" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="home" aria-selected="true">
-    <icon class="mdi mdi-star-outline"></icon>  
-    New
-    </button>
-  </li>
-  <li class="nav-item txt_blue" role="presentation">
-    <button class="nav-link" id="inp-tab" data-bs-toggle="tab" data-bs-target="#inp" type="button" role="tab" aria-controls="profile" aria-selected="false">
-    <icon class="mdi mdi-av-timer"></icon>
-    In Prgress
-    </button>
-  </li>
-  <li class="nav-item txt_green" role="presentation">
-    <button class="nav-link" id="quotes-tab" data-bs-toggle="tab" data-bs-target="#quotes" type="button" role="tab" aria-controls="contact" aria-selected="false">
-    <icon class="mdi mdi-comment-text-outline"></icon>
-    Quotes
-    </button>
-  </li>
-  <li class="nav-item txt_purple" role="presentation">
-    <button class="nav-link" id="won-tab" data-bs-toggle="tab" data-bs-target="#won" type="button" role="tab" aria-controls="contact" aria-selected="false">
-    <icon class="mdi mdi-shield-outline"></icon>
-    Won
-    </button>
-  </li>
-  <li class="nav-item  txt_grey" role="presentation">
-    <button class="nav-link" id="lost-tab" data-bs-toggle="tab" data-bs-target="#lost" type="button" role="tab" aria-controls="contact" aria-selected="false">
-    <icon class="mdi mdi-close-circle-outline "></icon>
-    Lost
-    </button>
-  </li>
-</ul>
-<div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="new" role="tabpanel" aria-labelledby="new-tab">
-  <div class="table-responsive">
-                    <table class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th>
-                            User
-                          </th>
-                          <th>
-                            Name
-                          </th>
-                          <th>
-                            Designation
-                          </th>
-                          <th>
-                            Email
-                          </th>
-                          <th>
-                            Phone
-                          </th>
-                          <th>
-                            Country
-                          </th>
-                          <th>
-                            Created On
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face1.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Herman Beck
-                          </td>
-                          <td>
-                          CEO
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376 
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face2.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Messsy Adam
-                          </td>
-                          <td>
-                          Sales Executive
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face3.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            John Richards
-                          </td>
-                          <td>
-                          Operation Manager
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face4.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Peter Meggik
-                          </td>
-                          <td>
-                          COO
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face5.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Edward
-                          </td>
-                          <td>
-                          CEO
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face6.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            John Doe
-                          </td>
-                          <td>
-                          Sales Executive
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="images/faces/face7.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Henry Tom
-                          </td>
-                          <td>
-                          Operation Manager
-                          </td>
-                          <td>
-                          test@test.com
-                          </td>
-                          <td>
-                          99448 65376
-                          </td>
-                          <td>
-                          UK
-                          </td>
-                          <td>
-                          June 24, 2022
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                                <div class="d-sm-flex justify-content-between align-items-start">
+                                  <div>
+                                    <h4 class="card-title card-title-dash">Products</h4>
+                                   
+                                  </div>
 
-  </div>
-  <div class="tab-pane fade" id="inp" role="tabpanel" aria-labelledby="inp-tab">
-    dddd
-  </div>
-  <div class="tab-pane fade" id="quotes" role="tabpanel" aria-labelledby="quotes-tab">three</div>
-  <div class="tab-pane fade" id="won" role="tabpanel" aria-labelledby="won-tab">two</div>
-  <div class="tab-pane fade" id="lost" role="tabpanel" aria-labelledby="lost-tab">three</div>
-</div>
-                              
-                              
+                                </div>
+                                <div class="d-sm-flex align-items-center mt-1 justify-content-between">
+                                  <div class="d-sm-flex align-items-center mt-4 justify-content-between">
+                                    <h2 class="me-2 fw-bold">$36,2531.00</h2>
+                                    <h4 class="me-2">GBP</h4><h4 class="text-success">(+1.37%)</h4>
+                                </div>
+                                  <div class="me-3"><div id="marketing-overview-legend">
+
+                                  </div>
+                                </div>
+                                </div>
+                                <div class="chartjs-bar-wrapper mt-3">
+                                  <canvas id="marketingOverview"></canvas>
+                                </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                      </div>
 
+                      </div>
+                      <div class="col-lg-6 d-flex flex-column">
+                        <div class="row flex-grow">
+                          <div class="col-12 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">
+                                <div class="d-sm-flex justify-content-between align-items-start">
+                                  <div>
+                                    <h4 class="card-title card-title-dash">Top Sale Products</h4>
+                                   
+                                  </div>
+
+                                </div>
+                                <div class="d-sm-flex align-items-center mt-1 justify-content-between">
+                                  <div class="d-sm-flex align-items-center mt-4 justify-content-between"><h2 class="me-2 fw-bold">$36,2531.00</h2><h4 class="me-2">GBP</h4><h4 class="text-success">(+1.37%)</h4></div>
+                                  <div class="me-3"><div id="marketing-overview-legend"></div></div>
+                                </div>
+                                <div class="chartjs-bar-wrapper mt-3">
+                                  <canvas id="marketingOverview"></canvas>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      
                     </div>
-                    
+
+                    <div class="table_wrapper">
+                    <div class="table_header">
+                <h4 class="card-title">Product On Deals</h4>
+                <div class="cv-right">
+                  <div class="fo-search">
+                    <div class="form-group">
+                      <input type="text" placeholder="Search">
+                      <span><img class="icon-font" src="images/search.svg"></span>
+                    </div>
+                  </div>
+                  <div class="btn-group">
+                            <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">Export to CSV</button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item">Go back</a>
+                              <a class="dropdown-item">Delete</a>
+                              <a class="dropdown-item">Swap</a>
+                            </div>                          
+                          </div>
+
+                          <button type="button" class="btn btn-primary btn-icon-text">
+                          
+                          Export
+                          <span><img class="icon-size" src="images/export.svg"></span>
+                        </button>
+                </div>
+
+                
+                </div>
+                    <div class="col-lg-12 grid-margin stretch-card">
+              <div class="card card-rounded">
+
+                <div class="card-body">
+
+                
+                  
+                  <!-- <p class="card-description">
+                    Add class <code>.table-striped</code>
+                  </p> -->
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                        <th>
+                            Product name
+                          </th>
+                          <th>
+                            Category
+                          </th>
+                          <th>
+                            Status
+                          </th>
+                          <th>
+                            Sale end date
+                          </th>
+                          
+                          
+                        </tr>
+                        
+                      </thead>
+                      <tbody>
+                       
+                        <tr>
+                        <td class="table-wrap">
+                          boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
+Sports Modes Smartwatch  (Black Strap, Free Size)
+                          </td>
+                          <td>
+                          WSDAFT01
+                          </td>
+                          <td >
+                          <span class="st_danger">Disable</span>
+                          </td>
+                          
+                          
+                          <td>
+                          12th October, 2020  |  11:35 PM
+                          </td>
+                        </tr>
+                        <tr>
+                        <td class="table-wrap">
+                          boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
+Sports Modes Smartwatch  (Black Strap, Free Size)
+                          </td>
+                          <td>
+                          WSDAFT01
+                          </td>
+                          <td >
+                          <span class="st_green">Enable</span>
+                          </td>
+                          
+                          
+                          <td>
+                          12th October, 2020  |  11:35 PM
+                          </td>
+                        </tr>
+                        <tr>
+                        <td class="table-wrap">
+                          boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
+Sports Modes Smartwatch  (Black Strap, Free Size)
+                          </td>
+                          <td>
+                          WSDAFT01
+                          </td>
+                          <td >
+                          <span class="st_danger">Disable</span>
+                          </td>
+                          
+                          
+                          <td>
+                          12th October, 2020  |  11:35 PM
+                          </td>
+                        </tr>
+                        <tr>
+                        <td class="table-wrap">
+                          boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple 
+Sports Modes Smartwatch  (Black Strap, Free Size)
+                          </td>
+                          <td>
+                          WSDAFT01
+                          </td>
+                          <td >
+                          <span class="st_green">Enable</span>
+                          </td>
+                          
+                          
+                          <td>
+                          12th October, 2020  |  11:35 PM
+                          </td>
+                        </tr>
+                        
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -485,6 +415,7 @@
   <!-- End plugin js for this page -->
   <!-- inject:js -->
   <script src="js/off-canvas.js"></script>
+  <script src="js/off-canvas.js"></script>
   <script src="js/hoverable-collapse.js"></script>
   <script src="js/template.js"></script>
   <script src="js/settings.js"></script>
@@ -493,6 +424,7 @@
   <!-- Custom js for this page-->
   <script src="js/jquery.cookie.js" type="text/javascript"></script>
   <script src="js/dashboard.js"></script>
+  <script src="js/Chart.roundedBarCharts.js"></script>
   <script src="js/Chart.roundedBarCharts.js"></script>
   <!-- End custom js for this page-->
 </body>

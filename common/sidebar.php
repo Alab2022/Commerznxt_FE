@@ -63,8 +63,8 @@
             </a>
             <div class="collapse" id="ui-sales">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="#">Out For Sale</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Sales Tracker</a></li>
+                <li class="nav-item"> <a class="nav-link" href="SA_outforsale.php">Out For Sale</a></li>
+                <li class="nav-item"> <a class="nav-link" href="SA_salestracker.php">Sales Tracker</a></li>
               </ul>
             </div>
           </li>
