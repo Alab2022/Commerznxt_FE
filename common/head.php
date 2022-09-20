@@ -22,7 +22,8 @@
   <link rel="stylesheet" href="css/vertical-layout-light/style.css">
   <link rel="stylesheet" href="css/custom_s.css">
   <!-- endinject -->
-  
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
   <link rel="shortcut icon" href="images/favicon.png" />
 </head>
