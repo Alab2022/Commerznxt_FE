@@ -412,7 +412,18 @@
   <!-- Timeline Ends -->
 
   </div>
-  <div class="tab-pane fade" id="inp" role="tabpanel" aria-labelledby="inp-tab">two</div>
+  <div class="tab-pane fade" id="inp" role="tabpanel" aria-labelledby="inp-tab">
+
+  <div class="comments_wrapper">
+<div class="top_commment_form d-flex">
+  <img src="images/comment.svg" alt="">
+  <div class="cmt-input">
+    <label for="text">Leave Comment</label>
+    <input height="100" type="text" placeholder="Type you comment here">
+  </div>
+</div>
+  </div>  
+  </div>
   <div class="tab-pane fade" id="quotes" role="tabpanel" aria-labelledby="quotes-tab">three</div>
   <div class="tab-pane fade" id="won" role="tabpanel" aria-labelledby="won-tab">two</div>
   <div class="tab-pane fade" id="lost" role="tabpanel" aria-labelledby="lost-tab">three</div>

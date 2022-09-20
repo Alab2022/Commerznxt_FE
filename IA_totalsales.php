@@ -194,7 +194,7 @@
                   </div>
                   
 
-                  <li class="nav-item dropdown d-none d-lg-block user-dropdown">
+<li class="nav-item dropdown d-none d-lg-block user-dropdown">
             <a class="nav-link custom" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
               Choose Filter <span><i class="mdi mdi-filter-variant"></i></span></a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown tb-header" aria-labelledby="UserDropdown">
@@ -204,7 +204,7 @@
 
               <div class="dropdown-forms">
              
-                <select class="dd" name="cars" id="cars" form="carform">
+<select class="dd" name="cars" id="cars" form="carform">
   <option value="volvo">Select Category</option>
   <option value="saab">Saab</option>
   <option value="opel">Opel</option>
@@ -243,11 +243,11 @@
                   </div>
                     
                     
-                  </div>
+</div>
 </div>         
 
 </div>
-          </li>
+</li>
 
 
 
