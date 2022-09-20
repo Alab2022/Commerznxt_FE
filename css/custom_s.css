@@ -494,8 +494,14 @@ ul.custom li{
 .home-tab td .btn i{
     margin-right: 0!important;
 }
-
-
+#paymentplan .col-form-label.mark{
+    padding: 0;
+    margin: 5px 0 0 10px;
+    background: none;
+}
+.mtop-5{
+    margin-top:5px;
+}
 
 @media (max-width: 991px){
 .main-panel {
