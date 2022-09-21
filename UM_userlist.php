@@ -188,7 +188,7 @@
                 
                     <div class="table_wrapper">
                     <div class="table_header">
-                <h4 class="card-title">Total No. of Orders</h4>
+                <h4 class="card-title">User List</h4>
                 <div class="cv-right">
                   <div class="fo-search">
                     <div class="form-group">
@@ -204,13 +204,13 @@
                               <a class="dropdown-item">Swap</a>
                             </div>                          
                           </div> -->
-<a href="IA_createorder.php">
-                          <button type="button" class="btn btn-primary btn-icon-text">
+
+                          <button type="button" class="btn btn-primary btn-icon-text" data-bs-toggle="modal" data-bs-target="#exampleModal">
                           
-                          Create Order
+                          Add user
                           <span><img class="icon-size" src="images/add.svg"></span>
-                        </button>
-                        </a>
+                          </button>
+                                              
                 </div>
 
                 
@@ -230,19 +230,19 @@
                       <thead>
                         <tr>
                         <th>
-                            Customer name
+                            User image
                           </th>
                           <th>
-                            Order number
+                            Role code
                           </th>
                           <th>
-                            Order date
+                            Role name
                           </th>
                           <th>
-                            Order value
+                            Created on
                           </th>
                           <th>
-                            Sales executive
+                            Role description
                           </th>
                           <th>
                             Actions
@@ -254,80 +254,29 @@
                       </thead>
                       <tbody>
                         <tr>
-                        <td>
-                          Stephen Strange
-                        </td>
-                        <td>
-                          M$5246
-                        </td>
-                        <td>
-                        12th Oct, 2020  |  11:35 PM
-                        </td>
-                        <td>
-                          10,000
-                        </td>
-                        <td>
-                          Executive 1
-                        </td>
-                        <td class="fo-casualities">
-                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
-                        <i class="mdi mdi-pencil"></i>
-                      </button>
-                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
-                        <i class="mdi mdi-delete"></i>
-                      </button>
-                        </td>
-                        </tr>
-                        <tr>
-                        <td>
-                          Stephen Strange
-                        </td>
+                       
+                          <td class="py-1">
+                            <img src="images/faces/face2.jpg" alt="image"/>
+                          </td>
+                       
                         <td>
                           M$5246
                         </td>
                         <td>
-                        12th Oct, 2020  |  11:35 PM
-                        </td>
-                        <td>
-                          10,000
-                        </td>
-                        <td>
-                          Executive 1
-                        </td>
-                        <td class="fo-casualities">
-                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
-                        <i class="mdi mdi-pencil"></i>
-                      </button>
-                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
-                        <i class="mdi mdi-delete"></i>
-                      </button>
-                        </td>
-                        </tr>
-                        <tr>
-                        <td>
-                          Stephen Strange
-                        </td>
-                        <td>
-                          M$5246
+                          Sales
                         </td>
                         <td>
                         12th Oct, 2020  |  11:35 PM
                         </td>
+                        
                         <td>
-                          10,000
+                          Sales manager
                         </td>
                         <td>
-                          Executive 1
-                        </td>
-                        <td class="fo-casualities">
-                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
-                        <i class="mdi mdi-pencil"></i>
-                      </button>
-                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
-                        <i class="mdi mdi-delete"></i>
-                      </button>
+                          <a href="">View</a>
                         </td>
                         </tr>
+
                         
                        
                         
@@ -340,6 +289,35 @@
                     </div>
                   </div>
                 </div>
+
+<!-- modal -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">User Management</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="fo-profile">
+<img src="images/profileimg.png" alt="">
+<button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-upload"></i>
+                      </button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
               </div>
             </div>
           </div>

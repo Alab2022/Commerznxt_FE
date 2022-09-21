@@ -194,7 +194,9 @@
                     <div class="row">
                       <div class="col-sm-12">
                         <div class="statistics-details d-flex align-items-center justify-content-between dashbrd flex-sm-row flex-column">
-                          <div class="card card-rounded">
+                          
+                        
+                        <div class="card card-rounded">
                             <div class="card-body">
                             <div class="d-flex align-items-center mb-2 mb-sm-0">
                                 <div class="icon_home one">
@@ -202,12 +204,14 @@
                                 </div>
                                 <div>
                                     <h3 class="rate-percentage">32.53%</h3>
-                                  <p class="text-small mb-2">Total Orders</p>
+                                  <p class="text-small mb-2"> <a href="IA_totalnooforders.php">Total Orders</a> </p>
                                   
                                 </div>
                               </div>
                             </div>
                         </div>
+
+                        
                         <div class="card card-rounded">
                             <div class="card-body">
                             <div class="d-flex align-items-center mb-2 mb-sm-0">
@@ -230,7 +234,7 @@
                                 </div>
                                 <div>
                                     <h3 class="rate-percentage">32.53%</h3>
-                                  <p class="text-small mb-2">Total Sales</p>
+                                  <p class="text-small mb-2"> <a href="IA_totalsales.php">Total Sales</a> </p>
                                   
                                 </div>
                               </div>
@@ -244,7 +248,7 @@
                                 </div>
                                 <div>
                                     <h3 class="rate-percentage">32.53%</h3>
-                                  <p class="text-small mb-2">Payment Received</p>
+                                  <p class="text-small mb-2"> <a href="IA_totalsales&credit.php">Payment Received</a> </p>
                                   
                                 </div>
                               </div>
@@ -258,7 +262,7 @@
                                 </div>
                                 <div>
                                     <h3 class="rate-percentage">32.53%</h3>
-                                  <p class="text-small mb-2">Credit Given</p>
+                                  <p class="text-small mb-2"><a href="IA_totalsales&credit.php">Credit</a></p>
                                   
                                 </div>
                               </div>

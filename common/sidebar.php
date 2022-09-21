@@ -17,11 +17,11 @@
                 <li class="nav-item"> <a class="nav-link" href="IA_stockoverview.php">Stock overview</a></li>
                 <li class="nav-item"> <a class="nav-link" href="IA_categoryanalysis.php">Category Analysis</a></li>
                 <li class="nav-item"> <a class="nav-link" href="IA_productondeals.php">Product On Deals</a></li>
-                <li class="nav-item"> <a class="nav-link" href="IA_totalnooforders.php">Total no of Orders</a></li>
+                <!-- <li class="nav-item"> <a class="nav-link" href="IA_totalnooforders.php">Total no of Orders</a></li> -->
                 <li class="nav-item"> <a class="nav-link" href="IA_pdtstobereordered.php">Products to be re-ordered</a></li>
-                <li class="nav-item"> <a class="nav-link" href="IA_createorder.php">Create Order</a></li>
-                <li class="nav-item"> <a class="nav-link" href="IA_totalsales.php">Total Sales</a></li>
-                <li class="nav-item"> <a class="nav-link" href="IA_totalsales&credit.php">Credit given & Payment status</a></li>
+                <!-- <li class="nav-item"> <a class="nav-link" href="IA_createorder.php">Create Order</a></li> -->
+                <!-- <li class="nav-item"> <a class="nav-link" href="IA_totalsales.php">Total Sales</a></li> -->
+                <!-- <li class="nav-item"> <a class="nav-link" href="IA_totalsales&credit.php">Credit given & Payment status</a></li> -->
                 
               </ul>
             </div>
@@ -69,7 +69,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="UM_userlist.php">
               <i class="mdi mdi-account-circle-outline menu-icon"></i>
               <span class="menu-title">User Management</span>
             </a>

@@ -422,6 +422,29 @@
     <input height="100" type="text" placeholder="Type you comment here">
   </div>
 </div>
+<div  class="d-flex text-right vendors">
+                    <div class="btn-wrapper me-10">
+                    
+                    <a href="#" class="btn btn-outline btn-lg btn-white btn-pad">Cancel</a>
+                    
+                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save</a>
+                    <button type="button" class="btn btn-secondary bl1">
+                            <i class="mdi mdi-attachment"></i>
+                          </button>
+                  </div>
+
+</div>
+
+<div class="comments_history">
+  <label for="">History</label>
+  <div class="success-float">
+    19th Nov, 2022
+  </div>
+  <div class="fo-bo-wrap">
+    Smple history record
+  </div>
+</div>
+
   </div>  
   </div>
   <div class="tab-pane fade" id="quotes" role="tabpanel" aria-labelledby="quotes-tab">three</div>
