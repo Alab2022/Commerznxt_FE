@@ -175,7 +175,7 @@
       </div>
       <!-- partial -->
       <!-- partial:partials/_sidebar.html -->
-      <?php include('common/sidebar.php'); ?>
+      <?php include('common/se-sidebar.php'); ?>
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
@@ -184,12 +184,14 @@
               <div class="home-tab">
                 <div class="d-flex align-items-center justify-content-between border-bottom">
                     <div>
-                        <h4>Sales Invoice</h4>
+                        <h4>Upcoming Payment Followup</h4>
                     </div>
                     <div  class="d-flex">
-                    <div >
-                Order Id: CNXT009
-            </div>
+                    <div class="btn-wrapper me-10">
+                    
+                    <a href="#" class="btn btn-primary text-white me-10 d-flex"><i class="icon-plus"></i> View All</a>
+                  </div>
+                   
                     
                   </div>
 
@@ -200,165 +202,245 @@
                     <div class="row">
                       <div class="col-lg-12 d-flex flex-column">
                         <div class="row flex-grow">
-                          <div class="col-12 col-lg-4 col-lg-12 grid-margin stretch-card">
+                          <!-- Payment card -->
+                          <div class="col-12 col-lg-3 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">                                
+                              <div class="text-center prof-card">                                
+                              <img src="images/faces/face24.jpg" alt="image">
+                              <i class="btn-eye"><img src="images/activity/eye.svg" alt="image"></i>
+                                <h4>Arul Prakash</h4>
+                                <h6 class="text-muted">
+                                CEO.ComerceNxt</h6>
+                                </div>                              
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Payment card -->
+                          <div class="col-12 col-lg-3 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">                                
+                              <div class="text-center prof-card">                                
+                              <img src="images/faces/face24.jpg" alt="image">
+                              <i class="btn-eye"><img src="images/activity/eye.svg" alt="image"></i>
+                                <h4>Arul Prakash</h4>
+                                <h6 class="text-muted">
+                                CEO.ComerceNxt</h6>
+                                </div>                              
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Payment card -->
+                          <div class="col-12 col-lg-3 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">                                
+                              <div class="text-center prof-card">                                
+                              <img src="images/faces/face24.jpg" alt="image">
+                              <i class="btn-eye"><img src="images/activity/eye.svg" alt="image"></i>
+                                <h4>Arul Prakash</h4>
+                                <h6 class="text-muted">
+                                CEO.ComerceNxt</h6>
+                                </div>                              
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Payment card -->
+                          <div class="col-12 col-lg-3 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">                                
+                              <div class="text-center prof-card">                                
+                              <img src="images/faces/face24.jpg" alt="image">
+                              <i class="btn-eye"><img src="images/activity/eye.svg" alt="image"></i>
+                                <h4>Arul Prakash</h4>
+                                <h6 class="text-muted">
+                                CEO.ComerceNxt</h6>
+                                </div>                              
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-8 d-flex flex-column">
+                        <div class="row flex-grow">
+                          <div class="col-12 col-lg-12 grid-margin stretch-card">
                             <div class="card card-rounded">
                               <div class="card-body">
-                              <div class="row g-3 align-items-center quotes-top">
-  <div class="col-auto">
-    <label for="inputPassword6" class="col-form-label">Customer Name</label>
-  </div>
-  <div class="col-auto">
-    <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-  </div>
-  <div class="col-auto">
-    <label for="inputPassword6" class="col-form-label">Invoice Date</label>
-  </div>
-  <div class="col-auto">
-    <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-  </div>
-  <div class="col-auto">
-  <button type="button" class="btn btn-danger btn-icon-text" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                          <i class="ti-alert btn-icon-prepend"></i>                                                    
-                          1 Pending Action
-                        </button></div>
-                        <div class="col-auto d-flex justify-content-end btn-space">
-                        <button type="button" class="btn btn-primary">
-                          <i class="mdi mdi-plus"></i>                                                    
-                          
-                        </button>
-                        <button type="button" class="btn btn-primary">
-                          <i class="mdi mdi-minus"></i>                                                    
-                          
-                        </button>
-                        </div>
-                       
-  
-
-</div>
+                              <h4 class="card-title card-title-dash">Quotation Approval Status</h4>
                               <div class="table-responsive">
                     <table class="table table-striped">
                       <thead>
                         <tr>
-                        <th>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <th>
+                            For Client
                           </th>
                           <th>
-                            Product Name
+                            Quotation Value
                           </th>
                           <th>
-                            SKU ID
+                            Req.On
                           </th>
                           <th>
-                            QTY
+                            Status
                           </th>
                           <th>
-                            Price/QTY
+                            Action
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td>
-                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                          </td>
-                          <td>
                             COMNXT-Q-01
                           </td>
                           <td>
-                          Thomas Douglas
+                          900
                           </td>
                           <td>
-                          20000
+                          01.09.2022
                           </td>
                           <td>
-                          2
+                          <label class="badge badge-success">Approved</label> 
                           </td>
-
+                          
+                          <td>
+                          <img src="images/activity/eye.svg" alt="image" class="icon-eye">
+                          </td>
                         </tr>
                         <tr>
-                        <td>
-                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                          </td>
+                          
                           <td>
                           COMNXT-Q-02
                           </td>
                           <td>
-                          Catherine
+                          35,000
                           </td>
                           <td>
-                          20000
+                          01.09.2022
+                          </td>
+                          <td>
+                          <label class="badge badge-danger">Open</label>
                           </td>
                           
                           <td>
-                          2
+                          <img class="icon-eye"g src="images/activity/eye.svg" alt="image">
                           </td>
-
                         </tr>
-                        
+                        <tr>
+                          
+                          <td>
+                          COMNXT-Q-03
+                          </td>
+                          <td>
+                          9600
+                          </td>
+                          <td>
+                          01.09.2022
+                          </td>
+                          <td>
+                          <label class="badge badge-warning">Revise</label>
+                          </td>
+                          
+                          <td>
+                          <img src="images/activity/eye.svg" alt="image"  class="icon-eye">
+                          </td>
+                        </tr>
+                        <tr>  
+                          <td>
+                          COMNXT-Q-04
+                          </td>
+                          <td>
+                          30,000
+                          </td>
+                          <td>
+                          01.09.2022
+                          </td>
+                          <td>
+                          <label class="badge badge-success">Approved</label> 
+                          </td>
+                          
+                          <td>
+                          <img src="images/activity/eye.svg" alt="image"  class="icon-eye">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                          COMNXT-Q-05
+                          </td>
+                          <td>
+                          7000
+                          </td>
+                          <td>
+                          01.09.2022
+                          </td>
+                          <td>
+                          <label class="badge badge-danger">Open</label>
+                          </td>
+                          
+                          <td>
+                          <img src="images/activity/eye.svg" alt="image"  class="icon-eye">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                          COMNXT-Q-06
+                          </td>
+                          <td>
+                          3200
+                          </td>
+                          <td>
+                          01.09.2022
+                          </td>
+                          <td>
+                          <label class="badge badge-warning">Revise</label>
+                          </td>
+                          
+                          <td>
+                          <img src="images/activity/eye.svg" alt="image"  class="icon-eye">
+                          </td>
+                        </tr>
                         
                       </tbody>
                     </table>
                   </div>
-<div>
-  <table class="table_alt float-end">
-  <tr>
-      <td>Tax(%)</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
-    </tr>
-    <tr>
-      <td>Discount(%)</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
-    </tr>
-    <tr>
-      <td>Total</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
-    </tr>
-    <tr>
-      <td><h5> Additional Info </h5></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Advance Received</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
-    </tr>
-    <tr>
-      <td>Credit Period</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
-    </tr>
-    <tr>
-      <td>Total</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
-    </tr>
-
-  </table>
-
-</div>
-                              
-                              
                               </div>
                             </div>
-                            
                           </div>
-                          <div class="d-flex align-items-center justify-content-between border-bottom">
-                    <div>
-                        
-                    </div>
-                    <div  class="d-flex">
-                    <div class="btn-wrapper me-10">
-                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad"  data-bs-toggle="modal" data-bs-target="#paymentplan">View Payment Plan</a>
-                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad"  data-bs-toggle="modal" data-bs-target="#paymentplan">Create Payment Plan</a>
-                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save & Send Email</a>
-                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save</a>
-                  </div>
-                    
-                    
-                  </div>
-
-                </div>
                         </div>
                       </div>
+                      <div class="col-lg-4 d-flex flex-column">
+                        <div class="row flex-grow">
+                          <div class="col-md-6 col-lg-12 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body pb-0">
+                                
+                                <div class="row">
+                                  <div class="col-lg-12"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+<ul class="nav nav-tabs sales_db" id="myTab" role="tablist">
+  <li class="nav-item txt_orange" role="presentation">
+    <button class="nav-link active" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="home" aria-selected="true">
+    <icon class="mdi mdi-star-outline"></icon>  
+    Today's Task
+    </button>
+  </li>
+  <li class="nav-item txt_blue" role="presentation">
+    <button class="nav-link" id="inp-tab" data-bs-toggle="tab" data-bs-target="#inp" type="button" role="tab" aria-controls="profile" aria-selected="false">
+    <icon class="mdi mdi-av-timer"></icon>
+    Email Received
+    </button>
+  </li>
 
-                    </div>
+</ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
                     
                   </div>
                 </div>
@@ -366,122 +448,6 @@
             </div>
           </div>
         </div>
-        <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Waiting for Approval</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="mb-3 row">
-      <label for="staticEmail" class="col-sm-3 col-form-label">Requested by</label>
-      <div class="col-sm-9">
-      <input type="text" class="form-control" id="inputPassword">
-      </div>
-    </div>
-    <div class="mb-3 row">
-      <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
-      <div class="col-sm-9">
-      <select class="form-select" aria-label="Default select example">
-  <option selected>Select</option>
-  <option value="1">Approve</option>
-  <option value="2">Reject</option>
-  <option value="3">Hold</option>
-  <option value="3">Redo</option>
-</select>
-      </div>
-    </div>
-    <div class="mb-3 row">
-      <label for="staticEmail" class="col-sm-3 col-form-label">Comments</label>
-      <div class="col-sm-9">
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-    </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal Payment Plan-->
-<div class="modal fade" id="paymentplan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Payment Plan</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="mb-3 row">
-      <label for="staticEmail" class="col-sm-4 col-form-label">Total Amount</label>
-      <div class="col-sm-8">
-      <input type="text" class="form-control" id="inputPassword">
-      </div>
-    </div>
-    <div class="mb-3 row">
-      <label for="staticEmail" class="col-sm-4 col-form-label">Credit Period</label>
-      <div class="col-sm-8">
-      <input type="text" class="form-control" id="inputPassword">
-      </div>
-    </div>
-    <div class="mb-3 row">
-      <label for="staticEmail" class="col-sm-4 col-form-label">No.Of Installment</label>
-      <div class="col-sm-8">
-      <input type="text" class="form-control" id="inputPassword">
-      </div>
-    </div>
-    <div class="mb-3 row">
-      <label for="staticEmail" class="col-sm-4 col-form-label">1st Installment</label>
-      <div class="col-sm-8">
-      <input type="text" class="form-control" id="inputPassword">
-      <div class="d-flex mtop-5">
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-      <label for="staticEmail" class="col-sm-6 col-form-label mark">Mark as Received</label>
-      </div>
-      </div>
-    </div>
-    <div class="mb-3 row">
-      <label for="staticEmail" class="col-sm-4 col-form-label">2nd Installment</label>
-      <div class="col-sm-8">
-      <input type="text" class="form-control" id="inputPassword">
-      <div class="d-flex mtop-5">
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-      <label for="staticEmail" class="col-sm-6 col-form-label mark">Mark as Received</label>
-      </div>
-      </div>
-    </div>
-
-    <div class="mb-3 row">
-      <label for="inputPassword" class="col-sm-4 col-form-label">Password</label>
-      <div class="col-sm-8">
-      <select class="form-select" aria-label="Default select example">
-  <option selected>Select</option>
-  <option value="1">Approve</option>
-  <option value="2">Reject</option>
-  <option value="3">Hold</option>
-  <option value="3">Redo</option>
-</select>
-      </div>
-    </div>
-    <div class="mb-3 row">
-      <label for="staticEmail" class="col-sm-4 col-form-label">Comments</label>
-      <div class="col-sm-8">
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-    </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-primary">Save</button>
-      </div>
-    </div>
-  </div>
-</div>
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->
         <?php include('common/footer.php'); ?>

@@ -248,7 +248,14 @@
 
 .home-tab .btn i{
     color: #ffffff;
-    margin-right: 0;
+    /* margin-right: 0; */
+}
+.home-tab .btn {
+    margin-right: 10px;
+}
+.home-tab .btn-space .btn {
+
+    margin-right: 10px;
 }
 .btn-search {
     border-top-left-radius: 0;
@@ -356,7 +363,14 @@ ul.custom li{
     background: #60C8E3!important;
     border: 1px solid #60C8E3!important;
 }
-
+.btn-eye{
+    position: absolute;
+    right: -10px;
+    top: -8px;
+}
+.btn-eye img{
+    width: 90%;
+}
 .prof-card {
     position: relative;
 }
@@ -465,9 +479,9 @@ ul.custom li{
     display: table;
     clear: both;
 }
-.badge-danger {
+/* .badge-danger {
     background: #F95F53;
-}
+} */
 .icon_timeline{
         padding: 6px;
         border-radius: 10px;
@@ -520,6 +534,16 @@ ul.custom li{
     vertical-align:middle;
     background-color:#fff;
     }
+
+.active.hover-open .menu-title{
+    color: #3E5CBC;
+}
+.table-striped .icon-eye{
+    width: 30%;
+}
+.sales_db .nav-item .nav-link{
+    padding: 12px 5px!important;
+}
 
 
 

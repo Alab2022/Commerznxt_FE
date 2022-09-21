@@ -29058,7 +29058,7 @@ div.tagsinput span.tag a {
 .sidebar .nav .nav-item.active > .nav-link i,
 .sidebar .nav .nav-item.active > .nav-link .menu-title,
 .sidebar .nav .nav-item.active > .nav-link .menu-arrow {
-  color: #ffffff;
+  color: #fff;
 }
 
 .sidebar .nav .nav-item.active > .nav-link .menu-title {
@@ -30641,7 +30641,7 @@ div.tagsinput span.tag a {
   .sidebar-icon-only .sidebar {
     width: 70px;
     background: #fff;
-    padding: 30px 10px 0 10px;
+    /* padding: 30px 10px 0 10px; */
   }
   .sidebar-icon-only .sidebar .nav {
     overflow: visible;
@@ -30777,7 +30777,7 @@ div.tagsinput span.tag a {
     background: transparent;
   }
   .sidebar-icon-only .sidebar .nav:not(.sub-menu) .nav-item:hover .nav-link {
-    border-radius: 0;
+    /* border-radius: 0; */
   }
   .sidebar-icon-only .sidebar .nav.sub-menu {
     padding: 0 0 0 1.5rem;
