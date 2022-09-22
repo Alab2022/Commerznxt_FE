@@ -188,30 +188,8 @@
                 
                     <div class="table_wrapper">
                     <div class="table_header">
-                <h4 class="card-title">User List</h4>
-                <div class="cv-right">
-                  <div class="fo-search">
-                    <div class="form-group">
-                      <input type="text" placeholder="Search">
-                      <span><img class="icon-font" src="images/search.svg"></span>
-                    </div>
-                  </div>
-                  <!-- <div class="btn-group">
-                            <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">Export to CSV</button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item">Go back</a>
-                              <a class="dropdown-item">Delete</a>
-                              <a class="dropdown-item">Swap</a>
-                            </div>                          
-                          </div> -->
-
-                          <button type="button" class="btn btn-primary btn-icon-text" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                          
-                          Add user
-                          <span><img class="icon-size" src="images/add.svg"></span>
-                          </button>
-                                              
-                </div>
+                <h4 class="card-title">New Purchase Order</h4>
+               
 
                 
                 </div>
@@ -220,109 +198,9 @@
 
                 <div class="card-body">
 
-                
-                  
-                  <!-- <p class="card-description">
-                    Add class <code>.table-striped</code>
-                  </p> -->
-                  <div class="table-responsive">
-                    <table class="table table-striped">
-                      <thead>
-                        <tr>
-                        <th>
-                            User image
-                          </th>
-                          <th>
-                            Role code
-                          </th>
-                          <th>
-                            Role name
-                          </th>
-                          <th>
-                            Created on
-                          </th>
-                          <th>
-                            Role description
-                          </th>
-                          <th>
-                            Actions
-                          </th>
-                          
-                          
-                        </tr>
-                        
-                      </thead>
-                      <tbody>
-                        <tr>
-                       
-                          <td class="py-1">
-                            <img src="images/faces/face2.jpg" alt="image"/>
-                          </td>
-                       
-                        <td>
-                          M$5246
-                        </td>
-                        <td>
-                          Sales
-                        </td>
-                        <td>
-                        12th Oct, 2020  |  11:35 PM
-                        </td>
-                        
-                        <td>
-                          Sales manager
-                        </td>
-                        <td>
-                          <a href="">View</a>
-                        </td>
-                        </tr>
-
-                        
-                       
-                        
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-                    </div>
-                  </div>
-                </div>
-
-<!-- modal -->
-
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">User Management</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="fo-profile">
-<img src="images/profileimg.png" alt="">
-<button type="button" class="btn btn-skyblu btn-rounded btn-icon">
-                        <i class="mdi mdi-upload"></i>
-                      </button>
-
-                      
-        </div>
-        <div class="profile-form" style="margin-top:0;">
-                      <div class="form-group">
-                      <label for="exampleInputUsername1">Name</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputUsername1">email</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputUsername1">Mobiel</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
-                    <div class="form-group">
-                    <label>Select role</label>
+                <div class="form_wrapper vendors">
+                  <div class="form-group">
+                    <label>Vendor name</label>
                     <select class="js-example-basic-single w-100">
                       <option value="AL">Alabama</option>
                       <option value="WY">Wyoming</option>
@@ -332,26 +210,209 @@
                     </select>
                   </div>
                   <div class="form-group">
-                      <label for="exampleInputUsername1">User name</label>
+                    <label>Delivery to</label>
+                    <select class="js-example-basic-single w-100">
+                      <option value="AL">Alabama</option>
+                      <option value="WY">Wyoming</option>
+                      <option value="AM">America</option>
+                      <option value="CA">Canada</option>
+                      <option value="RU">Russia</option>
+                    </select>
+                  </div>
+                    <div class="form-group">
+                      <label for="exampleInputUsername1">Reference#</label>
                       <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
                     </div>
                     <div class="form-group">
-                      <label for="exampleInputUsername1">Password</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
-                      </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-  </div>
+                    <label>Select date</label>
+                    <select class="js-example-basic-single w-100">
+                      <option value="AL">Alabama</option>
+                      <option value="WY">Wyoming</option>
+                      <option value="AM">America</option>
+                      <option value="CA">Canada</option>
+                      <option value="RU">Russia</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label>Expected delivery date</label>
+                    <select class="js-example-basic-single w-100">
+                      <option value="AL">Alabama</option>
+                      <option value="WY">Wyoming</option>
+                      <option value="AM">America</option>
+                      <option value="CA">Canada</option>
+                      <option value="RU">Russia</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label>Purchase order</label>
+                    <select class="js-example-basic-single w-100">
+                      <option value="AL">Generate</option>
+                      <option value="WY">Enter</option>
+                      
+                    </select>
+                  </div>
+                    
+                  </div>
+
+
+                </div>
+              </div>
+
+
+              
+            </div>
+
+            <div class="card card-rounded">
+                <div class="card-body">
+                <div class="table_wrapper">
+           
+            <div class="col-lg-12 grid-margin stretch-card">
+
+              <div class="card card-rounded">
+
+                <div class="card-body no-padd">
+                 
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                        <th>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          </th>
+                          <th>
+                            Product Name
+                          </th>
+                          <th>
+                            SKU ID
+                          </th>
+                          <th>
+                            QTY
+                          </th>
+                          <th>
+                            Price per qty
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          </td>
+                          <td>
+                            COMNXT-Q-01
+                          </td>
+                          <td>
+                          Thomas Douglas
+                          </td>
+                          <td>
+                          20000
+                          </td>
+                          <td>
+                          2
+                          </td>
+
+                        </tr>
+                        <tr>
+                        <td>
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          </td>
+                          <td>
+                          COMNXT-Q-02
+                          </td>
+                          <td>
+                          Catherine
+                          </td>
+                          <td>
+                          20000
+                          </td>
+                          
+                          <td>
+                          2
+                          </td>
+
+                        </tr>
+                        
+                        
+                      </tbody>
+                    </table>
+                  </div>
+<div>
+  <table class="table_alt float-end">
+  <tr>
+      <td>Tax(%)</td>
+      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+    </tr>
+    <tr>
+      <td>Discount(%)</td>
+      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+    </tr>
+  </table>
+
 </div>
+                              
+                              
+                              </div>
+                            </div>
+                            
+                          </div>
+                         
+
+                  <div class="fo-attachments d-flex">
+                    <div class="form-group">
+
+                      <input w-100 type="text" class="form-control" id="exampleInputName1" placeholder="Add notes">
+                    </div>
+
+                    <div class="mini-buttons">
+                      <div class="btn-group" role="group" aria-label="Basic example">
+
+                        <button type="button" class="btn btn-secondary bl1">
+                          <i class="mdi mdi-attachment"></i>
+                        </button>
+
+                      </div>
+                    </div>
+                  </div>
 
 
+                </div>
+              </div>
+            </div>
+            
+
+            
+          </div>
+          
+              
+        </div>
 
 
+        <div class="d-flex align-items-center justify-content-between border-bottom" style="margin-top: 25px;">
+                    <div>
+                        
+                    </div>
+                    <div  class="d-flex">
+                    <div class="btn-wrapper me-10">
+                    
+                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Cancel</a>
+                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save & Send Email</a>
+                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save</a>
+                  </div>
+                    
+                    
+                  </div>
+
+                </div>
+              </div>
+
+              
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

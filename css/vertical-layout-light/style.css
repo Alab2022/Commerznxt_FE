@@ -31765,14 +31765,13 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA {
 li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
   margin-right: 0;
 }
-.cmt-input {
-
-    
+.cmt-input {    
     width: 100%;
 }
 .cmt-input input {
   margin-top: 10px;
   padding: 15px;
+  font-size: 14px;
   height: 100px;
   border-radius: 10px;
   border: 1px solid #ddd;
@@ -31789,7 +31788,12 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
   background: #60c8e3;
   border: none;
   height: 40px;
-  margin-left: 10px;
+  margin-left: 0px;
+}
+.fo-bo-wrap h6 {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 70%;
 }
 .comments_wrapper i.mdi.mdi-attachment {
   font-size: 20px;
@@ -31801,7 +31805,8 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
   border-top: 1px solid #ddd;
 }
 .comments_history label {
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 12px;
   margin-bottom: 15px;
 }
 .comments_history .fo-bo-wrap {
@@ -31812,12 +31817,13 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
 }
 .comments_history .success-float {
   background-color: #60D3B2;
-    border-radius: 10px;
+    border-radius: 5px;
     position: absolute;
+    font-size: 12px;
     color: #fff;
     right: 30px;
-    top: 40px;
-    padding: 10px 20px;
+    top: 47px;
+    padding: 5px 11px;
 }
 .statistics-details.d-flex.align-items-center.justify-content-between.dashbrd.flex-sm-row.flex-column p.text-small.mb-2 a {
   color: #000;
@@ -31843,4 +31849,28 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
 }
 .card-body.no-padd .col-auto.d-flex.justify-content-end{
   margin-left: auto;
+}
+.card-body.no-padd label.col-form-label {
+  padding-bottom: 7px;
+}
+.card-body.no-padd .table-inner-header.d-flex {
+  align-items: flex-end;
+}
+.card-body.no-padd .row.g-3.align-items-center.quotes-top{
+  align-items: flex-end !important;
+}
+.profile-form {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+.profile-form .form-group {
+  width: 48%;
+  margin-bottom: 5px;
+}
+.profile-form .form-group select {
+  padding: 3px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
 }

@@ -188,7 +188,7 @@
                 
                     <div class="table_wrapper">
                     <div class="table_header">
-                <h4 class="card-title">User List</h4>
+                <h4 class="card-title">Roles & Permissions</h4>
                 <div class="cv-right">
                   <div class="fo-search">
                     <div class="form-group">
@@ -207,7 +207,7 @@
 
                           <button type="button" class="btn btn-primary btn-icon-text" data-bs-toggle="modal" data-bs-target="#exampleModal">
                           
-                          Add user
+                          Add role
                           <span><img class="icon-size" src="images/add.svg"></span>
                           </button>
                                               
@@ -296,33 +296,26 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">User Management</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Create Role</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <div class="fo-profile">
-<img src="images/profileimg.png" alt="">
-<button type="button" class="btn btn-skyblu btn-rounded btn-icon">
-                        <i class="mdi mdi-upload"></i>
-                      </button>
-
-                      
-        </div>
-        <div class="profile-form" style="margin-top:0;">
+       
+        <div class="profile-form" >
                       <div class="form-group">
-                      <label for="exampleInputUsername1">Name</label>
+                      <label for="exampleInputUsername1">Role code</label>
                       <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
                     </div>
                     <div class="form-group">
-                      <label for="exampleInputUsername1">email</label>
+                      <label for="exampleInputUsername1">Role name</label>
                       <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
                     </div>
                     <div class="form-group">
-                      <label for="exampleInputUsername1">Mobiel</label>
+                      <label for="exampleInputUsername1">Role description</label>
                       <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
                     </div>
                     <div class="form-group">
-                    <label>Select role</label>
+                    <label>Role status</label>
                     <select class="js-example-basic-single w-100">
                       <option value="AL">Alabama</option>
                       <option value="WY">Wyoming</option>
@@ -331,14 +324,7 @@
                       <option value="RU">Russia</option>
                     </select>
                   </div>
-                  <div class="form-group">
-                      <label for="exampleInputUsername1">User name</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputUsername1">Password</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
+                  
                       </div>
       </div>
       <div class="modal-footer">

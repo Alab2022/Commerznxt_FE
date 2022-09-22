@@ -273,13 +273,7 @@
                                     Invoice
                                   </button>
                                 </li>
-                                <li class="nav-item  text-center txt_purple" role="presentation">
-
-                                  <button class="nav-link co btn-purple" id="lost-tab" data-bs-toggle="tab" data-bs-target="#lost" type="button" role="tab" aria-controls="contact" aria-selected="false">
-                                    <i><img src="images/activity/calls.svg" alt="image"></i>
-                                    Calls
-                                  </button>
-                                </li>
+                                
                                 <li class="nav-item text-center dropdown txt_d_blue" role="presentation">
 
                                   <button class="nav-link co btn-d-blue" id="sms-tab" data-bs-toggle="tab" data-bs-target="#sms" type="button" role="tab" aria-controls="contact" aria-selected="false">
@@ -294,13 +288,7 @@
                                     Whatsapp
                                   </button>
                                 </li>
-                                <li class="nav-item text-center dropdown txt_yellow" role="presentation">
-
-                                  <button class="nav-link co btn-d-yellow" id="lost-tab" data-bs-toggle="tab" data-bs-target="#lost" type="button" role="tab" aria-controls="contact" aria-selected="false">
-                                    <i><img src="images/activity/event.svg" alt="image"></i>
-                                    Event
-                                  </button>
-                                </li>
+                                
                               </ul>
                             </div>
                           </div>
@@ -426,7 +414,7 @@
 
                                       <div class="cmt-input">
                                         <label for="text">Leave Comment</label>
-                                        <input height="100" type="text" placeholder="Type you comment here">
+                                        <input height="100" type="text" placeholder="Type your comment here">
                                       </div>
                                     </div>
                                     <div class="d-flex text-right vendors">
@@ -448,7 +436,7 @@
                                         19th Nov, 2022
                                       </div>
                                       <div class="fo-bo-wrap">
-                                        <h6 style="margin-bottom: 0;">Smple history record</h6>
+                                        <h6 style="margin-bottom: 0;">Sample history record</h6>
                                       </div>
                                     </div>
 
@@ -460,7 +448,7 @@
                                   <div class="row">
                                     <div class="col-sm-12">
                                       <div class="home-tab">
-                                        <div class="d-flex align-items-center justify-content-between border-bottom">
+                                        <!-- <div class="d-flex align-items-center justify-content-between border-bottom">
                                           <div>
                                             <h4>Quotes</h4>
                                           </div>
@@ -480,7 +468,7 @@
 
                                           </div>
 
-                                        </div>
+                                        </div> -->
                                         <div class="tab-content tab-content-basic">
                                           <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview">
 
@@ -493,16 +481,14 @@
                                                         <div class="row g-3 align-items-center quotes-top">
                                                           <div class="col-auto">
                                                             <label for="inputPassword6" class="col-form-label">Select Customer</label>
-                                                          </div>
-                                                          <div class="col-auto">
                                                             <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                                                           </div>
+                                                        
                                                           <div class="col-auto">
                                                             <label for="inputPassword6" class="col-form-label">Contact Number</label>
-                                                          </div>
-                                                          <div class="col-auto">
                                                             <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                                                           </div>
+                                                          
                                                           <div class="col-auto">
                                                             <button type="button" class="btn btn-danger btn-icon-text" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                               <i class="ti-alert btn-icon-prepend"></i>
@@ -644,7 +630,7 @@
                                     </div>
 
                                     <div class="table_wrapper">
-                                      <div class="table_header">
+                                      <!-- <div class="table_header">
                                         <h4 class="card-title">Create Order</h4>
                                         <div class="cv-right">
                                           <div class="fo-search">
@@ -663,7 +649,7 @@
                                         </div>
 
 
-                                      </div>
+                                      </div> -->
                                       <div class="col-lg-12 grid-margin stretch-card">
 
                                         <div class="card card-rounded ">
@@ -673,18 +659,14 @@
                                               <div class="row g-3 align-items-center">
                                                 <div class="col-auto">
                                                   <label for="inputPassword6" class="col-form-label">Select Customer</label>
-                                                </div>
-                                                <div class="col-auto">
                                                   <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                                                 </div>
+                                                
                                                 <div class="col-auto">
                                                   <label for="inputPassword6" class="col-form-label">Contact Number</label>
-                                                </div>
-                                                <div class="col-auto">
                                                   <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                                                 </div>
-
-
+                                                
                                               </div>
                                               <div class="mini-buttons">
                                                 <div class="btn-group" role="group" aria-label="Basic example">
@@ -867,13 +849,7 @@
                                   <div class="row">
                                     <div class="col-sm-12">
                                       <div class="home-tab">
-                                        <div class="d-flex align-items-center justify-content-between border-bottom">
-                                          <div>
-                                            <h4>Sales Invoice</h4>
-                                          </div>
-                                         
-
-                                        </div>
+                                        
                                         <div class="tab-content tab-content-basic">
                                           <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview">
 
@@ -882,19 +858,21 @@
                                                 <div class="row flex-grow">
                                                   <div class="col-12 col-lg-4 col-lg-12 grid-margin stretch-card">
                                                     <div class="card card-rounded">
-                                                      <div class="card-body">
+                                                      <div class="card-body no-padd">
                                                         <div class="row g-3 align-items-center quotes-top">
                                                           <div class="col-auto">
                                                             <label for="inputPassword6" class="col-form-label">Select Customer</label>
+                                                            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                                                           </div>
                                                           <div class="col-auto">
-                                                            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                                                            
                                                           </div>
                                                           <div class="col-auto">
                                                             <label for="inputPassword6" class="col-form-label">Order ID</label>
+                                                            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                                                           </div>
                                                           <div class="col-auto">
-                                                            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                                                            
                                                           </div>
 
 
