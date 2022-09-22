@@ -175,7 +175,7 @@
       </div>
       <!-- partial -->
       <!-- partial:partials/_sidebar.html -->
-      <?php include('common/sidebar.php'); ?>
+      <?php include('common/se-sidebar.php'); ?>
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">

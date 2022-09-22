@@ -328,6 +328,8 @@ i.comn {
     width: 40px;
     height: 40px;
     margin-right: 10px;
+    text-align: center;
+    line-height: 20px;
 }
 /* i.comn {
     width: 100%;
@@ -516,7 +518,9 @@ ul.custom li{
 .mtop-5{
     margin-top:5px;
 }
-
+.mright-10{
+    margin-right:10px;
+}
 .wrapper-nav {
     position:relative;
     margin:0 auto;
@@ -544,7 +548,10 @@ ul.custom li{
 .sales_db .nav-item .nav-link{
     padding: 12px 5px!important;
 }
-
+.btn-hold img {
+    width:26%;
+    margin-left: 10px;;
+}
 
 
 @media (max-width: 991px){

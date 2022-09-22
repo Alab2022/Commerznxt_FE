@@ -367,42 +367,7 @@
                           <img src="images/activity/eye.svg" alt="image"  class="icon-eye">
                           </td>
                         </tr>
-                        <tr>
-                          <td>
-                          COMNXT-Q-05
-                          </td>
-                          <td>
-                          7000
-                          </td>
-                          <td>
-                          01.09.2022
-                          </td>
-                          <td>
-                          <label class="badge badge-danger">Open</label>
-                          </td>
-                          
-                          <td>
-                          <img src="images/activity/eye.svg" alt="image"  class="icon-eye">
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                          COMNXT-Q-06
-                          </td>
-                          <td>
-                          3200
-                          </td>
-                          <td>
-                          01.09.2022
-                          </td>
-                          <td>
-                          <label class="badge badge-warning">Revise</label>
-                          </td>
-                          
-                          <td>
-                          <img src="images/activity/eye.svg" alt="image"  class="icon-eye">
-                          </td>
-                        </tr>
+                       
                         
                       </tbody>
                     </table>
@@ -422,19 +387,138 @@
                                   <div class="col-lg-12"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
 <ul class="nav nav-tabs sales_db" id="myTab" role="tablist">
   <li class="nav-item txt_orange" role="presentation">
-    <button class="nav-link active" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="home" aria-selected="true">
+    <button class="nav-link active" id="today-task" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="home" aria-selected="true">
     <icon class="mdi mdi-star-outline"></icon>  
     Today's Task
     </button>
   </li>
   <li class="nav-item txt_blue" role="presentation">
-    <button class="nav-link" id="inp-tab" data-bs-toggle="tab" data-bs-target="#inp" type="button" role="tab" aria-controls="profile" aria-selected="false">
+    <button class="nav-link" id="email-received" data-bs-toggle="tab" data-bs-target="#inp" type="button" role="tab" aria-controls="profile" aria-selected="false">
     <icon class="mdi mdi-av-timer"></icon>
     Email Received
     </button>
   </li>
 
 </ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="new" role="tabpanel" aria-labelledby="today-task">
+  <div class="mt-3">
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                        <i class="comn btn-purple">B</i>
+                                          <div class="wrapper">
+                                            <p class="ms-1 mb-1 fw-bold">Brandon Washington</p>
+                                            <small class="text-muted mb-0">10AM | Location</small>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                        <i class="comn btn-orange">W</i>
+                                          <div class="wrapper">
+                                            <p class="ms-1 mb-1 fw-bold">Wayne Murphy</p>
+                                            <small class="text-muted mb-0">10AM | Location</small>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                        <i class="comn btn-purple">K</i>
+                                          <div class="wrapper">
+                                            <p class="ms-1 mb-1 fw-bold">Katherine Butler</p>
+                                            <small class="text-muted mb-0">10AM | Location</small>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                        <i class="comn btn-purple">M</i>
+                                          <div class="wrapper">
+                                            <p class="ms-1 mb-1 fw-bold">Matthew Bailey</p>
+                                            <small class="text-muted mb-0">10AM | Location</small>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                        <i class="comn btn-purple">K</i>
+                                          <div class="wrapper">
+                                            <p class="ms-1 mb-1 fw-bold">Katherine Butler</p>
+                                            <small class="text-muted mb-0">10AM | Location</small>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                      
+                                    </div>
+
+  </div>
+  <div class="tab-pane fade" id="inp" role="tabpanel" aria-labelledby="email-received">
+  
+  <div class="mt-3">
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                        <i class="comn btn-purple">B</i>
+                                          <div class="wrapper">
+                                            <p class="ms-1 mb-1 fw-bold">Brandon Washington</p>
+                                            <small class="text-muted mb-0">10AM | Location</small>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                        <i class="comn btn-orange">W</i>
+                                          <div class="wrapper">
+                                            <p class="ms-1 mb-1 fw-bold">Wayne Murphy</p>
+                                            <small class="text-muted mb-0">10AM | Location</small>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                        <i class="comn btn-purple">K</i>
+                                          <div class="wrapper">
+                                            <p class="ms-1 mb-1 fw-bold">Katherine Butler</p>
+                                            <small class="text-muted mb-0">10AM | Location</small>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                        <i class="comn btn-purple">M</i>
+                                          <div class="wrapper">
+                                            <p class="ms-1 mb-1 fw-bold">Matthew Bailey</p>
+                                            <small class="text-muted mb-0">10AM | Location</small>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                        <i class="comn btn-purple">K</i>
+                                          <div class="wrapper">
+                                            <p class="ms-1 mb-1 fw-bold">Katherine Butler</p>
+                                            <small class="text-muted mb-0">10AM | Location</small>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                      
+                                    </div>
+
+  </div>
+
+</div>
+
+
+
                                   </div>
                                 </div>
                               </div>

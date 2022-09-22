@@ -1,6 +1,6 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="se-dashboard.php">
               <i class="mdi mdi-view-dashboard menu-icon"></i>
               <span class="menu-title">Dashboard</span>
@@ -14,10 +14,10 @@
             </a>
             <div class="collapse" id="ui-CRM">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="#">Customer</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Company</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Quotes</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">Invoice</a></li>
+                <li class="nav-item"> <a class="nav-link" href="se-crm-customer.php">Customer</a></li>
+                <li class="nav-item"> <a class="nav-link" href="se-crm-company.php">Company</a></li>
+                <li class="nav-item"> <a class="nav-link" href="se-crm-quotes-list.php">Quotes</a></li>
+                <li class="nav-item"> <a class="nav-link" href="se-crm-invoice.php">Invoice</a></li>
               </ul>
             </div>
           </li>
@@ -35,7 +35,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="se-task-list.php">
               <i class="mdi mdi-account-circle-outline menu-icon"></i>
               <span class="menu-title">Task</span>
             </a>
