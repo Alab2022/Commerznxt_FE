@@ -31478,7 +31478,7 @@ td.table-wrap {
   display: flex;
 }
 button.btn.btn-primary.btn-icon-text {
-  /* height: 40px; */
+  height: 40px;
     display: flex;
     color: #fff;
     border-radius: 10px;
@@ -31766,9 +31766,8 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
   margin-right: 0;
 }
 .cmt-input {
-    display: flex;
-    flex-direction: column;
-    margin-left: 15px;
+
+    
     width: 100%;
 }
 .cmt-input input {
@@ -31838,4 +31837,10 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
 }
 .fo-profile {
   position: relative;
+}
+.card-body.no-padd {
+  padding: 0;
+}
+.card-body.no-padd .col-auto.d-flex.justify-content-end{
+  margin-left: auto;
 }
