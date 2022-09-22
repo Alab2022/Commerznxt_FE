@@ -175,14 +175,14 @@
       </div>
       <!-- partial -->
       <!-- partial:partials/_sidebar.html -->
-      <?php include('common/se-sidebar.php'); ?>
+      <?php include('common/sidebar.php'); ?>
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
             <div class="col-sm-12">
               <div class="home-tab">
-                <div class="d-flex align-items-center justify-content-between border-bottom">
+                <div class="d-flex align-items-center justify-content-between mb-2">
                     <div>
                         <h4>Sales Invoice</h4>
                     </div>
@@ -339,7 +339,7 @@
                             </div>
                             
                           </div>
-                          <div class="d-flex align-items-center justify-content-between border-bottom">
+                          <div class="d-flex align-items-center justify-content-between">
                     <div>
                         
                     </div>
