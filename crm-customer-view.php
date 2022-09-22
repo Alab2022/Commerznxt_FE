@@ -231,6 +231,7 @@
                           <div class="card card-rounded overviewtop">
                             <div class="card-body overview">
                               <ul class="nav nav-tabs nav-activity" id="myTab" role="tablist">
+<<<<<<< HEAD
                                 <li class="nav-item text-center txt_purple" role="presentation">
 
                                   <button class="nav-link co active btn-purple" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="home" aria-selected="true">
@@ -522,6 +523,81 @@
 
 
 
+=======
+  <li class="nav-item text-center txt_purple" role="presentation">
+  
+    <button class="nav-link co active btn-purple" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="home" aria-selected="true">
+    <i><img src="images/activity/activity.svg" alt="image"></i>
+    Activity
+    </button>
+  </li>
+  <li class="nav-item text-center txt_blue" role="presentation">
+  
+    <button class="nav-link co btn-blue" id="inp-tab" data-bs-toggle="tab" data-bs-target="#inp" type="button" role="tab" aria-controls="profile" aria-selected="false">
+    <i><img src="images/activity/comments.svg" alt="image"></i>
+    Comments
+    </button>
+  </li>
+  <li class="nav-item text-center txt_red" role="presentation">
+  
+    <button class="nav-link co btn-red" id="quotes-tab" data-bs-toggle="tab" data-bs-target="#quotes" type="button" role="tab" aria-controls="contact" aria-selected="false">
+    <i><img src="images/activity/email.svg" alt="image"></i>
+    Email
+    </button>
+  </li>
+  <li class="nav-item text-center txt_green" role="presentation">
+  
+    <button class="nav-link co btn-green" id="won-tab" data-bs-toggle="tab" data-bs-target="#won" type="button" role="tab" aria-controls="contact" aria-selected="false">
+    <i><img src="images/activity/quote.svg" alt="image"></i>
+    Quotes
+    </button>
+  </li>
+  <li class="nav-item  text-center txt_orange" role="presentation">
+  
+    <button class="nav-link co btn-orange" id="lost-tab" data-bs-toggle="tab" data-bs-target="#lost" type="button" role="tab" aria-controls="contact" aria-selected="false">
+    <i><img src="images/activity/orders.svg" alt="image"></i>
+    Orders
+    </button>
+  </li>
+  <li class="nav-item  text-center txt_blue" role="presentation">
+  
+    <button class="nav-link co btn-blue" id="lost-tab" data-bs-toggle="tab" data-bs-target="#lost" type="button" role="tab" aria-controls="contact" aria-selected="false">
+    <i><img src="images/activity/invoice.svg" alt="image"></i>
+    Invoice
+    </button>
+  </li>
+  <li class="nav-item text-center dropdown txt_d_blue" role="presentation">
+  
+    <button class="nav-link co btn-d-blue" id="lost-tab" data-bs-toggle="tab" data-bs-target="#lost" type="button" role="tab" aria-controls="contact" aria-selected="false">
+    <i><img src="images/activity/sms.svg" alt="image"></i>
+    SMS
+    </button>
+  </li>
+  <li class="nav-item text-center dropdown txt_d_green" role="presentation">
+  
+    <button class="nav-link co btn-d-green" id="lost-tab" data-bs-toggle="tab" data-bs-target="#lost" type="button" role="tab" aria-controls="contact" aria-selected="false">
+    <i><img src="images/activity/whatsapp.svg" alt="image"></i>
+    Whatsapp
+    </button>
+  </li>
+</ul></div></div>
+<div class="card card-rounded">
+                              <div class="card-body">
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="new" role="tabpanel" aria-labelledby="new-tab">
+  
+  <!-- Timeline Starts -->
+  <div class="vertical-timeline vertical-timeline--animate vertical-timeline--one-column">
+                                                <div class="vertical-timeline-item vertical-timeline-element">
+                                                    <div>
+                                                        <span class="vertical-timeline-element-icon bounce-in">
+                                                        <i class="icon_timeline btn-d-yellow"><img src="images/activity/email.svg" alt="image"></i>
+                                                        </span>
+                                                        <div class="vertical-timeline-element-content bounce-in">
+                                                            <h4 class="timeline-title">Meeting with client</h4>
+                                                            <p>Meeting with USA Client, today at <a href="javascript:void(0);" data-abc="true">12:00 PM</a></p>
+                                                            <span class="vertical-timeline-element-date">9:30 AM</span>
+>>>>>>> a424c6bbe0a7de4a3da04b5d32bb553d69ff206f
                                                         </div>
                                                         <div class="table-responsive">
                                                           <table class="table table-striped">

@@ -204,23 +204,21 @@
                             <div class="card card-rounded">
                               <div class="card-body">
                               <div class="row g-3 align-items-center quotes-top">
+                                <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
   <div class="col-auto">
-    <label for="inputPassword6" class="col-form-label">Customer Name</label>
+    <label for="inputPassword6" class="col-form-label mright-10">Customer Name</label>
+  </div>
+  <div class="col-auto  mright-10">
+    <input type="password" id="inputPassword6" class="form-control  mright-10" aria-describedby="passwordHelpInline">
+  </div>
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label mright-10">Invoice Date</label>
   </div>
   <div class="col-auto">
     <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-  </div>
-  <div class="col-auto">
-    <label for="inputPassword6" class="col-form-label">Invoice Date</label>
-  </div>
-  <div class="col-auto">
-    <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-  </div>
-  <div class="col-auto">
-  <button type="button" class="btn btn-danger btn-icon-text" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                          <i class="ti-alert btn-icon-prepend"></i>                                                    
-                          1 Pending Action
-                        </button></div>
+  </div></div>
+  <div>
                         <div class="col-auto d-flex justify-content-end btn-space">
                         <button type="button" class="btn btn-primary">
                           <i class="mdi mdi-plus"></i>                                                    
@@ -230,6 +228,8 @@
                           <i class="mdi mdi-minus"></i>                                                    
                           
                         </button>
+                        </div>
+                        </div>
                         </div>
                        
   
@@ -346,7 +346,7 @@
                     <div  class="d-flex">
                     <div class="btn-wrapper me-10">
                     <a href="#" class="btn btn-primary btn-lg btn-white btn-pad"  data-bs-toggle="modal" data-bs-target="#paymentplan">View Payment Plan</a>
-                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad"  data-bs-toggle="modal" data-bs-target="#paymentplan">Create Payment Plan</a>
+                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad" >Send for Approval</a>
                     <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save & Send Email</a>
                     <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save</a>
                   </div>
