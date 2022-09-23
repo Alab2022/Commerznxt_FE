@@ -188,7 +188,7 @@
                 
                     <div class="table_wrapper">
                     <div class="table_header">
-                <h4 class="card-title">Products to be re-ordered</h4>
+                <h4 class="card-title">Product to be re-ordered</h4>
                 <div class="cv-right">
                   <div class="fo-search do">
                     <div class="form-group">
@@ -228,10 +228,10 @@
                             Product name
                           </th>
                           <th>
-                            SKU
+                            SKU id
                           </th>
                           <th>
-                            Quantity
+                            Available QTY
                           </th>
                           
                           

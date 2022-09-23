@@ -140,7 +140,7 @@
 									<div class="home-tab">
 										<div class="d-sm-flex align-items-center justify-content-space-between mb-2">
 											<div>
-												<h4>Out Of Stock</h4> </div>
+												<h4>Product On Deals</h4> </div>
 											<div> </div>
 										</div>
 										<div class="row mb-3">
@@ -199,7 +199,7 @@
 										</div>
 										<div class="table_wrapper">
 											<div class="table_header">
-												<h4 class="card-title">Product On Deals</h4>
+												<h4 class="card-title">Product List</h4>
 												<div class="cv-right">
 													<div class="fo-search">
 														<div class="form-group">

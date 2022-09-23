@@ -31381,7 +31381,7 @@ h3.fw-bold-cz {
   text-decoration: none;
 }
 .form-group input {
-  border-radius: 10px !important;
+  border-radius: 5px !important;
 }
 h6.fw-light {
   line-height: 20px;
@@ -31694,10 +31694,14 @@ span.count_indicator {
   height: 40px;
   font-size: 12px;
 }
+.form-group select.js-example-basic-single.w-100
+{
+  padding: 0 17px;
+  border-radius: 5px;
+}
 .form_wrapper.vendors .form-group select.js-example-basic-single.w-100 {
   height: 40px;
   border: 1px solid #dee2e6;
-  border-radius: 10px;
   padding: 0 17px;
   font-size: 12px;
   color: #6D6D6D;
@@ -31776,6 +31780,15 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
 }
 .cmt-input {    
     width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cmt-input textarea {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  max-height: 100px;
+  padding: 15px;
 }
 .cmt-input input {
   margin-top: 10px;
@@ -31790,7 +31803,7 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
   align-items: flex-start;
 }
 .cmt-input label{
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
 }
 .comments_wrapper button.btn.btn-secondary.bl1 {
@@ -31815,7 +31828,7 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
 }
 .comments_history label {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 15px;
 }
 .comments_history .fo-bo-wrap {
@@ -31826,7 +31839,7 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
 }
 .comments_history .success-float {
   background-color: #60D3B2;
-    border-radius: 5px;
+    border-radius: 25px;
     position: absolute;
     font-size: 12px;
     color: #fff;
@@ -31892,4 +31905,21 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
   padding: 5px;
   border-radius: 5px;
   border: 1px solid #ddd;
+}
+a.btn.btn-primary.btn-icon-text {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+input#birthday {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.comments_wrapper a.btn.btn-primary.btn-lg.btn-white.btn-pad {
+  margin-right: 9px;
 }

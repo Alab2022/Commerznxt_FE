@@ -152,7 +152,9 @@
 																<div class="card-body">
 																	<div class="d-flex align-items-center mb-2 mb-sm-0">
 																		<div class="icon_home_sml">
+																		<a href="IA_createorder.php">
 																			<button class="add btn btn-icons btn-rounded btn-primary todo-list-add-btn text-white me-0 pl-12p"><i class="mdi mdi-plus"></i></button>
+																		</a>	
 																		</div>
 																		<div class="icon_home one">
 																			<icon class="mdi mdi-cart"></icon>

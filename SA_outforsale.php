@@ -199,7 +199,7 @@
 										</div>
 										<div class="table_wrapper">
 											<div class="table_header">
-												<h4 class="card-title">Product On Deals</h4>
+												<h4 class="card-title">Product List</h4>
 												<div class="cv-right">
 													<div class="fo-search">
 														<div class="form-group">
@@ -222,9 +222,9 @@
 															<table class="table table-striped">
 																<thead>
 																	<tr>
-																		<th> Product name </th>
-																		<th> Category </th>
-																		<th> Status </th>
+																		<th> Product  </th>
+																		<th> SKU </th>
+																		<th> Sale start date </th>
 																		<th> Sale end date </th>
 																	</tr>
 																</thead>
@@ -232,25 +232,25 @@
 																	<tr>
 																		<td class="table-wrap"> boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple Sports Modes Smartwatch (Black Strap, Free Size) </td>
 																		<td> WSDAFT01 </td>
-																		<td> <span class="st_danger">Disable</span> </td>
+																		<td> 12th October, 2020 | 11:35 PM </td>
 																		<td> 12th October, 2020 | 11:35 PM </td>
 																	</tr>
 																	<tr>
 																		<td class="table-wrap"> boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple Sports Modes Smartwatch (Black Strap, Free Size) </td>
 																		<td> WSDAFT01 </td>
-																		<td> <span class="st_green">Enable</span> </td>
+																		<td> 12th October, 2020 | 11:35 PM </td>
 																		<td> 12th October, 2020 | 11:35 PM </td>
 																	</tr>
 																	<tr>
 																		<td class="table-wrap"> boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple Sports Modes Smartwatch (Black Strap, Free Size) </td>
 																		<td> WSDAFT01 </td>
-																		<td> <span class="st_danger">Disable</span> </td>
+																		<td> 12th October, 2020 | 11:35 PM </td>
 																		<td> 12th October, 2020 | 11:35 PM </td>
 																	</tr>
 																	<tr>
 																		<td class="table-wrap"> boAt Wave Neo with 1.69 inch , 2.5D Curved Display & Multiple Sports Modes Smartwatch (Black Strap, Free Size) </td>
 																		<td> WSDAFT01 </td>
-																		<td> <span class="st_green">Enable</span> </td>
+																		<td> 12th October, 2020 | 11:35 PM </td>
 																		<td> 12th October, 2020 | 11:35 PM </td>
 																	</tr>
 																</tbody>

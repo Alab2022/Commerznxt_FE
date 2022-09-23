@@ -232,19 +232,19 @@
 																	<tr>
 																		<td> Category 1 </td>
 																		<td> boAt Wave Neo with 1.69 inch , 2.5D Curved Display (Black Strap, Free Size) </td>
-																		<td> <span class="st_green">Enable</span> </td>
+																		<td> <label class="badge badge-success">Enable</label>  </td>
 																		<td> 12th October, 2020 | 11:35 PM </td>
 																	</tr>
 																	<tr>
 																		<td> Category 1 </td>
 																		<td> boAt Wave Neo with 1.69 inch , 2.5D Curved Display (Black Strap, Free Size) </td>
-																		<td> <span class="st_danger">Disable</span> </td>
+																		<td> <label class="badge badge-danger">Disable</label> </td>
 																		<td> 12th October, 2020 | 11:35 PM </td>
 																	</tr>
 																	<tr>
 																		<td> Category 1 </td>
 																		<td> boAt Wave Neo with 1.69 inch , 2.5D Curved Display (Black Strap, Free Size) </td>
-																		<td> <span class="st_danger">Disable</span> </td>
+																		<td> <label class="badge badge-danger">Disable</label> </td>
 																		<td> 12th October, 2020 | 11:35 PM </td>
 																	</tr>
 																</tbody>

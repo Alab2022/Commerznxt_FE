@@ -204,12 +204,12 @@
                               <a class="dropdown-item">Swap</a>
                             </div>                          
                           </div> -->
-<a href="IA_createorder.php">
-                          <button type="button" class="btn btn-primary btn-icon-text">
+<a class="btn btn-primary btn-icon-text" href="IA_createorder.php">
+                          
                           
                           Create Order
                           <span><img class="icon-size" src="images/add.svg"></span>
-                        </button>
+                        
                         </a>
                 </div>
 
