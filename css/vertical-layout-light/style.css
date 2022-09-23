@@ -31574,9 +31574,23 @@ button.btn.btn-orange.btn-rounded.btn-icon {
 }
 .mini-buttons button.btn.btn-secondary.gr2{
   background-color: #30E8AC;
+  border: none;
 }
 .mini-buttons button.btn.btn-secondary.bl1{
   background-color: #2BB9E8;
+  border: none;
+}
+.mini-buttons button .mdi {
+  margin-right: 0;
+}
+button.btn.btn-secondary.bl1 i.mdi {
+  margin-right: 0;
+}
+button.btn.btn-primary i.mdi {
+  margin-right: 0;
+}
+.col-auto.d-flex.justify-content-end button.btn.btn-primary {
+  margin-left: 10px;
 }
 tr.bg-none {
   background: none !IMPORTANT;
@@ -31879,6 +31893,7 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
 }
 .card-body.no-padd .table-inner-header.d-flex {
   align-items: flex-end;
+  margin-bottom: 20px;
 }
 .card-body.no-padd .row.g-3.align-items-center.quotes-top{
   align-items: flex-end !important;

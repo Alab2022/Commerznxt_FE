@@ -187,7 +187,7 @@
                 </div>
                 
                     <div class="table_wrapper">
-                    <div class="table_header">
+                    <div class="table_header mb-4">
                 <h4 class="card-title">All Vendors <span class="count_indicator">02</span></h4>
                 
 
@@ -210,35 +210,35 @@
                   </div>
                   <div class="form-group">
                       <label for="exampleInputUsername1">First name</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="First name">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputUsername1">Last name</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Last name">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputUsername1">Company name</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Company name">
                     </div>
                     <div class="form-group">
-                      <label for="exampleInputUsername1">Branch name / ID</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <label for="exampleInputUsername1">Branch name/iD</label>
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Branch name/id">
                     </div>
                     <div class="form-group">
-                      <label for="exampleInputUsername1">email</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <label for="exampleInputUsername1">Email</label>
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Email">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputUsername1">Phone</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Phone">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputUsername1">Mobile</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Mobile">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputUsername1">Website</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Website">
                     </div>
                     
                   </div>
@@ -289,20 +289,20 @@
   <div class="form_wrapper vendors">
                   
                   <div class="form-group">
-                      <label for="exampleInputUsername1">Company name</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <label for="exampleInputUsername1">Pan</label>
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Pan">
                     </div>
                     <div class="form-group">
-                      <label for="exampleInputUsername1">Branch name / Id</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <label for="exampleInputUsername1">Opening balance</label>
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Opening balance">
                     </div>
                     <div class="form-group">
-                      <label for="exampleInputUsername1">email</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <label for="exampleInputUsername1">Payment terms</label>
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Payment terms">
                     </div>
                     <div class="form-group">
-                      <label for="exampleInputUsername1">Phone</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <label for="exampleInputUsername1">Tax %</label>
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Tax %">
                     </div>
                     
                     
@@ -449,7 +449,7 @@
 
 
 
-<div class="table-inner-header d-flex">
+<div class="table-inner-header d-flex mb-3">
                 <div class="row g-3 align-items-center">
                 <h4 class="card-title">Contact person</h4>
   
