@@ -159,7 +159,7 @@
 															<div class="col-12 col-lg-4 col-lg-12 grid-margin stretch-card">
 																<div class="card card-rounded">
 																	<div class="card-body">
-																		<ul class="nav nav-tabs" id="myTab" role="tablist">
+																		<ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
 																			<li class="nav-item txt_orange" role="presentation">
 																				<button class="nav-link active" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="home" aria-selected="true">
 																					<icon class="mdi mdi-star-outline"></icon> New </button>

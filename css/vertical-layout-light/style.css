@@ -24785,7 +24785,7 @@ dl li {
 }
 
 .modal .modal-dialog .modal-content .modal-header {
-  padding: 25px 26px;
+  padding: 15px 26px;
 }
 
 .modal .modal-dialog .modal-content .modal-header .close {
@@ -25869,6 +25869,7 @@ dl li {
 .home-tab .nav-tabs {
   font-family: "Manrope", sans-serif;
   border-bottom: none;
+  margin-bottom: 20px;
 }
 
 .home-tab .nav-tabs .nav-item {
@@ -31382,7 +31383,7 @@ h3.fw-bold-cz {
   text-decoration: none;
 }
 .form-group input {
-  border-radius: 10px !important;
+  border-radius: 5px !important;
 }
 h6.fw-light {
   line-height: 20px;

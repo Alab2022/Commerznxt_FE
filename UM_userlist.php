@@ -293,22 +293,16 @@
 <!-- modal -->
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">User Management</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <div class="fo-profile">
-<img src="images/profileimg.png" alt="">
-<button type="button" class="btn btn-skyblu btn-rounded btn-icon">
-                        <i class="mdi mdi-upload"></i>
-                      </button>
-
-                      
-        </div>
-        <div class="profile-form" style="margin-top:0;">
+        <div class="row">
+        
+        <div class="profile-form  col-lg-8" style="margin-top:0;">
                       <div class="form-group">
                       <label for="exampleInputUsername1">Name</label>
                       <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
@@ -339,6 +333,15 @@
                       <label for="exampleInputUsername1">Password</label>
                       <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
                     </div>
+                      </div>
+                      <div class="fo-profile col-lg-4">
+<img src="images/profileimg.png" alt="">
+<button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-upload"></i>
+                      </button>
+
+                      
+        </div>
                       </div>
       </div>
       <div class="modal-footer">

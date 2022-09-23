@@ -223,7 +223,7 @@
               <div class="card card-rounded">
 
                 <div class="card-body">
-                  <div class="table-inner-header d-flex">
+                  <div class="table-inner-header d-flex mb-3">
                     <div class="row g-3 align-items-center">
                       <div class="col-auto">
                         <label for="inputPassword6" class="col-form-label">Select Customer</label>
