@@ -239,9 +239,7 @@
                       <option value="audi">Audi</option>
                     </select>
                     <form action="/action_page.php">
-
-                      <input type="date" id="birthday" name="birthday">
-                      
+                      <input type="date" id="birthday" name="birthday">                      
                     </form>
 
                     <div class="d-flex">

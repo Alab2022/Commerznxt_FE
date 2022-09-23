@@ -187,7 +187,7 @@
                 </div>
                 
                     <div class="table_wrapper">
-                    <div class="table_header">
+                    <div class="table_header mb-3">
                 <h4 class="card-title">All Vendors <span class="count_indicator">02</span></h4>
                 <div class="cv-right">
                   <div class="fo-search">
@@ -196,11 +196,11 @@
                       <span><img class="icon-font" src="images/search.svg"></span>
                     </div>
                   </div>
-                  <a href="p_addvendor.php">
-                  <button type="button" class="btn btn-primary btn-icon-text">
+                  <a href="p_addvendor.php" class="btn btn-primary btn-icon-text">
+                  
                           Add vendors
                           <span><img class="icon-size" src="images/add.svg"></span>
-                        </button></a>
+                        </a>
 
                           
                 </div>
@@ -222,16 +222,20 @@
                       <thead>
                         <tr>
                           <th>
-                            Vendor Id
+                            Vendor id
                           </th>
                           <th>
                             Vendor name
                           </th>
                           <th>
-                            email
+                            Email
                           </th>
-                          <th>Opening balance</th>
-                          
+                          <th>
+                            Opening balance
+                          </th>
+                          <th>
+                            Action
+                          </th>
                         </tr>
                         
                       </thead>
@@ -241,6 +245,7 @@
                           <td>Aradhana pvt ltd</td>
                           <td><a href="#">test@gmail.com</a></td>
                           <td>23,897</td>
+                          <td><a href="">Edit / Delete</a></td>
                         </tr>
                         
                       </tbody>

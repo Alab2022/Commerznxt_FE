@@ -156,9 +156,9 @@
 																			<button class="add btn btn-icons btn-rounded btn-primary todo-list-add-btn text-white me-0 pl-12p"><i class="mdi mdi-plus"></i></button>
 																		</a>	
 																		</div>
-																		<div class="icon_home one">
+																		<a href="IA_totalnooforders.php" class="icon_home one">
 																			<icon class="mdi mdi-cart"></icon>
-																		</div>
+																		</a>
 																		<div>
 																			<h3 class="rate-percentage">386</h3>
 																			<p class="text-small mb-2"> <a href="IA_totalnooforders.php">Total Orders</a> </p>
