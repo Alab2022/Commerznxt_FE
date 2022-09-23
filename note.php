@@ -188,7 +188,7 @@
                 
                     <div class="table_wrapper">
                     <div class="table_header">
-                <h4 class="card-title">Roles & Permissions</h4>
+                <h4 class="card-title">Notes</h4>
                 <div class="cv-right">
                   <div class="fo-search">
                     <div class="form-group">
@@ -204,13 +204,13 @@
                               <a class="dropdown-item">Swap</a>
                             </div>                          
                           </div> -->
-
-                          <button type="button" class="btn btn-primary btn-icon-text" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<a href="">
+                          <button type="button" class="btn btn-primary btn-icon-text">
                           
-                          Add role
+                          Create Notes
                           <span><img class="icon-size" src="images/add.svg"></span>
-                          </button>
-                                              
+                        </button>
+                        </a>
                 </div>
 
                 
@@ -230,53 +230,43 @@
                       <thead>
                         <tr>
                         <th>
-                            User image
+                            Notes
                           </th>
                           <th>
-                            Role code
+                            Status
                           </th>
                           <th>
-                            Role name
+                            Action
                           </th>
-                          <th>
-                            Created on
-                          </th>
-                          <th>
-                            Role description
-                          </th>
-                          <th>
-                            Actions
-                          </th>
-                          
+                                                   
                           
                         </tr>
                         
                       </thead>
                       <tbody>
                         <tr>
-                       
-                          <td class="py-1">
-                            <img src="images/faces/face2.jpg" alt="image"/>
-                          </td>
-                       
                         <td>
-                          M$5246
+                          Sample note is displayed here
                         </td>
                         <td>
-                          Sales
+                          <a href="">edit</a>
                         </td>
                         <td>
-                        12th Oct, 2020  |  11:35 PM
+                        <div class="form-group">
+                    
+                    <select class="js-example-basic-single w-100">
+                      <option value="AL">Select status</option>
+                      <option value="WY">Wyoming</option>
+                      <option value="AM">America</option>
+                      <option value="CA">Canada</option>
+                      <option value="RU">Russia</option>
+                    </select>
+                  </div>
                         </td>
                         
-                        <td>
-                          Sales manager
-                        </td>
-                        <td>
-                          <a href="">View</a>
-                        </td>
                         </tr>
-
+                        
+                       
                         
                        
                         
@@ -289,55 +279,6 @@
                     </div>
                   </div>
                 </div>
-
-<!-- modal -->
-
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Create Role</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body pt-0">
-       
-        <div class="profile-form" >
-                      <div class="form-group">
-                      <label for="exampleInputUsername1">Role code</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputUsername1">Role name</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputUsername1">Role description</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
-                    <div class="form-group">
-                    <label>Role status</label>
-                    <select class="js-example-basic-single w-100">
-                      <option value="AL">Alabama</option>
-                      <option value="WY">Wyoming</option>
-                      <option value="AM">America</option>
-                      <option value="CA">Canada</option>
-                      <option value="RU">Russia</option>
-                    </select>
-                  </div>
-                  
-                      </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
               </div>
             </div>
           </div>
