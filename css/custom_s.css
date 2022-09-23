@@ -86,7 +86,7 @@
     background: #FEB456;
 }
 .dashbrd .card .card-body {
-    padding: .8rem 1rem;
+    padding: .6rem .8rem;
 }
 .navbar-toggler {
     background: #ebeced;
@@ -560,7 +560,7 @@ ul.custom li{
    text-align: center;
 }
 .icon_home_sml {
-    bottom: 44px;
+    bottom: 36px;
     right: 0px;
     display: flex;
     align-items: center;

@@ -174,7 +174,7 @@
 																		</div>
 																		<div>
 																			<h3 class="rate-percentage">38K</h3>
-																			<p class="text-small mb-2">Avg. Inventory Size</p>
+																			<p class="text-small mb-2">Prd. to be Re-ordered</p>
 																		</div>
 																	</div>
 																</div>
