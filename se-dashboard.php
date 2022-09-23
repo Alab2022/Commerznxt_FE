@@ -182,7 +182,7 @@
           <div class="row">
             <div class="col-sm-12">
               <div class="home-tab">
-                <div class="d-flex align-items-center justify-content-between border-bottom">
+                <div class="d-flex align-items-center justify-content-between mb-2">
                     <div>
                         <h4>Upcoming Payment Followup</h4>
                     </div>

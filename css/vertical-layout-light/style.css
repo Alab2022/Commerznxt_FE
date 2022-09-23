@@ -12520,6 +12520,7 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
   white-space: nowrap;
   background-color: transparent;
   border: 0;
+  font-size: .85rem;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
@@ -15842,7 +15843,7 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
 }
 
 .border-bottom {
-  border-bottom: 0px solid #dee2e6 !important;
+  border-bottom: 1px solid #dee2e6 !important;
 }
 
 .border-bottom-0 {
@@ -25876,7 +25877,7 @@ dl li {
 .home-tab .nav-tabs .nav-item .nav-link {
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 18px;
   /* color: #212121; */
   padding: 12px 35px;
@@ -25885,6 +25886,10 @@ dl li {
   font-family: "Manrope", sans-serif;
   background: transparent;
   display: flex;
+  width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 991px) {
@@ -29126,6 +29131,7 @@ div.tagsinput span.tag a {
   /* padding: 0.25rem 0 0 3.07rem; */
   background: #fff;
   padding-bottom: 12px;
+  margin-left: 36px;
 }
 
 .sidebar .nav.sub-menu .nav-item {
@@ -31504,7 +31510,7 @@ img.icon-size {
   margin-bottom: 0;
 }
 .table_header{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .card-body h4{
   font-size: 18px;
@@ -31715,6 +31721,9 @@ span.count_indicator {
 }
 .card-body.vendors icon.mdi {
   margin-right: 10px;
+  font-size: 24px;
+  margin-bottom: 0px;
+  line-height: 24px;
 }
 .icon-acc {
   width: 60%;
@@ -31743,7 +31752,7 @@ button.accordion-button {
   width: 66% !important;
 }
 .d-flex.text-right.vendors {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 .form-group.remark input {
   height: 90px;
@@ -31758,7 +31767,7 @@ button.accordion-button {
 li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA {
   position: absolute;
   right: 24px;
-  top: 37px;
+  top: 20px;
   background: #60C8E3;
   border-radius: 10px;
 }
@@ -31874,5 +31883,13 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
   font-size: 12px;
   height: 33px;
   border-radius: 10px;
+  border: 1px solid #ddd;
+}
+.table-responsive .form-group {
+    margin-bottom: 0;
+}
+.table-responsive .form-group select.js-example-basic-single.w-100 {
+  padding: 5px;
+  border-radius: 5px;
   border: 1px solid #ddd;
 }

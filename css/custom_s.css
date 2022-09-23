@@ -250,9 +250,9 @@
     color: #ffffff;
     /* margin-right: 0; */
 }
-.home-tab .btn {
+/* .home-tab .btn {
     margin-right: 10px;
-}
+} */
 .home-tab .btn-space .btn {
 
     margin-right: 10px;
@@ -301,6 +301,7 @@
 }
 .home-tab .nav-tabs .nav-item {
     background: transparent;
+    flex-grow: 1;
 }
 .home-tab .nav-activity .btn{
     text-align: center;
@@ -360,10 +361,10 @@ ul.custom li{
 }
 .btn-edit{
     position: absolute;
-    right: -20px;
+    right: -8px;
     top: -8px;
-    background: #60C8E3!important;
-    border: 1px solid #60C8E3!important;
+    /* background: #60C8E3!important;
+    border: 1px solid #60C8E3!important; */
 }
 .btn-eye{
     position: absolute;
@@ -493,8 +494,8 @@ ul.custom li{
     margin-top: 30px;
 }
 .quotes-top {
-    border-bottom: 1px solid #e5e5e5;
-    padding-bottom: 12px;
+    /* border-bottom: 1px solid #e5e5e5; */
+    padding-bottom: 22px;
 }
 .quotes-top button{
     margin-bottom: 0px!important;
@@ -551,6 +552,29 @@ ul.custom li{
 .btn-hold img {
     width:26%;
     margin-left: 10px;;
+}
+.icon_home img{
+    width: 83%;
+}
+.icon_home{
+   text-align: center;
+}
+.icon_home_sml {
+    bottom: 44px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-right: 10px;
+    display: flex;
+    position: absolute;
+}
+.icon_home_sml.bg_grape {
+    background: #BC3EA3;
+}
+.table > thead{
+    background: #deeeef;
 }
 
 

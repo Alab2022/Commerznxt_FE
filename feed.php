@@ -38,7 +38,8 @@
             <div class="add-items d-flex px-3 mb-0">
               <form class="form w-100">
                 <div class="form-group d-flex">
-                  <div><a href="crm-customer.php" class="btn btn-primary text-white me-10 d-flex"><i class="mdi mdi-arrow-left"></i> Back</a></div>
+                  <input type="text" class="form-control todo-list-input" placeholder="Add To-do">
+                  <button type="submit" class="add btn btn-primary todo-list-add-btn" id="add-task">Add</button>
                 </div>
               </form>
             </div>
@@ -181,198 +182,49 @@
           <div class="row">
             <div class="col-sm-12">
               <div class="home-tab">
-                <div class="d-flex align-items-center justify-content-between mb-2">
-                    <div>
-                        <h4>Quotes</h4>
-                    </div>
-                    <div  class="d-flex">
-                    <div class="btn-wrapper mright-10">
-                    
-                    <div><a href="crm-quotes.php" class="btn btn-primary text-white me-10 d-flex"><i class="mdi mdi-plus"></i> Add</a></div>
+                
                   </div>
-                    <div class="input-group">
-                <input class="form-control border-end-0 border" type="search" value="search" id="example-search-input">
-                <span class="input-group-append">
-                    <button class="bg-white border-start-0 border-bottom-0 border ms-n5 btn-search" type="button">
-                    <icon class="mdi mdi-magnify"></icon>
-                    </button>
-                </span>
-            </div>
+                </div>
+                
+                    <div class="table_wrapper">
+                    <div class="table_header">
+                <h4 class="card-title">Feeds</h4>
+                
+
+                
+                </div>
+                    <div class="col-lg-12 grid-margin stretch-card">
+              <div class="card card-rounded">
+
+                <div class="card-body">
+
+                <div class="comments_wrapper">
+<div class="top_commment_form d-flex">
+  
+  <div class="cmt-input">
+    
+    <input height="100" type="text" placeholder="Type here">
+  </div>
+</div>
+<div  class="d-flex text-right vendors">
+                    <div class="btn-wrapper me-10">
                     
+                    <a href="#" class="btn btn-outline btn-lg btn-white btn-pad">Cancel</a>
+                    
+                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save</a>
+                   
                   </div>
+
+</div>
+
+
+
+  </div> 
 
                 </div>
-                <div class="tab-content tab-content-basic">
-                  <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview"> 
-                     
-                    <div class="row">
-                      <div class="col-lg-12 d-flex flex-column">
-                        <div class="row flex-grow">
-                          <div class="col-12 col-lg-4 col-lg-12 grid-margin stretch-card">
-                            <div class="card card-rounded">
-                              <div class="card-body">
-                              <div class="table-responsive">
-                    <table class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th>
-                            Quotation Id
-                          </th>
-                          <th>
-                            Customer
-                          </th>
-                          <th>
-                            Quote Value
-                          </th>
-                          <th>
-                            Status
-                          </th>
-                          <th>
-                            Total Products
-                          </th>
-                          <th>
-                            Action
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <a href="crm-quotes.php">COMNXT-Q-01</a>
-                          </td>
-                          <td>
-                          Thomas Douglas
-                          </td>
-                          <td>
-                          20000
-                          </td>
-                          <td>
-                          Waiting for Approval 
-                          </td>
-                          <td>
-                          2
-                          </td>
-                          <td>
-                          <icon class="mdi mdi-eye"></icon>
-                          </td>
-                        </tr>
-                        <tr>
-                          
-                          <td>
-                          COMNXT-Q-02
-                          </td>
-                          <td>
-                          Catherine
-                          </td>
-                          <td>
-                          20000
-                          </td>
-                          <td>
-                          Waiting for Approval
-                          </td>
-                          <td>
-                          2
-                          </td>
-                          <td>
-                          <icon class="mdi mdi-eye"></icon>
-                          </td>
-                        </tr>
-                        <tr>
-                          
-                          <td>
-                          COMNXT-Q-03
-                          </td>
-                          <td>
-                          Daniel Russell
-                          </td>
-                          <td>
-                          20000
-                          </td>
-                          <td>
-                          Waiting for Approval
-                          </td>
-                          <td>
-                          2
-                          </td>
-                          <td>
-                          <icon class="mdi mdi-eye"></icon>
-                          </td>
-                        </tr>
-                        <tr>  
-                          <td>
-                          COMNXT-Q-04
-                          </td>
-                          <td>
-                          James Richardson
-                          </td>
-                          <td>
-                          20000
-                          </td>
-                          <td>
-                          Waiting for Approval
-                          </td>
-                          <td>
-                          2
-                          </td>
-                          <td>
-                          <icon class="mdi mdi-eye"></icon>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                          COMNXT-Q-05
-                          </td>
-                          <td>
-                          Madeline Kennedy
-                          </td>
-                          <td>
-                          20000
-                          </td>
-                          <td>
-                          Waiting for Approval
-                          </td>
-                          <td>
-                          2
-                          </td>
-                          <td>
-                          <icon class="mdi mdi-eye"></icon>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                          COMNXT-Q-06
-                          </td>
-                          <td>
-                          Sarah Graves
-                          </td>
-                          <td>
-                          20000
-                          </td>
-                          <td>
-                          Waiting for Approval
-                          </td>
-                          <td>
-                          2
-                          </td>
-                          <td>
-                          <icon class="mdi mdi-eye"></icon>
-                          </td>
-                        </tr>
-                        
-                      </tbody>
-                    </table>
-                  </div>
-<div class="text-end fw-bold quote_value">Total Quote Value : 10,000</div>
-                              
-                              
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
+              </div>
+            </div>
                     </div>
-                    
                   </div>
                 </div>
               </div>
@@ -401,6 +253,7 @@
   <!-- End plugin js for this page -->
   <!-- inject:js -->
   <script src="js/off-canvas.js"></script>
+  <script src="js/off-canvas.js"></script>
   <script src="js/hoverable-collapse.js"></script>
   <script src="js/template.js"></script>
   <script src="js/settings.js"></script>
@@ -409,6 +262,7 @@
   <!-- Custom js for this page-->
   <script src="js/jquery.cookie.js" type="text/javascript"></script>
   <script src="js/dashboard.js"></script>
+  <script src="js/Chart.roundedBarCharts.js"></script>
   <script src="js/Chart.roundedBarCharts.js"></script>
   <!-- End custom js for this page-->
 </body>

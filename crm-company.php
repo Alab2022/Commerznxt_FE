@@ -182,12 +182,12 @@
           <div class="row">
             <div class="col-sm-12">
               <div class="home-tab">
-                <div class="d-flex align-items-center justify-content-between border-bottom">
+                <div class="d-flex align-items-center justify-content-between mb-2">
                     <div>
                         <h4>Company Status Overview </h4>
                     </div>
                     <div  class="d-flex">
-                    <div class="btn-wrapper me-10">
+                    <div class="btn-wrapper mright-10">
                     
                     <a href="#" class="btn btn-primary text-white me-10 d-flex"><i class="icon-plus"></i> Add</a>
                   </div>
