@@ -299,7 +299,7 @@
         <h5 class="modal-title" id="exampleModalLabel">Create Role</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body pt-0">
        
         <div class="profile-form" >
                       <div class="form-group">

@@ -31870,7 +31870,9 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
   margin-bottom: 5px;
 }
 .profile-form .form-group select {
-  padding: 3px;
+  padding: 3px 20px;
+  font-size: 12px;
+  height: 33px;
   border-radius: 10px;
   border: 1px solid #ddd;
 }
