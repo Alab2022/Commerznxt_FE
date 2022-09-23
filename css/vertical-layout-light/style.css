@@ -21657,6 +21657,7 @@ code {
 .btn-danger {
   background: #F95F53;
   color: #ffffff;
+  border: 1px solid #f44336!important;
 }
 
 .btn-danger.btn-light, .btn-danger.btn-secondary {
