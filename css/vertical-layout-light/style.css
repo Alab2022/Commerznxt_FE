@@ -21657,6 +21657,7 @@ code {
 .btn-danger {
   background: #F95F53;
   color: #ffffff;
+  border: 1px solid #f44336!important;
 }
 
 .btn-danger.btn-light, .btn-danger.btn-secondary {
@@ -24784,7 +24785,7 @@ dl li {
 }
 
 .modal .modal-dialog .modal-content .modal-header {
-  padding: 25px 26px;
+  padding: 15px 26px;
 }
 
 .modal .modal-dialog .modal-content .modal-header .close {
@@ -25868,6 +25869,7 @@ dl li {
 .home-tab .nav-tabs {
   font-family: "Manrope", sans-serif;
   border-bottom: none;
+  margin-bottom: 20px;
 }
 
 .home-tab .nav-tabs .nav-item {
