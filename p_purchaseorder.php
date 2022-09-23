@@ -188,7 +188,7 @@
                 
                     <div class="table_wrapper">
                     <div class="table_header">
-                <h4 class="card-title">User List</h4>
+                <h4 class="card-title">Purchase Order <span class="count_indicator">02</span></h4>
                 <div class="cv-right">
                   <div class="fo-search">
                     <div class="form-group">
@@ -196,21 +196,13 @@
                       <span><img class="icon-font" src="images/search.svg"></span>
                     </div>
                   </div>
-                  <!-- <div class="btn-group">
-                            <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">Export to CSV</button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item">Go back</a>
-                              <a class="dropdown-item">Delete</a>
-                              <a class="dropdown-item">Swap</a>
-                            </div>                          
-                          </div> -->
-
-                          <button type="button" class="btn btn-primary btn-icon-text" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                          
-                          Add user
+                  <a href="p_addpurchaseorder.php">
+                  <button type="button" class="btn btn-primary btn-icon-text">
+                          Create purchase order
                           <span><img class="icon-size" src="images/add.svg"></span>
-                          </button>
-                                              
+                        </button></a>
+
+                          
                 </div>
 
                 
@@ -229,56 +221,27 @@
                     <table class="table table-striped">
                       <thead>
                         <tr>
-                        <th>
-                            User image
+                          <th>
+                            Vendor Id
                           </th>
                           <th>
-                            Role code
+                            Vendor name
                           </th>
                           <th>
-                            Role name
+                            email
                           </th>
-                          <th>
-                            Created on
-                          </th>
-                          <th>
-                            Role description
-                          </th>
-                          <th>
-                            Actions
-                          </th>
-                          
+                          <th>Opening balance</th>
                           
                         </tr>
                         
                       </thead>
                       <tbody>
                         <tr>
-                       
-                          <td class="py-1">
-                            <img src="images/faces/face2.jpg" alt="image"/>
-                          </td>
-                       
-                        <td>
-                          M$5246
-                        </td>
-                        <td>
-                          Sales
-                        </td>
-                        <td>
-                        12th Oct, 2020  |  11:35 PM
-                        </td>
-                        
-                        <td>
-                          Sales manager
-                        </td>
-                        <td>
-                          <a href="">View</a>
-                        </td>
+                          <td>COMNXT-091</td>
+                          <td>Aradhana pvt ltd</td>
+                          <td><a href="#">test@gmail.com</a></td>
+                          <td>23,897</td>
                         </tr>
-
-                        
-                       
                         
                       </tbody>
                     </table>
@@ -289,69 +252,6 @@
                     </div>
                   </div>
                 </div>
-
-<!-- modal -->
-
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">User Management</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="fo-profile">
-<img src="images/profileimg.png" alt="">
-<button type="button" class="btn btn-skyblu btn-rounded btn-icon">
-                        <i class="mdi mdi-upload"></i>
-                      </button>
-
-                      
-        </div>
-        <div class="profile-form" style="margin-top:0;">
-                      <div class="form-group">
-                      <label for="exampleInputUsername1">Name</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputUsername1">email</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputUsername1">Mobiel</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
-                    <div class="form-group">
-                    <label>Select role</label>
-                    <select class="js-example-basic-single w-100">
-                      <option value="AL">Alabama</option>
-                      <option value="WY">Wyoming</option>
-                      <option value="AM">America</option>
-                      <option value="CA">Canada</option>
-                      <option value="RU">Russia</option>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                      <label for="exampleInputUsername1">User name</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputUsername1">Password</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
-                      </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
               </div>
             </div>
           </div>

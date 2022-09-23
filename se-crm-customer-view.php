@@ -405,7 +405,7 @@
   <img src="images/comment.svg" alt="">
   <div class="cmt-input">
     <label for="text">Leave Comment</label>
-    <input height="100" type="text" placeholder="Type you comment here">
+    <input height="100" type="text" placeholder="Type your comment here">
   </div>
 </div>
 <div  class="d-flex text-right vendors">
@@ -427,7 +427,7 @@
     19th Nov, 2022
   </div>
   <div class="fo-bo-wrap">
-    Smple history record
+    Sample history record
   </div>
 </div>
 
