@@ -456,24 +456,7 @@
       </div>
     </div>
 
-    <div class="mb-3 row">
-      <label for="inputPassword" class="col-sm-4 col-form-label">Password</label>
-      <div class="col-sm-8">
-      <select class="form-select" aria-label="Default select example">
-  <option selected>Select</option>
-  <option value="1">Approve</option>
-  <option value="2">Reject</option>
-  <option value="3">Hold</option>
-  <option value="3">Redo</option>
-</select>
-      </div>
-    </div>
-    <div class="mb-3 row">
-      <label for="staticEmail" class="col-sm-4 col-form-label">Comments</label>
-      <div class="col-sm-8">
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-    </div>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>

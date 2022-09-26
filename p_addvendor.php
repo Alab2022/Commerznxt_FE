@@ -512,6 +512,7 @@
                             <td>87545 66354</td>
                             <td>-</td>
                             <td>Primary</td>
+                            <td><a href="">Edit</a></td>
 
                           </tr>
 
@@ -583,10 +584,13 @@
 
                   </div>
                   <div class="tab-pane fade" id="won" role="tabpanel" aria-labelledby="won-tab">
-                    <div class="form-group remark">
-                      <label for="exampleInputUsername1">City</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
-                    </div>
+                  <div class="top_commment_form d-flex">
+  
+  <div class="cmt-input">
+    <label for="text">Remark</label>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Type here"></textarea>
+  </div>
+</div>
 
                   </div>
 

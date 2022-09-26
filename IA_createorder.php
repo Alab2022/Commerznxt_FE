@@ -268,13 +268,13 @@
                             Product name
                           </th>
                           <th>
-                            SKU
+                            SKU ID
                           </th>
                           <th>
-                            Quantity
+                            QTY
                           </th>
                           <th>
-                            Price per qty
+                            Price per qty (GBP)
                           </th>
 
                         </tr>
@@ -357,7 +357,7 @@
                           </td>
                         </tr>
 
-                        <tr class="bg-none">
+                        <tr>
                           <td>
 
                           </td>
@@ -375,11 +375,29 @@
                             <strong>£ 1105</strong>
                           </td>
                         </tr>
+ 
 
                       </tbody>
                     </table>
 
-
+<table class="table_alt float-end" style="width:42%">
+<tr>
+    <td>
+      Discount
+    </td>
+    <td>
+    <strong>10%</strong>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Total
+    </td>
+    <td>
+    <strong>£ 1105</strong>
+    </td>
+  </tr>
+</table>
                   </div>
 
                   <div class="fo-attachments d-flex">

@@ -928,7 +928,7 @@
 
                                       <div class="cmt-input">
                                         <label for="text">Send Message</label>
-                                        <input height="100" type="text" placeholder="Type here">
+                                        <textarea name="" id="" cols="30" rows="10" placeholder="Type here"></textarea>
                                       </div>
                                     </div>
                                     <div class="d-flex text-right vendors">
