@@ -199,7 +199,7 @@
 										</div>
 										<div class="table_wrapper">
 											<div class="table_header">
-												<h4 class="card-title">Out Of Stock</h4>
+												<h4 class="card-title">Category Status</h4>
 												<div class="cv-right">
 													<div class="fo-search">
 														<div class="form-group">
