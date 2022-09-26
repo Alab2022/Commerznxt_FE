@@ -222,15 +222,15 @@
                       <thead>
                         <tr>
                           <th>
-                            Vendor Id
+                            Order Id
                           </th>
                           <th>
                             Vendor name
                           </th>
                           <th>
-                            email
+                            Quantity
                           </th>
-                          <th>Opening balance</th>
+                          <th>Order value</th>
                           
                         </tr>
                         
@@ -239,13 +239,42 @@
                         <tr>
                           <td>COMNXT-091</td>
                           <td>Aradhana pvt ltd</td>
-                          <td><a href="#">test@gmail.com</a></td>
+                          <td>10</td>
                           <td>23,897</td>
                         </tr>
+                        <tr>
+                          <td>COMNXT-091</td>
+                          <td>Aradhana pvt ltd</td>
+                          <td>10</td>
+                          <td>23,897</td>
+                        </tr>
+                        <tr>
+                          <td>COMNXT-091</td>
+                          <td>Aradhana pvt ltd</td>
+                          <td>10</td>
+                          <td>23,897</td>
+                        </tr>
+                        <tr>
+                          <td>COMNXT-091</td>
+                          <td>Aradhana pvt ltd</td>
+                          <td>10</td>
+                          <td>23,897</td>
+                        </tr>
+                        
                         
                       </tbody>
                     </table>
                   </div>
+                  <div>
+                                <table class="table_alt float-end">
+
+                                  <tr>
+                                    <td>Total</td>
+                                    <td><input class="form-control" type="text" placeholder="Type here" aria-label="default input example"></td>
+                                  </tr>
+                                </table>
+
+                              </div>
                 </div>
               </div>
             </div>

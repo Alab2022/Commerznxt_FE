@@ -277,10 +277,101 @@
                             Sales manager
                           </td>
                           <td>
-                            <a href="">View</a>
+                            <img src="images/activity/eye.svg" alt="image" class="icon-eye1">
                           </td>
                         </tr>
+                        <tr>
 
+                          <td class="py-1">
+                            <img src="images/faces/face2.jpg" alt="image" />
+                          </td>
+
+                          <td>
+                            M$5246
+                          </td>
+                          <td>
+                            Sales
+                          </td>
+                          <td>
+                            12th Oct, 2020 | 11:35 PM
+                          </td>
+
+                          <td>
+                            Sales manager
+                          </td>
+                          <td>
+                            <img src="images/activity/eye.svg" alt="image" class="icon-eye1">
+                          </td>
+                        </tr>
+                        <tr>
+
+                          <td class="py-1">
+                            <img src="images/faces/face2.jpg" alt="image" />
+                          </td>
+
+                          <td>
+                            M$5246
+                          </td>
+                          <td>
+                            Sales
+                          </td>
+                          <td>
+                            12th Oct, 2020 | 11:35 PM
+                          </td>
+
+                          <td>
+                            Sales manager
+                          </td>
+                          <td>
+                            <img src="images/activity/eye.svg" alt="image" class="icon-eye1">
+                          </td>
+                        </tr>
+                        <tr>
+
+                          <td class="py-1">
+                            <img src="images/faces/face2.jpg" alt="image" />
+                          </td>
+
+                          <td>
+                            M$5246
+                          </td>
+                          <td>
+                            Sales
+                          </td>
+                          <td>
+                            12th Oct, 2020 | 11:35 PM
+                          </td>
+
+                          <td>
+                            Sales manager
+                          </td>
+                          <td>
+                            <img src="images/activity/eye.svg" alt="image" class="icon-eye1">
+                          </td>
+                        </tr>
+                        <tr>
+
+                          <td class="py-1">
+                            <img src="images/faces/face2.jpg" alt="image" />
+                          </td>
+
+                          <td>
+                            M$5246
+                          </td>
+                          <td>
+                            Sales
+                          </td>
+                          <td>
+                            12th Oct, 2020 | 11:35 PM
+                          </td>
+
+                          <td>
+                            Sales manager
+                          </td>
+                          <td>
+                            <img src="images/activity/eye.svg" alt="image" class="icon-eye1">
+                          </td>
+                        </tr>
 
 
 
@@ -345,7 +436,7 @@
                     <i class="mdi mdi-upload"></i>
                   </button>
                   <div class="toggle-section">
-                  <p>User status</p> 
+                    <p>User status</p>
                     <label class="switch">
                       <input type="checkbox" checked>
                       <span class="slider round"></span>

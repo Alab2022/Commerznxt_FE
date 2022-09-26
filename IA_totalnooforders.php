@@ -245,6 +245,9 @@
                             Sales executive
                           </th>
                           <th>
+                            Status
+                          </th>
+                          <th>
                             Actions
                           </th>
                           
@@ -269,55 +272,9 @@
                         <td>
                           Executive 1
                         </td>
-                        <td class="fo-casualities">
-                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
-                        <i class="mdi mdi-pencil"></i>
-                      </button>
-                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
-                        <i class="mdi mdi-delete"></i>
-                      </button>
-                        </td>
-                        </tr>
-                        <tr>
                         <td>
-                          Stephen Strange
-                        </td>
-                        <td>
-                          M$5246
-                        </td>
-                        <td>
-                        12th Oct, 2020  |  11:35 PM
-                        </td>
-                        <td>
-                          10,000
-                        </td>
-                        <td>
-                          Executive 1
-                        </td>
-                        <td class="fo-casualities">
-                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
-                        <i class="mdi mdi-pencil"></i>
-                      </button>
-                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
-                        <i class="mdi mdi-delete"></i>
-                      </button>
-                        </td>
-                        </tr>
-                        <tr>
-                        <td>
-                          Stephen Strange
-                        </td>
-                        <td>
-                          M$5246
-                        </td>
-                        <td>
-                        12th Oct, 2020  |  11:35 PM
-                        </td>
-                        <td>
-                          10,000
-                        </td>
-                        <td>
-                          Executive 1
+                        <label class="badge badge-offline">Order Placed</label> 
+                        
                         </td>
                         <td class="fo-casualities">
                         <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
@@ -329,6 +286,95 @@
                         </td>
                         </tr>
                         
+                        
+                        
+                        <tr>
+                        <td>
+                          Stephen Strange
+                        </td>
+                        <td>
+                          M$5246
+                        </td>
+                        <td>
+                        12th Oct, 2020  |  11:35 PM
+                        </td>
+                        <td>
+                          10,000
+                        </td>
+                        <td>
+                          Executive 1
+                        </td>
+                        <td>
+                        <label class="badge badge-warning">In-progress</label>
+                        
+                        </td>
+                        <td class="fo-casualities">
+                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-pencil"></i>
+                      </button>
+                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
+                        <i class="mdi mdi-delete"></i>
+                      </button>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>
+                          Stephen Strange
+                        </td>
+                        <td>
+                          M$5246
+                        </td>
+                        <td>
+                        12th Oct, 2020  |  11:35 PM
+                        </td>
+                        <td>
+                          10,000
+                        </td>
+                        <td>
+                          Executive 1
+                        </td>
+                        <td>
+                        <label class="badge badge-danger">Shipped</label> 
+                        
+                        </td>
+                        <td class="fo-casualities">
+                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-pencil"></i>
+                      </button>
+                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
+                        <i class="mdi mdi-delete"></i>
+                      </button>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>
+                          Stephen Strange
+                        </td>
+                        <td>
+                          M$5246
+                        </td>
+                        <td>
+                        12th Oct, 2020  |  11:35 PM
+                        </td>
+                        <td>
+                          10,000
+                        </td>
+                        <td>
+                          Executive 1
+                        </td>
+                        <td>
+                        <label class="badge badge-success">Delivered</label> 
+                        
+                        </td>
+                        <td class="fo-casualities">
+                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-pencil"></i>
+                      </button>
+                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
+                        <i class="mdi mdi-delete"></i>
+                      </button>
+                        </td>
+                        </tr>
                        
                         
                       </tbody>

@@ -206,21 +206,19 @@
                     <div class="form-group">
                       <label>Vendor name</label>
                       <select class="js-example-basic-single w-100">
-                        <option value="AL">Alabama</option>
-                        <option value="WY">Wyoming</option>
-                        <option value="AM">America</option>
-                        <option value="CA">Canada</option>
-                        <option value="RU">Russia</option>
+                        <option value="AL">Name 1</option>
+                        <option value="WY">Name 2</option>
+                        <option value="AM">Name 3</option>
+                        
                       </select>
                     </div>
                     <div class="form-group">
                       <label>Delivery to</label>
                       <select class="js-example-basic-single w-100">
-                        <option value="AL">Alabama</option>
-                        <option value="WY">Wyoming</option>
-                        <option value="AM">America</option>
-                        <option value="CA">Canada</option>
-                        <option value="RU">Russia</option>
+                        <option value="AL">Address 1</option>
+                        <option value="WY">Address 2</option>
+                        <option value="AM">Address 3</option>
+                        
                       </select>
                     </div>
                     <div class="form-group">
@@ -303,7 +301,7 @@
                                   SKU ID
                                 </th>
                                 <th>
-                                  QTY
+                                  Quantity
                                 </th>
                                 <th>
                                   Price per qty
@@ -356,16 +354,16 @@
                         <div>
                           <table class="table_alt float-end">
                             <tr>
-                              <td>Tax(%)</td>
-                              <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+                              <td>Sub total</td>
+                              <td><input class="form-control" type="text" placeholder="Type here" aria-label="default input example"></td>
                             </tr>
                             <tr>
-                              <td>Discount(%)</td>
-                              <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+                              <td>Tax (%)</td>
+                              <td><input class="form-control" type="text" placeholder="Type here" aria-label="default input example"></td>
                             </tr>
                             <tr>
                               <td>Total</td>
-                              <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+                              <td><input class="form-control" type="text" placeholder="Type here" aria-label="default input example"></td>
                             </tr>
                           </table>
 
@@ -379,9 +377,10 @@
 
 
                   <div class="fo-attachments d-flex">
-                    <div class="form-group">
+                    <div class="form-group remove-bottom">
 
-                      <input w-100 type="text" class="form-control" id="exampleInputName1" placeholder="Add notes">
+                      <textarea w-100 name="" id="" cols="30" rows="10" placeholder="Add notes"></textarea>
+                      <p class="attachment-text">sampleattachment.png</p>
                     </div>
 
                     <div class="mini-buttons">

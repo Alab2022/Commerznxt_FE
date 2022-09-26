@@ -247,7 +247,16 @@
                                         QTY
                                       </th>
                                       <th>
-                                        Order Value
+                                        Created by
+                                      </th>
+                                      <th>
+                                        Status
+                                      </th>
+                                      <th>
+                                        Order value
+                                      </th>
+                                      <th>
+                                        Action
                                       </th>
                                     </tr>
                                   </thead>
@@ -264,7 +273,16 @@
                                         20000
                                       </td>
                                       <td>
-                                        2
+                                        Robin
+                                      </td>
+                                      <td>
+                                      <label class="badge badge-danger">Waiting for approval</label>
+                                      </td>
+                                      <td>
+                                        100
+                                      </td>
+                                      <td>
+                                      <img src="images/activity/eye.svg" alt="image"  class="icon-eye1">
                                       </td>
 
                                     </tr>
@@ -273,18 +291,27 @@
                                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                       </td>
                                       <td>
-                                        COMNXT-Q-02
+                                        <a href="crm-invoice-det.php"> COMNXT-Q-01</a>
                                       </td>
 
                                       <td>
                                         20000
                                       </td>
-
                                       <td>
-                                        2
+                                        Robin
+                                      </td>
+                                      <td>
+                                      <label class="badge badge-success">Mail sent</label>
+                                      </td>
+                                      <td>
+                                        100
+                                      </td>
+                                      <td>
+                                      <img src="images/activity/eye.svg" alt="image"  class="icon-eye1">
                                       </td>
 
                                     </tr>
+                                    
 
 
                                   </tbody>
@@ -295,7 +322,7 @@
 
                                   <tr>
                                     <td>Total</td>
-                                    <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+                                    <td><input class="form-control" type="text" placeholder="Type here" aria-label="default input example"></td>
                                   </tr>
                                 </table>
 

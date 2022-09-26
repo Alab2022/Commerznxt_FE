@@ -207,7 +207,9 @@
 													</div>
 													<div class="btn-group">
 														<button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">Export to CSV</button>
-														<div class="dropdown-menu"> <a class="dropdown-item">Go back</a> <a class="dropdown-item">Delete</a> <a class="dropdown-item">Swap</a> </div>
+														<div class="dropdown-menu"> 
+														<a class="dropdown-item">Export to XLXS</a>
+														</div>
 													</div>
 													<button type="button" class="btn btn-primary btn-icon-text"> Export <span><img class="icon-size" src="images/export.svg"></span> </button>
 												</div>

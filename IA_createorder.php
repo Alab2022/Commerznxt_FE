@@ -209,11 +209,15 @@
                             </div>                          
                           </div> -->
 
-                <button type="button" class="btn btn-primary btn-icon-text">
-
-                  View Status
-
-                </button>
+                          <div class="btn-group">
+														<button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown"> Select status</button>
+														<div class="dropdown-menu"> 
+															<a class="dropdown-item">Order placed</a> 
+															<a class="dropdown-item">In-progress</a> 
+															<a class="dropdown-item">Shipped</a> 
+                              <a class="dropdown-item">Delivered</a> 
+														</div>
+													</div>
               </div>
 
 
@@ -357,24 +361,7 @@
                           </td>
                         </tr>
 
-                        <tr>
-                          <td>
-
-                          </td>
-                          <td>
-
-                          </td>
-
-                          <td>
-
-                          </td>
-                          <td>
-                            Total
-                          </td>
-                          <td>
-                            <strong>£ 1105</strong>
-                          </td>
-                        </tr>
+                       
  
 
                       </tbody>
@@ -383,10 +370,10 @@
 <table class="table_alt float-end" style="width:42%">
 <tr>
     <td>
-      Discount
+      Discount %
     </td>
     <td>
-    <strong>10%</strong>
+    <input class="form-control" type="text" placeholder="Type here" aria-label="default input example">
     </td>
   </tr>
   <tr>
@@ -394,16 +381,17 @@
       Total
     </td>
     <td>
-    <strong>£ 1105</strong>
+    <input class="form-control" type="text" placeholder="Type here" aria-label="default input example">
     </td>
   </tr>
 </table>
                   </div>
 
                   <div class="fo-attachments d-flex">
-                    <div class="form-group">
+                    <div class="form-group remove-bottom">
 
-                      <input w-100 type="text" class="form-control" id="exampleInputName1" placeholder="Add notes">
+                      <textarea w-100 name="" id="" cols="30" rows="10" placeholder="Add notes"></textarea>
+                      <p class="attachment-text">sampleattachment.png</p>
                     </div>
 
                     <div class="mini-buttons">

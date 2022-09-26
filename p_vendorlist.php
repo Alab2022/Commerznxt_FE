@@ -245,7 +245,56 @@
                           <td>Aradhana pvt ltd</td>
                           <td><a href="#">test@gmail.com</a></td>
                           <td>23,897</td>
-                          <td><a href="">Edit / Delete</a></td>
+                          <td class="fo-casualities">
+                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-pencil"></i>
+                      </button>
+                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
+                        <i class="mdi mdi-delete"></i>
+                      </button>
+                        </td>
+                        </tr>
+                        <tr>
+                          <td>COMNXT-091</td>
+                          <td>Aradhana pvt ltd</td>
+                          <td><a href="#">test@gmail.com</a></td>
+                          <td>23,897</td>
+                          <td class="fo-casualities">
+                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-pencil"></i>
+                      </button>
+                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
+                        <i class="mdi mdi-delete"></i>
+                      </button>
+                        </td>
+                        </tr>
+                        <tr>
+                          <td>COMNXT-091</td>
+                          <td>Aradhana pvt ltd</td>
+                          <td><a href="#">test@gmail.com</a></td>
+                          <td>23,897</td>
+                          <td class="fo-casualities">
+                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-pencil"></i>
+                      </button>
+                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
+                        <i class="mdi mdi-delete"></i>
+                      </button>
+                        </td>
+                        </tr>
+                        <tr>
+                          <td>COMNXT-091</td>
+                          <td>Aradhana pvt ltd</td>
+                          <td><a href="#">test@gmail.com</a></td>
+                          <td>23,897</td>
+                          <td class="fo-casualities">
+                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-pencil"></i>
+                      </button>
+                      <button type="button" class="btn btn-orange btn-rounded btn-icon">
+                        <i class="mdi mdi-delete"></i>
+                      </button>
+                        </td>
                         </tr>
                         
                       </tbody>
