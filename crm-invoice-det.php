@@ -310,10 +310,7 @@
       <td>Discount(%)</td>
       <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
     </tr>
-    <tr>
-      <td>Total</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
-    </tr>
+    
     <tr>
       <td><h5> Additional Info </h5></td>
       <td></td>

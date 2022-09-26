@@ -424,15 +424,9 @@
                                                     <div class="card card-rounded">
                                                       <div class="card-body no-padd">
                                                         <div class="row g-3 align-items-center quotes-top">
-                                                          <div class="col-auto">
-                                                            <label for="inputPassword6" class="col-form-label">Select Customer</label>
-                                                            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-                                                          </div>
+                                                          
 
-                                                          <div class="col-auto">
-                                                            <label for="inputPassword6" class="col-form-label">Contact Number</label>
-                                                            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-                                                          </div>
+                                                          
 
                                                           <div class="col-auto">
                                                             <button type="button" class="btn btn-danger btn-icon-text" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -440,16 +434,17 @@
                                                               1 Pending Action
                                                             </button>
                                                           </div>
-                                                          <div class="col-auto d-flex justify-content-end">
-                                                            <button type="button" class="btn btn-primary">
-                                                              <i class="mdi mdi-plus"></i>
+                                                          <div class="mini-buttons fl">
+                      <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary gr2">
+                          <i class="mdi mdi-plus"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary bl1">
+                          <i class="mdi mdi-delete"></i>
+                        </button>
 
-                                                            </button>
-                                                            <button type="button" class="btn btn-primary">
-                                                              <i class="mdi mdi-minus"></i>
-
-                                                            </button>
-                                                          </div>
+                      </div>
+                    </div>
 
 
 
@@ -602,23 +597,17 @@
                                           <div class="card-body no-padd">
                                             <div class="table-inner-header d-flex">
                                               <div class="row g-3 align-items-center">
-                                                <div class="col-auto">
-                                                  <label for="inputPassword6" class="col-form-label">Select Customer</label>
-                                                  <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-                                                </div>
+                                                
 
-                                                <div class="col-auto">
-                                                  <label for="inputPassword6" class="col-form-label">Contact Number</label>
-                                                  <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-                                                </div>
+                                                
 
                                               </div>
                                               <div class="mini-buttons">
                                                 <div class="btn-group" role="group" aria-label="Basic example">
-                                                  <button type="button" class="btn btn-secondary gr2">
+                                                  <button type="button" class="btn btn-secondary gr2 remove-bottom">
                                                     <i class="mdi mdi-plus"></i>
                                                   </button>
-                                                  <button type="button" class="btn btn-secondary bl1">
+                                                  <button type="button" class="btn btn-secondary bl1 remove-bottom">
                                                     <i class="mdi mdi-delete"></i>
                                                   </button>
 
@@ -804,25 +793,7 @@
                                                   <div class="col-12 col-lg-4 col-lg-12 grid-margin stretch-card">
                                                     <div class="card card-rounded">
                                                       <div class="card-body no-padd">
-                                                        <div class="row g-3 align-items-center quotes-top">
-                                                          <div class="col-auto">
-                                                            <label for="inputPassword6" class="col-form-label">Select Customer</label>
-                                                            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-                                                          </div>
-                                                          <div class="col-auto">
-
-                                                          </div>
-                                                          <div class="col-auto">
-                                                            <label for="inputPassword6" class="col-form-label">Order ID</label>
-                                                            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-                                                          </div>
-                                                          <div class="col-auto">
-
-                                                          </div>
-
-
-
-                                                        </div>
+                                                        
                                                         <div class="table-responsive">
                                                           <table class="table table-striped">
                                                             <thead>

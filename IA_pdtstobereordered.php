@@ -190,12 +190,19 @@
                     <div class="table_header">
                 <h4 class="card-title">Product to be re-ordered</h4>
                 <div class="cv-right">
-                  <div class="fo-search do">
+                  <div class="fo-search">
                     <div class="form-group">
                       <input type="text" placeholder="Search">
                       <span><img class="icon-font" src="images/search.svg"></span>
                     </div>
                   </div>
+                  <div class="btn-group">
+														<button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">Export to CSV</button>
+														<div class="dropdown-menu"> 
+                            <a class="dropdown-item">Export to XLXS</a> 
+															
+														</div>
+													</div>
                   <!-- <div class="btn-group">
                             <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">Export to CSV</button>
                             <div class="dropdown-menu">

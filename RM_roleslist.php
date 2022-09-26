@@ -317,11 +317,9 @@
                     <div class="form-group">
                     <label>Role status</label>
                     <select class="js-example-basic-single w-100">
-                      <option value="AL">Alabama</option>
-                      <option value="WY">Wyoming</option>
-                      <option value="AM">America</option>
-                      <option value="CA">Canada</option>
-                      <option value="RU">Russia</option>
+                      <option value="AL">Active</option>
+                      <option value="WY">In-active</option>
+                     
                     </select>
                   </div>
                   

@@ -21267,6 +21267,10 @@ code {
   color: #ffaf00;
   border: 1px solid #ffaf00;
 }
+label.badge.badge-offline{
+  color: #52CDFF;
+  border: 1px solid #52CDFF;
+}
 
 .badge-danger {
   color: #F95F53;
@@ -32097,4 +32101,11 @@ input#exampleInputUsername1 {
 }
 select.js-example-basic-single.w-100 {
   padding-left: 0.6rem !important;
+}
+button.btn.btn-danger.btn-icon-text{
+  position: relative;
+  z-index: 1000;
+}
+.col-auto{
+  z-index: 1000;
 }

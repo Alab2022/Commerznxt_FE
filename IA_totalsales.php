@@ -261,9 +261,7 @@
               <div class="btn-group">
                 <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">Export to CSV</button>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item">Go back</a>
-                  <a class="dropdown-item">Delete</a>
-                  <a class="dropdown-item">Swap</a>
+                <a class="dropdown-item">Export to XLXS</a>
                 </div>
               </div>
 
@@ -306,7 +304,7 @@
                           ABC pvt ltd
                         </td>
                         <td>Ecommerce</td>
-                        <td>Sales rep 2</td>
+                        <td>-</td>
                         <td>12th Sep, 2022</td>
                         <td>12th Sep, 2022</td>
                         <td><label class="badge badge-warning">Shipped</label></td>
@@ -316,7 +314,7 @@
                         <td>
                           ABC pvt ltd
                         </td>
-                        <td>Ecommerce</td>
+                        <td>Direct</td>
                         <td>Sales rep 2</td>
                         <td>12th Sep, 2022</td>
                         <td>12th Sep, 2022</td>
@@ -328,7 +326,7 @@
                         <td>
                           ABC pvt ltd
                         </td>
-                        <td>Ecommerce</td>
+                        <td>Direct</td>
                         <td>Sales rep 2</td>
                         <td>12th Sep, 2022</td>
                         <td>12th Sep, 2022</td>
@@ -340,7 +338,7 @@
                           ABC pvt ltd
                         </td>
                         <td>Ecommerce</td>
-                        <td>Sales rep 2</td>
+                        <td>-</td>
                         <td>12th Sep, 2022</td>
                         <td>12th Sep, 2022</td>
                         <td><label class="badge badge-warning">Shipped</label></td>
