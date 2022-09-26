@@ -249,17 +249,17 @@
                           Sample note is displayed here
                         </td>
                         <td>
-                          <a href="">edit</a>
+                          <a href="">Edit</a>
                         </td>
                         <td>
                         <div class="form-group">
                     
                     <select class="js-example-basic-single w-100">
                       <option value="AL">Select status</option>
-                      <option value="WY">Wyoming</option>
-                      <option value="AM">America</option>
-                      <option value="CA">Canada</option>
-                      <option value="RU">Russia</option>
+                      <option value="WY">Open</option>
+                      <option value="AM">In-progress</option>
+                      <option value="CA">Completed</option>
+               
                     </select>
                   </div>
                         </td>

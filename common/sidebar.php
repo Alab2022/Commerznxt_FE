@@ -83,7 +83,7 @@
           <li class="nav-item">
             <a class="nav-link" href="feed.php">
               <i class="mdi mdi-wifi menu-icon"></i>
-              <span class="menu-title">Feed</span>
+              <span class="menu-title">Feeds</span>
             </a>
           </li>
           <li class="nav-item">

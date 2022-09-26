@@ -192,7 +192,7 @@
 
           <div class="table_wrapper">
             <div class="table_header mb-4">
-              <h4 class="card-title">All Vendors <span class="count_indicator">02</span></h4>
+              <h4 class="card-title">New Vendor</h4>
 
 
 
@@ -205,11 +205,8 @@
                     <div class="form-group">
                       <label>Primary contact</label>
                       <select class="js-example-basic-single w-100">
-                        <option value="AL">Alabama</option>
-                        <option value="WY">Wyoming</option>
-                        <option value="AM">America</option>
-                        <option value="CA">Canada</option>
-                        <option value="RU">Russia</option>
+                        <option value="AL">Salutation</option>
+
                       </select>
                     </div>
                     <div class="form-group">
@@ -342,36 +339,34 @@
                               <div class="form-group">
                                 <label>Country</label>
                                 <select class="js-example-basic-single w-100">
-                                  <option value="AL">Alabama</option>
-                                  <option value="WY">Wyoming</option>
-                                  <option value="AM">America</option>
-                                  <option value="CA">Canada</option>
-                                  <option value="RU">Russia</option>
+                                  <option value="AL">Country 1</option>
+                                  <option value="WY">Country 2</option>
+                                  <option value="AM">Country 3</option>
                                 </select>
                               </div>
                               <div class="form-group">
                                 <label for="exampleInputUsername1">City</label>
-                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="City">
                               </div>
                               <div class="form-group">
                                 <label for="exampleInputUsername1">State</label>
-                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="State">
                               </div>
                               <div class="form-group ad-width">
                                 <label for="exampleInputUsername1">Address</label>
-                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Address">
                               </div>
                               <div class="form-group">
                                 <label for="exampleInputUsername1">Zip code</label>
-                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Zip code">
                               </div>
                               <div class="form-group">
                                 <label for="exampleInputUsername1">Phone</label>
-                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Phone">
                               </div>
                               <div class="form-group">
                                 <label for="exampleInputUsername1">Fax</label>
-                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Fax">
                               </div>
 
 
@@ -396,36 +391,34 @@
                               <div class="form-group">
                                 <label>Country</label>
                                 <select class="js-example-basic-single w-100">
-                                  <option value="AL">Alabama</option>
-                                  <option value="WY">Wyoming</option>
-                                  <option value="AM">America</option>
-                                  <option value="CA">Canada</option>
-                                  <option value="RU">Russia</option>
+                                  <option value="AL">Country 1</option>
+                                  <option value="WY">Country 2</option>
+                                  <option value="AM">Country 3</option>
                                 </select>
                               </div>
                               <div class="form-group">
                                 <label for="exampleInputUsername1">City</label>
-                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="City">
                               </div>
                               <div class="form-group">
                                 <label for="exampleInputUsername1">State</label>
-                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="State">
                               </div>
                               <div class="form-group ad-width">
                                 <label for="exampleInputUsername1">Address</label>
-                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Address">
                               </div>
                               <div class="form-group">
                                 <label for="exampleInputUsername1">Zip code</label>
-                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Zip code">
                               </div>
                               <div class="form-group">
                                 <label for="exampleInputUsername1">Phone</label>
-                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Phone">
                               </div>
                               <div class="form-group">
                                 <label for="exampleInputUsername1">Fax</label>
-                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Fax">
                               </div>
 
 
@@ -538,6 +531,7 @@
                             <td>87545 66354</td>
                             <td>-</td>
                             <td>Primary</td>
+                            <td><a href="">Edit</a></td>
 
                           </tr>
 
@@ -557,6 +551,7 @@
                             <td>87545 66354</td>
                             <td>-</td>
                             <td>Primary</td>
+                            <td><a href="">Edit</a></td>
 
                           </tr>
 
@@ -576,6 +571,7 @@
                             <td>87545 66354</td>
                             <td>-</td>
                             <td>Primary</td>
+                            <td><a href="">Edit</a></td>
 
                           </tr>
                         </tbody>

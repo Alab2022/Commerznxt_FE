@@ -207,7 +207,7 @@
 
                           <button type="button" class="btn btn-primary btn-icon-text" data-bs-toggle="modal" data-bs-target="#exampleModal">
                           
-                          Add role
+                          Add Role
                           <span><img class="icon-size" src="images/add.svg"></span>
                           </button>
                                               
