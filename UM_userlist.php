@@ -340,6 +340,7 @@
                 </div>
                 <div class="fo-profile col-lg-4">
                   <img src="images/profileimg.png" alt="">
+                  <span class="small-text text-center top-margin-15">(Max Image Size 10MB with, jpg, PNG)</span>
                   <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
                     <i class="mdi mdi-upload"></i>
                   </button>

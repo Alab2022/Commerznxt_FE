@@ -273,7 +273,7 @@
                           Sales manager
                         </td>
                         <td>
-                          <a href="">View</a>
+                          <a href=""><i class="icon-nrm"><img src="images/activity/eye.svg" alt="image"></i></a>
                         </td>
                         </tr>
 
@@ -304,24 +304,21 @@
         <div class="profile-form" >
                       <div class="form-group">
                       <label for="exampleInputUsername1">Role code</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Role code">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputUsername1">Role name</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Role name">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputUsername1">Role description</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Role description">
                     </div>
                     <div class="form-group">
                     <label>Role status</label>
                     <select class="js-example-basic-single w-100">
-                      <option value="AL">Alabama</option>
-                      <option value="WY">Wyoming</option>
-                      <option value="AM">America</option>
-                      <option value="CA">Canada</option>
-                      <option value="RU">Russia</option>
+                      <option value="AL">Enable</option>
+                      <option value="WY">Disable</option>
                     </select>
                   </div>
                   

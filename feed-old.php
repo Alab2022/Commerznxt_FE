@@ -189,106 +189,40 @@
                     <div class="table_wrapper">
                     <div class="table_header">
                 <h4 class="card-title">Feeds</h4>
-                <div class="cv-right">
-
-										<a type="button" class="btn btn-primary btn-icon-text" data-bs-toggle="modal" data-bs-target="#createFeed">
-                          
-                          Create Feed
-                          <span><img class="icon-size" src="images/add.svg"></span>
-</a> </div>
+                
 
                 
                 </div>
-                <div class="row">
-                    <div class="col-lg-3 grid-margin stretch-card">
-                    <div class="card " style="width: 18rem;">
-  <img src="images/dashboard/img_1.jpg" class="card-img-top" alt="...">
-  <div class="card-body border-bottom">
-    <span class="small-text">26 Sep 2022</span>
-    <h5 class="card-title">Card title example</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+                    <div class="col-lg-12 grid-margin stretch-card">
+              <div class="card card-rounded">
 
-  <div class="card-body botm-icons">
-  <div class="me-3">
-  <span class="mdi mdi mdi-comment-text-outline"></span>
+                <div class="card-body">
+
+                <div class="comments_wrapper">
+<div class="top_commment_form d-flex">
   
-    <a href="#" class="card-link"> Comments</a>
-    </div>
-    <div>
-    <span class="mdi mdi-heart-outline"></span>
-    <a href="#" class="card-link"> Like</a>
-    </div>
+  <div class="cmt-input">
+    
+    <textarea name="" id="" cols="30" rows="10" placeholder="Type here"></textarea>
   </div>
 </div>
-            </div>
-            <div class="col-lg-3 grid-margin stretch-card">
-                    <div class="card " style="width: 18rem;">
-  <img src="images/dashboard/img_2.jpg" class="card-img-top" alt="...">
-  <div class="card-body border-bottom">
-    <span class="small-text">26 Sep 2022</span>
-    <h5 class="card-title">Card title example</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+<div  class="d-flex text-right vendors">
+                    <div class="btn-wrapper me-10">
+                    
+                    <a href="#" class="btn btn-outline btn-lg btn-white btn-pad">Cancel</a>
+                    
+                    <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save</a>
+                   
+                  </div>
 
-  <div class="card-body botm-icons">
-  <div class="me-3">
-  <span class="mdi mdi mdi-comment-text-outline"></span>
-  
-    <a href="#" class="card-link"> Comments</a>
-    </div>
-    <div>
-    <span class="mdi mdi-heart-outline"></span>
-    <a href="#" class="card-link"> Like</a>
-    </div>
-  </div>
 </div>
-            </div>
-            <div class="col-lg-3 grid-margin stretch-card">
-                    <div class="card " style="width: 18rem;">
-  <img src="images/dashboard/img_1.jpg" class="card-img-top" alt="...">
-  <div class="card-body border-bottom">
-    <span class="small-text">26 Sep 2022</span>
-    <h5 class="card-title">Card title example</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
 
-  <div class="card-body botm-icons">
-  <div class="me-3">
-  <span class="mdi mdi mdi-comment-text-outline"></span>
-  
-    <a href="#" class="card-link"> Comments</a>
-    </div>
-    <div>
-    <span class="mdi mdi-heart-outline"></span>
-    <a href="#" class="card-link"> Like</a>
-    </div>
-  </div>
-</div>
-            </div>
-            <div class="col-lg-3 grid-margin stretch-card">
-                    <div class="card " style="width: 18rem;">
-  <img src="images/dashboard/img_2.jpg" class="card-img-top" alt="...">
-  <div class="card-body border-bottom">
-    <span class="small-text">26 Sep 2022</span>
-    <h5 class="card-title">Card title example</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
 
-  <div class="card-body botm-icons">
-  <div class="me-3">
-  <span class="mdi mdi mdi-comment-text-outline"></span>
-  
-    <a href="#" class="card-link"> Comments</a>
-    </div>
-    <div>
-    <span class="mdi mdi-heart-outline"></span>
-    <a href="#" class="card-link"> Like</a>
-    </div>
-  </div>
-</div>
-            </div>
 
+  </div> 
+
+                </div>
+              </div>
             </div>
                     </div>
                   </div>
@@ -298,38 +232,6 @@
           </div>
         </div>
         <!-- content-wrapper ends -->
-        <!-- Modal -->
-<div class="modal fade" id="createFeed" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Create Feed</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-      <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Title</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-
-  </div>
-      <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Description</label>
-    <textarea class="form-control med" id="exampleFormControlTextarea1" rows="10"></textarea>
-
-  </div>
-  <div class="mb-3">
-
-  <input class="form-control form-control-sm" id="formFileSm" type="file">
-</div>
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-  </div>
-</div>
         <!-- partial:partials/_footer.html -->
         <?php include('common/footer.php'); ?>
         <!-- partial -->
