@@ -31547,7 +31547,7 @@ button.btn.btn-skyblu.btn-rounded.btn-icon {
   margin-right: 5px;
 }
 button.btn.btn-orange.btn-rounded.btn-icon {
-  background: #FEB456;
+  background: #ff9c1a;
   color: white;
   border-radius: 10px;
   padding: 11px;
@@ -31821,6 +31821,7 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
 .cmt-input label{
   font-size: 16px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 .comments_wrapper button.btn.btn-secondary.bl1 {
   background: #60c8e3;
@@ -31845,7 +31846,7 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
 .comments_history label {
   font-weight: 700;
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .comments_history .fo-bo-wrap {
   width: 100%;

@@ -489,7 +489,7 @@
                             Last name
                           </th>
                           <th>
-                          email
+                          Email
                           </th>
                           <th>Phone</th>
                           <th>Mobile</th>
@@ -576,8 +576,8 @@
                   </div>
                   <div class="tab-pane fade" id="won" role="tabpanel" aria-labelledby="won-tab">
                   <div class="form-group remark">
-                      <label for="exampleInputUsername1">City</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
+                      <label for="exampleInputUsername1">Remark</label>
+                      <textarea type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
                     </div>
   
 </div>

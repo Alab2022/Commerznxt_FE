@@ -174,7 +174,9 @@
 																		</div>
 																		<div>
 																			<h3 class="rate-percentage">38K</h3>
-																			<p class="text-small mb-2">Prd. to be Re-ordered</p>
+																			<p class="text-small mb-2">
+																			<a href="IA_pdtstobereordered.php">Prd. to be Re-ordered</a>
+																				</p>
 																		</div>
 																	</div>
 																</div>

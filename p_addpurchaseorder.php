@@ -391,7 +391,7 @@
         </div>
 
 
-        <div class="d-flex align-items-center justify-content-between border-bottom" style="margin-top: 25px;">
+        <div class="d-flex align-items-center justify-content-between" style="margin-top: 25px;">
                     <div>
                         
                     </div>

@@ -224,7 +224,7 @@
                       <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Username">
                     </div>
                     <div class="form-group">
-                    <label>Select date</label>
+                    <label>Purchase Order</label>
                     <select class="js-example-basic-single w-100">
                       <option value="AL">Alabama</option>
                       <option value="WY">Wyoming</option>
@@ -350,7 +350,7 @@
         </div>
 
 
-        <div class="d-flex align-items-center justify-content-between border-bottom" style="margin-top: 25px;">
+        <div class="d-flex align-items-center justify-content-between" style="margin-top: 25px;">
                     <div>
                         
                     </div>

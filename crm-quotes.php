@@ -370,7 +370,7 @@
       </div>
     </div>
     <div class="mb-3 row">
-      <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
+      <label for="inputPassword" class="col-sm-3 col-form-label">Status</label>
       <div class="col-sm-9">
       <select class="form-select" aria-label="Default select example">
   <option selected>Select</option>
