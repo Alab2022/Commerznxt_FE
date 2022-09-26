@@ -522,11 +522,11 @@
                                                           <table class="table_alt float-end">
                                                             <tr>
                                                               <td>Discount(%)</td>
-                                                              <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+                                                              <td><input class="form-control" type="text" placeholder="Type here" aria-label="default input example"></td>
                                                             </tr>
                                                             <tr>
                                                               <td>Total</td>
-                                                              <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+                                                              <td><input class="form-control" type="text" placeholder="Type here" aria-label="default input example"></td>
                                                             </tr>
                                                           </table>
 
@@ -756,7 +756,7 @@
                                             <div class="fo-attachments d-flex">
                                               <div class="form-group">
 
-                                                <input w-100 type="text" class="form-control" id="exampleInputName1" placeholder="Add notes">
+                                              <textarea w-100 name="" id="" cols="30" rows="10" placeholder="Add notes"></textarea>
                                               </div>
 
                                               <div class="mini-buttons">

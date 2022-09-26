@@ -230,16 +230,17 @@
                           <i class="ti-alert btn-icon-prepend"></i>                                                    
                           1 Pending Action
                         </button></div>
-                        <div class="col-auto d-flex justify-content-end">
-                        <button type="button" class="btn btn-primary mright-10">
-                          <i class="mdi mdi-plus"></i>                                                    
-                          
+                        <div class="mini-buttons fl">
+                      <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary gr2">
+                          <i class="mdi mdi-plus"></i>
                         </button>
-                        <button type="button" class="btn btn-primary">
-                          <i class="mdi mdi-minus"></i>                                                    
-                          
+                        <button type="button" class="btn btn-secondary bl1">
+                          <i class="mdi mdi-delete"></i>
                         </button>
-                        </div>
+
+                      </div>
+                    </div>
                        
   
 
@@ -271,7 +272,16 @@
                           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                           </td>
                           <td>
-                            COMNXT-Q-01
+                          <div class="form-group remove-bottom">
+                    
+                    <select class="js-example-basic-single w-100 ">
+                      <option value="AL">Select product</option>
+                      <option value="WY">Product 1</option>
+                      <option value="AM">Product 2</option>
+                      
+               
+                    </select>
+                  </div>
                           </td>
                           <td>
                           Thomas Douglas
@@ -289,7 +299,16 @@
                           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                           </td>
                           <td>
-                          COMNXT-Q-02
+                          <div class="form-group remove-bottom">
+                    
+                    <select class="js-example-basic-single w-100 ">
+                      <option value="AL">Select product</option>
+                      <option value="WY">Product 1</option>
+                      <option value="AM">Product 2</option>
+                      
+               
+                    </select>
+                  </div>
                           </td>
                           <td>
                           Catherine
@@ -312,11 +331,11 @@
   <table class="table_alt float-end">
     <tr>
       <td>Discount(%)</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+      <td><input class="form-control" type="text" placeholder="Type here" aria-label="default input example"></td>
     </tr>
     <tr>
       <td>Total</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+      <td><input class="form-control" type="text" placeholder="Type here" aria-label="default input example"></td>
     </tr>
   </table>
 

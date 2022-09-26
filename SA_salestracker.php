@@ -157,7 +157,7 @@
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
 									<li class="nav-item txt_orange" role="presentation">
 										<button class="nav-link active" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="home" aria-selected="true">
-											<icon class="mdi mdi-shopping"></icon> E-Commerce sales
+											<icon class="mdi mdi-shopping"></icon> E-Commerce Sales
 										</button>
 									</li>
 									<li class="nav-item txt_blue" role="presentation">

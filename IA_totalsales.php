@@ -291,8 +291,8 @@
                     <thead>
                       <tr>
                         <th>Customer</th>
-                        <th>Salestype</th>
-                        <th>Sales rep</th>
+                        <th>Sales type</th>
+                        <th>Sales executive</th>
                         <th>Order date</th>
                         <th>Delivery date</th>
                         <th>Status</th>

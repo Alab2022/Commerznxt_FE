@@ -231,7 +231,7 @@
                             SKU id
                           </th>
                           <th>
-                            Available QTY
+                            Available quantity
                           </th>
                           
                           

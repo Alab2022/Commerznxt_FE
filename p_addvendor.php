@@ -512,7 +512,12 @@
                             <td>87545 66354</td>
                             <td>-</td>
                             <td>Primary</td>
-                            <td><a href="">Edit</a></td>
+                            <td class="fo-casualities text-center" style="margin-left: 0;">
+                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-pencil"></i>
+                      </button>
+                     
+                        </td>
 
                           </tr>
 
@@ -532,7 +537,12 @@
                             <td>87545 66354</td>
                             <td>-</td>
                             <td>Primary</td>
-                            <td><a href="">Edit</a></td>
+                            <td class="fo-casualities text-center" style="margin-left: 0;">
+                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-pencil"></i>
+                      </button>
+                     
+                        </td>
 
                           </tr>
 
@@ -552,7 +562,12 @@
                             <td>87545 66354</td>
                             <td>-</td>
                             <td>Primary</td>
-                            <td><a href="">Edit</a></td>
+                            <td class="fo-casualities text-center" style="margin-left: 0;">
+                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-pencil"></i>
+                      </button>
+                     
+                        </td>
 
                           </tr>
 
@@ -572,7 +587,12 @@
                             <td>87545 66354</td>
                             <td>-</td>
                             <td>Primary</td>
-                            <td><a href="">Edit</a></td>
+                            <td class="fo-casualities text-center" style="margin-left: 0;">
+                        <button type="button" class="btn btn-skyblu btn-rounded btn-icon">
+                        <i class="mdi mdi-pencil"></i>
+                      </button>
+                     
+                        </td>
 
                           </tr>
                         </tbody>

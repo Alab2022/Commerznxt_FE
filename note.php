@@ -249,7 +249,7 @@
                           Sample note is displayed here
                         </td>
                         <td>
-                          <a href="">Edit</a>
+                        <img src="images/activity/eye.svg" alt="image"  class="icon-eye1">
                         </td>
                         <td>
                         <div class="form-group">

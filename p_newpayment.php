@@ -219,10 +219,6 @@
                       </form>
                     </div>
                     <div class="form-group">
-                      <label for="exampleInputUsername1">Reference#</label>
-                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Type here">
-                    </div>
-                    <div class="form-group">
                       <label>Purchase Order</label>
                       <select class="js-example-basic-single w-100">
                         <option value="AL">Order 1</option>
@@ -231,6 +227,11 @@
                       
                       </select>
                     </div>
+                    <div class="form-group">
+                      <label for="exampleInputUsername1">Reference#</label>
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Type here">
+                    </div>
+                    
 
 
 
@@ -277,16 +278,30 @@
                               <tr>
 
                                 <td>
-                                  Product 1
+                                <div class="form-group remove-bottom">
+                      
+                      <form action="/action_page.php">
+                        <input type="date" id="birthday" name="birthday">
+                      </form>
+                    </div>
                                 </td>
                                 <td>
-                                  4532
+                                <div class="form-group remove-bottom">
+                      
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Type here">
+                    </div>
                                 </td>
                                 <td>
-                                  20000
+                                <div class="form-group remove-bottom">
+                      
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Type here">
+                    </div>
                                 </td>
                                 <td>
-                                  sample
+                                <div class="form-group remove-bottom">
+                      
+                      <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Type here">
+                    </div>
                                 </td>
 
                               </tr>
@@ -319,9 +334,10 @@
 
 
                   <div class="fo-attachments d-flex">
-                    <div class="form-group">
+                    <div class="form-group remove-bottom">
 
-                      <input w-100 type="text" class="form-control" id="exampleInputName1" placeholder="Add notes">
+                      <textarea w-100 name="" id="" cols="30" rows="10" placeholder="Add notes"></textarea>
+                      <p class="attachment-text">sampleattachment.png</p>
                     </div>
 
                     <div class="mini-buttons">

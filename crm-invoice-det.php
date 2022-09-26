@@ -221,16 +221,17 @@
                           <i class="ti-alert btn-icon-prepend"></i>                                                    
                           1 Pending Action
                         </button></div>
-                        <div class="col-auto d-flex justify-content-end btn-space">
-                        <button type="button" class="btn btn-primary">
-                          <i class="mdi mdi-plus"></i>                                                    
-                          
+                        <div class="mini-buttons fl">
+                      <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary gr2">
+                          <i class="mdi mdi-plus"></i>
                         </button>
-                        <button type="button" class="btn btn-primary">
-                          <i class="mdi mdi-minus"></i>                                                    
-                          
+                        <button type="button" class="btn btn-secondary bl1">
+                          <i class="mdi mdi-delete"></i>
                         </button>
-                        </div>
+
+                      </div>
+                    </div>
                        
   
 
@@ -417,25 +418,25 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <div class="mb-3 row">
+        <div class="mb-1 row">
       <label for="staticEmail" class="col-sm-4 col-form-label">Total Amount</label>
       <div class="col-sm-8">
       <input type="text" class="form-control" id="inputPassword">
       </div>
     </div>
-    <div class="mb-3 row">
+    <div class="mb-1 row">
       <label for="staticEmail" class="col-sm-4 col-form-label">Credit Period</label>
       <div class="col-sm-8">
       <input type="text" class="form-control" id="inputPassword">
       </div>
     </div>
-    <div class="mb-3 row">
+    <div class="mb-1 row">
       <label for="staticEmail" class="col-sm-4 col-form-label">No.Of Installment</label>
       <div class="col-sm-8">
       <input type="text" class="form-control" id="inputPassword">
       </div>
     </div>
-    <div class="mb-3 row">
+    <div class="mb-1 row">
       <label for="staticEmail" class="col-sm-4 col-form-label">1st Installment</label>
       <div class="col-sm-8">
       <input type="text" class="form-control" id="inputPassword">
@@ -445,7 +446,7 @@
       </div>
       </div>
     </div>
-    <div class="mb-3 row">
+    <div class="mb-1 row">
       <label for="staticEmail" class="col-sm-4 col-form-label">2nd Installment</label>
       <div class="col-sm-8">
       <input type="text" class="form-control" id="inputPassword">
