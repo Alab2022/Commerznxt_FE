@@ -191,9 +191,9 @@
           </div>
 
           <div class="table_wrapper">
-            <div class="table_header mb-4">
+            <div class="table_header mb-2">
               <h4 class="card-title">New Vendor</h4>
-
+              <div><a href="crm-customer.php" class="btn btn-primary text-white me-10 d-flex"><i class="mdi mdi-arrow-left"></i> Back</a></div>
 
 
             </div>

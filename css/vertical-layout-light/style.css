@@ -32110,3 +32110,16 @@ button.btn.btn-danger.btn-icon-text{
 .col-auto{
   z-index: 1000;
 }
+.table_header.mb-2 a.btn.btn-primary.text-white.me-10.d-flex{
+  padding: 8px 15px;
+  border: 1px solid #406cbb;
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+   

@@ -225,7 +225,7 @@
                           <div class="col-12 col-lg-4 col-lg-12">
                             <div class="card card-rounded overviewtop">
                               <div class="card-body overview">
-                              <ul class="nav nav-tabs nav-activity" id="myTab" role="tablist">
+                              <ul class="nav nav-tabs nav-activity" id="myTab" role="tablist" style="margin-bottom: 0;">
   <li class="nav-item text-center txt_purple" role="presentation">
   
     <button class="nav-link co active btn-purple" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="home" aria-selected="true">

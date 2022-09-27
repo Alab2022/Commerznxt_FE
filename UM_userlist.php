@@ -259,9 +259,9 @@
                       <tbody>
                         <tr>
 
-                          <td class="py-1">
-                            <img src="images/faces/face2.jpg" alt="image" />
-                          </td>
+                          
+                            <td class="py-1"> <img src="images/faces/face1.jpg" alt="image" /> </td>
+                          
 
                           <td>
                             M$5246
@@ -282,9 +282,7 @@
                         </tr>
                         <tr>
 
-                          <td class="py-1">
-                            <img src="images/faces/face2.jpg" alt="image" />
-                          </td>
+                        <td class="py-1"> <img src="images/faces/face2.jpg" alt="image" /> </td>
 
                           <td>
                             M$5246
@@ -305,9 +303,7 @@
                         </tr>
                         <tr>
 
-                          <td class="py-1">
-                            <img src="images/faces/face2.jpg" alt="image" />
-                          </td>
+                        <td class="py-1"> <img src="images/faces/face3.jpg" alt="image" /> </td>
 
                           <td>
                             M$5246
@@ -328,9 +324,7 @@
                         </tr>
                         <tr>
 
-                          <td class="py-1">
-                            <img src="images/faces/face2.jpg" alt="image" />
-                          </td>
+                        <td class="py-1"> <img src="images/faces/face4.jpg" alt="image" /> </td>
 
                           <td>
                             M$5246
@@ -351,9 +345,7 @@
                         </tr>
                         <tr>
 
-                          <td class="py-1">
-                            <img src="images/faces/face2.jpg" alt="image" />
-                          </td>
+                        <td class="py-1"> <img src="images/faces/face5.jpg" alt="image" /> </td>
 
                           <td>
                             M$5246
