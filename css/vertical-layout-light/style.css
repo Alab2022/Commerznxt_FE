@@ -22778,7 +22778,7 @@ label.badge.badge-offline{
 
 .card.card-rounded {
   border-radius: 15px;
-  box-shadow: none;
+  /* box-shadow: none; */
   border: none;
 }
 
@@ -25874,7 +25874,7 @@ dl li {
 .home-tab .nav-tabs {
   font-family: "Manrope", sans-serif;
   border-bottom: none;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .home-tab .nav-tabs .nav-item {
