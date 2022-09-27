@@ -205,9 +205,9 @@
 														</div>
 													</td>
 													<td>
-														<div class="form-group">
+														
 															<img src="images/activity/eye.svg" alt="image" class="icon-eye1">
-														</div>
+														
 													</td>
 												</tr>
 											</tbody>

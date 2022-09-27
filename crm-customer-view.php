@@ -818,7 +818,7 @@
                                                                   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                                                 </td>
                                                                 <td>
-                                                                  <a href="crm-invoice-det.php"> COMNXT-Q-01</a>
+                                                                   COMNXT-Q-01
                                                                 </td>
 
                                                                 <td>

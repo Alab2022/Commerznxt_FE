@@ -180,7 +180,7 @@
 																						<td> Waiting for Approval </td>
 																						<td> 2 </td>
 																						<td>
-																							<icon class="mdi mdi-eye"></icon>
+																						<img src="images/activity/eye.svg" alt="image" class="icon-eye1">
 																						</td>
 																					</tr>
 																					<tr>
@@ -190,7 +190,7 @@
 																						<td> Waiting for Approval </td>
 																						<td> 2 </td>
 																						<td>
-																							<icon class="mdi mdi-eye"></icon>
+																						<img src="images/activity/eye.svg" alt="image" class="icon-eye1">
 																						</td>
 																					</tr>
 																					<tr>
@@ -200,7 +200,7 @@
 																						<td> Waiting for Approval </td>
 																						<td> 2 </td>
 																						<td>
-																							<icon class="mdi mdi-eye"></icon>
+																						<img src="images/activity/eye.svg" alt="image" class="icon-eye1">
 																						</td>
 																					</tr>
 																					<tr>
@@ -210,7 +210,7 @@
 																						<td> Waiting for Approval </td>
 																						<td> 2 </td>
 																						<td>
-																							<icon class="mdi mdi-eye"></icon>
+																						<img src="images/activity/eye.svg" alt="image" class="icon-eye1">
 																						</td>
 																					</tr>
 																					<tr>
@@ -220,7 +220,7 @@
 																						<td> Waiting for Approval </td>
 																						<td> 2 </td>
 																						<td>
-																							<icon class="mdi mdi-eye"></icon>
+																						<img src="images/activity/eye.svg" alt="image" class="icon-eye1">
 																						</td>
 																					</tr>
 																					<tr>
@@ -230,7 +230,7 @@
 																						<td> Waiting for Approval </td>
 																						<td> 2 </td>
 																						<td>
-																							<icon class="mdi mdi-eye"></icon>
+																						<img src="images/activity/eye.svg" alt="image" class="icon-eye1">
 																						</td>
 																					</tr>
 																				</tbody>

@@ -196,7 +196,7 @@
                       <span><img class="icon-font" src="images/search.svg"></span>
                     </div>
                   </div>
-                  <div class="btn-group">
+                  <div class="btn-group" style="margin-right: 0;">
 														<button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">Export to CSV</button>
 														<div class="dropdown-menu"> 
                             <a class="dropdown-item">Export to XLXS</a> 
