@@ -287,6 +287,21 @@
 
                       <div class="card-body no-padd">
 
+                      <div class="table-inner-header d-flex mb-3">
+                      
+                      <div class="mini-buttons">
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                          <button type="button" class="btn btn-secondary gr2">
+                            <i class="mdi mdi-plus"></i>
+                          </button>
+                          <button type="button" class="btn btn-secondary bl1">
+                            <i class="mdi mdi-delete"></i>
+                          </button>
+
+                        </div>
+                      </div>
+                    </div>
+
                         <div class="table-responsive">
                           <table class="table table-striped">
                             <thead>

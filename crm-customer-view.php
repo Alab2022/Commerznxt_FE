@@ -365,7 +365,7 @@
                                     <div class="d-flex text-right vendors">
                                       <div class="btn-wrapper me-10">
 
-                                        <a href="#" class="btn btn-outline btn-lg btn-white btn-pad">Cancel</a>
+                                        
 
                                         <a href="#" class="btn btn-primary btn-lg btn-white btn-pad">Save</a>
                                         <button type="button" class="btn btn-secondary bl1">

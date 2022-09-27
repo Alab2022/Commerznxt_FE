@@ -304,11 +304,11 @@
   <table class="table_alt float-end">
   <tr>
       <td>Tax(%)</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+      <td><input class="form-control" type="text" placeholder="Type here" aria-label="default input example"></td>
     </tr>
     <tr>
       <td>Discount(%)</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+      <td><input class="form-control" type="text" placeholder="Type here" aria-label="default input example"></td>
     </tr>
     
     <tr>
@@ -317,15 +317,15 @@
     </tr>
     <tr>
       <td>Advance Received</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+      <td><input class="form-control" type="text" placeholder="Type here" aria-label="default input example"></td>
     </tr>
     <tr>
       <td>Credit Period</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+      <td><input class="form-control" type="text" placeholder="Type here" aria-label="default input example"></td>
     </tr>
     <tr>
       <td>Total</td>
-      <td><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></td>
+      <td><input class="form-control" type="text" placeholder="Type here" aria-label="default input example"></td>
     </tr>
 
   </table>

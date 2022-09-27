@@ -455,7 +455,7 @@
                       <div class="mini-buttons">
                         <div class="btn-group" role="group" aria-label="Basic example">
                           <button type="button" class="btn btn-secondary gr2">
-                            <i class="mdi mdi-plus"></i>
+                            <i class="mdi mdi-plus" data-bs-toggle="modal" data-bs-target="#staticBackdrop"></i>
                           </button>
                           <button type="button" class="btn btn-secondary bl1">
                             <i class="mdi mdi-delete"></i>
@@ -639,6 +639,65 @@
       </div>
     </div>
 
+  </div>
+
+  <!-- modal -->
+
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Add Contact Person</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="row g-3">
+          <div class="col-md-4">
+              <label for="inputState" class="form-label">Salutation</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label for="inputPassword4" class="form-label">First name</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-md-4">
+              <label for="inputPassword4" class="form-label">Last name</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-md-4">
+              <label for="inputPassword4" class="form-label">Email</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-md-4">
+              <label for="inputPassword4" class="form-label">Phone</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-4">
+              <label for="inputAddress" class="form-label">Mobile</label>
+              <input type="text" class="form-control" id="inputAddress">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Type</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+
+
+
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 </div>
