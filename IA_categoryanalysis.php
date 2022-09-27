@@ -213,6 +213,7 @@
 													<button type="button" class="btn btn-primary btn-icon-text"> Export <span><img class="icon-size" src="images/export.svg"></span> </button>
 												</div>
 											</div>
+											</div>
 											<div class="col-lg-12 grid-margin stretch-card">
 												<div class="card card-rounded">
 													<div class="card-body">

@@ -273,7 +273,7 @@
                           Sales manager
                         </td>
                         <td>
-                          <a href=""><i class="icon-nrm"><img src="images/activity/eye.svg" alt="image"></i></a>
+                          <a href=""><img src="images/activity/eye.svg" alt="image" class="icon-eye1"></a>
                         </td>
                         </tr>
 
