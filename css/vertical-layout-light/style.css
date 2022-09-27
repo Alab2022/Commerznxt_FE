@@ -22778,7 +22778,7 @@ label.badge.badge-offline{
 
 .card.card-rounded {
   border-radius: 15px;
-  /* box-shadow: none; */
+  box-shadow: none;
   border: none;
 }
 
@@ -29426,8 +29426,8 @@ div.tagsinput span.tag a {
   padding-bottom: 35px;
   width: calc(100% - 220px);
   height: 70px;
-  border-bottom:1px solid #cfcfcf;
-  box-shadow: rgb(0 0 0 / 9%) 0px 7px 7px -5px, rgb(0 0 0 / 8%) 0px 2px 4px -1px;
+  border-bottom: 1px solid #dddddd;
+  box-shadow: rgb(0 0 0 / 6%) 0px 7px 7px -5px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
 }
 
 @media (max-width: 991px) {
