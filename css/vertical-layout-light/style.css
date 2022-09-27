@@ -12293,7 +12293,7 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
   position: absolute;
   z-index: 1000;
   display: none;
-  min-width: 10rem;
+  min-width: 9.4rem;
   padding: 0.5rem 0;
   margin: 0;
   font-size: 1rem;
@@ -12302,7 +12302,7 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #dee2e6;
+  border: 1px solid #f1f1f1;
   border-radius: 0.25rem;
 }
 
@@ -12520,7 +12520,7 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
   white-space: nowrap;
   background-color: transparent;
   border: 0;
-  font-size: .85rem;
+  font-size: .75rem;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
@@ -31636,7 +31636,7 @@ button#dropdownMenuSplitButton3 i.mdi.mdi-filter-variant {
 }
 
 .dropdown-menu.show {
-  border-radius: 10px;
+  border-radius: 5px;
 }
 h6.dropdown-header span {
   float: right;
