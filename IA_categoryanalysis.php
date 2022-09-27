@@ -202,7 +202,7 @@
 												<h4 class="card-title">Category Status</h4>
 												<div class="cv-right">
 													<div class="fo-search">
-														<div class="form-group remove-bottom">
+														<div class="form-group">
 															<input type="text" placeholder="Search"> <span><img class="icon-font" src="images/search.svg"></span> </div>
 													</div>
 													<div class="btn-group" >
