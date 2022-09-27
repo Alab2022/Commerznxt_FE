@@ -67,6 +67,10 @@
               </a>
             </div>
           </li>
+          <li class="nav-item dropdown"><div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">GBP</button>
+                
+              </div></li>
           <li class="nav-item dropdown"> 
             <a class="nav-link count-indicator" id="countDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="icon-bell"></i>
