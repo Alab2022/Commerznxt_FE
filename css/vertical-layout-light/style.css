@@ -12293,7 +12293,7 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
   position: absolute;
   z-index: 1000;
   display: none;
-  min-width: 10rem;
+  min-width: 9.4rem;
   padding: 0.5rem 0;
   margin: 0;
   font-size: 1rem;
@@ -12302,7 +12302,7 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #dee2e6;
+  border: 1px solid #f1f1f1;
   border-radius: 0.25rem;
 }
 
@@ -12520,7 +12520,7 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
   white-space: nowrap;
   background-color: transparent;
   border: 0;
-  font-size: .85rem;
+  font-size: .75rem;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
@@ -21516,7 +21516,7 @@ label.badge.badge-offline{
 }
 
 .btn-secondary {
-  background: #F1F1F1;
+  background: #e7e7e7;
   color: #ffffff;
 }
 
@@ -29414,7 +29414,7 @@ div.tagsinput span.tag a {
 }
 
 .navbar .navbar-menu-wrapper {
-  background: #F4F5F7;
+  background: #f1f2f3;
   transition: width 0.25s ease;
   -webkit-transition: width 0.25s ease;
   -moz-transition: width 0.25s ease;
@@ -29426,7 +29426,8 @@ div.tagsinput span.tag a {
   padding-bottom: 35px;
   width: calc(100% - 220px);
   height: 70px;
-  border-bottom: 1px solid #ebebeb;
+  border-bottom:1px solid #cfcfcf;
+  box-shadow: rgb(0 0 0 / 9%) 0px 7px 7px -5px, rgb(0 0 0 / 8%) 0px 2px 4px -1px;
 }
 
 @media (max-width: 991px) {
@@ -31636,7 +31637,7 @@ button#dropdownMenuSplitButton3 i.mdi.mdi-filter-variant {
 }
 
 .dropdown-menu.show {
-  border-radius: 10px;
+  border-radius: 5px;
 }
 h6.dropdown-header span {
   float: right;
@@ -31857,7 +31858,7 @@ li.nav-item.dropdown.d-none.d-lg-block.user-dropdown.fo-SA a#UserDropdown {
   width: 100%;
   border: 1px solid #ddd;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .comments_history .success-float {
   background-color: #60D3B2;
@@ -31946,9 +31947,9 @@ input#birthday {
 .comments_wrapper a.btn.btn-primary.btn-lg.btn-white.btn-pad {
   margin-right: 9px;
 }
-.form-group {
+/* .form-group {
   margin-bottom: 10px !important;
-}
+} */
 .modal-dialog.modal-lg.width-ctrl {
   width: 900px;
 }

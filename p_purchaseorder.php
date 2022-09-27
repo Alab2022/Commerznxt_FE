@@ -196,11 +196,11 @@
                       <span><img class="icon-font" src="images/search.svg"></span>
                     </div>
                   </div>
-                  <a href="p_addpurchaseorder.php">
-                  <button type="button" class="btn btn-primary btn-icon-text">
+                  
+                  <a href="p_addpurchaseorder.php" type="button" class="btn btn-primary btn-icon-text">
                           Create purchase order
                           <span><img class="icon-size" src="images/add.svg"></span>
-                        </button></a>
+</a>
 
                           
                 </div>

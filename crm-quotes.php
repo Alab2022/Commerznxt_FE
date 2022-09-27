@@ -403,7 +403,7 @@
     <div class="mb-3 row">
       <label for="staticEmail" class="col-sm-3 col-form-label">Comments</label>
       <div class="col-sm-9">
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <textarea class="form-control med" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
     </div>
       </div>
