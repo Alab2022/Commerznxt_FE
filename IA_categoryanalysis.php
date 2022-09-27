@@ -202,11 +202,11 @@
 												<h4 class="card-title">Category Status</h4>
 												<div class="cv-right">
 													<div class="fo-search">
-														<div class="form-group">
+														<div class="form-group remove-bottom">
 															<input type="text" placeholder="Search"> <span><img class="icon-font" src="images/search.svg"></span> </div>
 													</div>
-													<div class="btn-group">
-														<button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">Export to CSV</button>
+													<div class="btn-group" >
+														<button style="margin-right: 15px;" type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">Export to CSV</button>
 														<div class="dropdown-menu"> 
 														<a class="dropdown-item">Export to XLXS</a>
 													</div>
